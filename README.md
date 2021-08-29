@@ -2,17 +2,12 @@
 Details on efforts to dump the contents of the Watermelon Games Paprium cart. 
 
 ## Background
-https://www.change.org/p/paypal-paypal-usa-please-transfer-the-money-to-watermelon-for-releasing-the-game-paprium<br>
-https://www.youtube.com/watch?v=Nj2LM1rvFQ8<br>
-https://github.com/MiSTer-devel/Genesis_MiSTer/issues/158<br>
+https://www.facebook.com/110283612372658/posts/2326873840713613/<br>
 https://web.archive.org/web/20190417023031/http://magicalgamefactory.com/en/boards/paprium-about_24/<br>
 https://web.archive.org/web/20190226071931/http://www.magicalgamefactory.com/en/blogs/wm-blog_1/<br>
-https://twitter.com/St1ka/status/1364024924873097216<br>
-https://www.youtube.com/watch?v=VUaAEqiIi_s<br>
-https://www.youtube.com/watch?v=Nj2LM1rvFQ8<br>
 https://papriumfiasco.wordpress.com/tag/datenmeister/<br>
-https://www.youtube.com/watch?v=kATTdGY8HkI<br>
-https://www.youtube.com/watch?v=bhHp5Q7LUbs<br>
+https://github.com/MiSTer-devel/Genesis_MiSTer/issues/158<br>
+https://twitter.com/St1ka/status/1364024924873097216<br>
 https://twitter.com/MyLifeInGaming/status/1341092115250630656<br>
 https://twitter.com/watermelongames/status/1365356392022966278<br>
 https://twitter.com/watermelongames/status/1428150734361661440<br>
@@ -22,13 +17,17 @@ https://twitter.com/watermelongames/status/1428157032549556225<br>
 https://twitter.com/watermelongames/status/1428159286388133892<br>
 https://twitter.com/watermelongames/status/1428162198078164997<br>
 https://twitter.com/watermelongames/status/1428164359923118086<br>
-https://www.facebook.com/110283612372658/posts/2326873840713613/<br>
+https://www.youtube.com/watch?v=Nj2LM1rvFQ8<br>
+https://www.youtube.com/watch?v=kATTdGY8HkI<br>
+https://www.youtube.com/watch?v=bhHp5Q7LUbs<br>
+https://www.youtube.com/watch?v=VUaAEqiIi_s<br>
+https://www.youtube.com/watch?v=Nj2LM1rvFQ8<br>
+https://www.change.org/p/paypal-paypal-usa-please-transfer-the-money-to-watermelon-for-releasing-the-game-paprium<br>
 
 ## DATENMEISTER DT128M16VA1LT
 The "secret" chip, that is really a bunch of comodity parts covered in black epoxy glob top encapsulate<br>
 
 ### Main Components as related to potential data storage, or game logic. 
-
 Altera 10M02SCU169C8G FPGA (UBGA169)<br>
 https://www.mouser.com/datasheet/2/612/m10_overview-2401081.pdf<br>
 
@@ -42,6 +41,7 @@ https://www.cypress.com/file/202426/download<br>
 https://www.st.com/resource/en/datasheet/m24c64-f.pdf<br>
 
 ### Known Eratta & Useful info for attacking the above components
+Several components on the Paprium cart, in particular beneath the black goop on the DT128M16VA1LT are succeptable to known weaknesses, and potential attacks.<br>
 
 #### Intel® MAX 10 FPGAs
 https://arxiv.org/abs/1910.05086<br>
@@ -57,7 +57,7 @@ https://www.st.com/resource/en/application_note/dm00493651-introduction-to-stm32
 https://tches.iacr.org/index.php/TCHES/article/download/7390/6562/<br>
 https://blog.kraken.com/post/3662/kraken-identifies-critical-flaw-in-trezor-hardware-wallets/<br>
 
-#### Useful tools
+## Useful tools
 https://www.aliexpress.com/item/32820731419.html<br>
 https://github.com/atx/python-feeltech<br>
 https://www.st.com/en/evaluation-tools/nucleo-f446re.html<br>
@@ -65,6 +65,10 @@ https://store.newae.com/stm32f4-target-for-cw308-arm-cortex-m4-1mb-flash-192kb-s
 
 ### Cart Specific detail
 
-## Megawire 4.0 (MW4.0)
+#### Megawire 4.0 (MW4.0)
 https://warosu.org/vr/thread/7319474#p7322579<br>
+
+#### Exposed vias on rear of cart
+Vias on the cart expose the BGA ball array from the STM32F4, making the epoxy less effective at protecting it. 
+
 
