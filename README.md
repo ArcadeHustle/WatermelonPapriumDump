@@ -15,7 +15,7 @@ Details on efforts to dump the contents of the Watermelon Games Paprium cart.<br
 [![Paprium launch](http://img.youtube.com/vi/f3CTqTzkgZQ/0.jpg)](https://www.youtube.com/watch?v=f3CTqTzkgZQ)<br>
 
 ## DATENMEISTER DT128M16VA1LT
-The "secret" chip, that is really a bunch of comodity parts covered in black epoxy glob top encapsulate.<br>
+The "secret" chip made by [Daten Semiconductor](https://web.archive.org/web/20190706065046/http://datensemi.com/), that is really just a bunch of comodity parts covered in black epoxy glob top encapsulate.<br>
 
 ### Main Components as related to potential data storage, or game logic. 
 Altera 10M02SCU169C8G FPGA (UBGA169)<br>
