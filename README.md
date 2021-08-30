@@ -62,6 +62,8 @@ https://arxiv.org/abs/1910.05086<br>
 https://arxiv.org/pdf/1910.05086.pdf<br>
 https://www.youtube.com/watch?v=Ev28MXJdjHE<br>
 https://www.cl.cam.ac.uk/~sps32/HWIO_MAX10.pdf<br>
+https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2020-0574<br>
+https://www.intel.com/content/www/us/en/security-center/advisory/intel-sa-00349.html<br>
 
 #### STM32F4
 https://twitter.com/The_Hpman/status/1383191393393389570<br>
