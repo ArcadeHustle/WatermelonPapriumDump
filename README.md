@@ -51,6 +51,9 @@ https://www.st.com/resource/en/application_note/dm00493651-introduction-to-stm32
 https://tches.iacr.org/index.php/TCHES/article/download/7390/6562/<br>
 https://blog.kraken.com/post/3662/kraken-identifies-critical-flaw-in-trezor-hardware-wallets/<br>
 
+[BreakIC](http://www.break-ic.com) aka Mikatech will dump the STM32 for a fee of $6500 USD<br>
+<img src="https://github.com/ArcadeHustle/WatermelonPapriumDump/blob/main/breakIC.jpg">
+
 ## Useful tools
 https://www.aliexpress.com/item/32820731419.html<br>
 https://github.com/atx/python-feeltech<br>
