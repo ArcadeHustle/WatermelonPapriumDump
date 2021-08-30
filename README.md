@@ -1,3 +1,9 @@
+Big thanks to Fonzie for allowing this to be published.
+- written by hostile, with supporting information from the community at large!
+<p align="center">
+<img src="https://github.com/ArcadeHustle/WatermelonPapriumDumpFonzieWMProjectLittleMan.jpg">
+</p>
+
 # Project Little Man 
 Details on efforts to dump the contents of the Watermelon Games Paprium cart. 
 
