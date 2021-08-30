@@ -8,13 +8,11 @@ Big thanks to Fonzie for allowing this to be published.
 </p>
 
 # Project Little Man 
-Details on efforts to dump the contents of the Watermelon Games Paprium cart. 
+Details on efforts to dump the contents of the Watermelon Games Paprium cart.<br>
 
-https://www.change.org/p/paypal-paypal-usa-please-transfer-the-money-to-watermelon-for-releasing-the-game-paprium<br>
+[Paprium Press Release 03/16/2017](http://www.paprium.com/press/?language=en)<br>
 
-Paprium Press Release 03/16/2017
-http://www.paprium.com/press/?language=en
-https://www.youtube.com/watch?v=f3CTqTzkgZQ
+[![Paprium launch](http://img.youtube.com/vi/f3CTqTzkgZQ/0.jpg)](https://www.youtube.com/watch?v=f3CTqTzkgZQ)<br>
 
 ## DATENMEISTER DT128M16VA1LT
 The "secret" chip, that is really a bunch of comodity parts covered in black epoxy glob top encapsulate.<br>
@@ -100,5 +98,7 @@ https://www.youtube.com/watch?v=kXLtnqbeBNI<br>
 https://www.youtube.com/watch?v=kOiM7ikcBx0<br>
 https://www.youtube.com/watch?v=jbBIua_BXjc<br>
 https://www.youtube.com/watch?v=PdUTPv038HE<br>
+https://www.change.org/p/paypal-paypal-usa-please-transfer-the-money-to-watermelon-for-releasing-the-game-paprium<br>
+
 
 
