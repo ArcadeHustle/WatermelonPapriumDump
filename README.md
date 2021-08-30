@@ -59,6 +59,7 @@ Several components on the Paprium cart, in particular beneath the black goop on 
 
 #### Intel® MAX 10 FPGAs
 https://arxiv.org/abs/1910.05086<br>
+https://arxiv.org/pdf/1910.05086.pdf<br>
 https://www.youtube.com/watch?v=Ev28MXJdjHE<br>
 https://www.cl.cam.ac.uk/~sps32/HWIO_MAX10.pdf<br>
 
