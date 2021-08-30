@@ -8,7 +8,7 @@ http://www.paprium.com/press/?language=en
 https://www.youtube.com/watch?v=f3CTqTzkgZQ
 
 ## DATENMEISTER DT128M16VA1LT
-The "secret" chip, that is really a bunch of comodity parts covered in black epoxy glob top encapsulate<br>
+The "secret" chip, that is really a bunch of comodity parts covered in black epoxy glob top encapsulate.<br>
 
 ### Main Components as related to potential data storage, or game logic. 
 Altera 10M02SCU169C8G FPGA (UBGA169)<br>
