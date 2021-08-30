@@ -56,6 +56,8 @@ https://www.aliexpress.com/item/32820731419.html<br>
 https://github.com/atx/python-feeltech<br>
 https://www.st.com/en/evaluation-tools/nucleo-f446re.html<br>
 https://store.newae.com/stm32f4-target-for-cw308-arm-cortex-m4-1mb-flash-192kb-sram/<br>
+https://store.newae.com/side-channel-glitching-starter-pack-level-1/
+https://www.mouser.com/new/newae-technology/newae-chipwhisperer-lite-l1-kit/
 
 ### Cart Specific detail
 
