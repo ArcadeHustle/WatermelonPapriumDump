@@ -1,3 +1,6 @@
+*Reminder, if you like these repos, fork them so they don't disappear*
+https://github.com/ArcadeHustle/WatermelonPapriumDump/fork
+
 Big thanks to Fonzie for allowing this to be published.
 - written by hostile, with supporting information from the community at large!
 <p align="center">
