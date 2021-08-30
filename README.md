@@ -1,41 +1,6 @@
 # Project Little Man 
 Details on efforts to dump the contents of the Watermelon Games Paprium cart. 
 
-## Background
-https://www.facebook.com/110283612372658/posts/2326873840713613/<br>
-https://web.archive.org/web/20190417023031/http://magicalgamefactory.com/en/boards/paprium-about_24/<br>
-https://web.archive.org/web/20190226071931/http://www.magicalgamefactory.com/en/blogs/wm-blog_1/<br>
-https://papriumfiasco.wordpress.com/tag/datenmeister/<br>
-https://github.com/MiSTer-devel/Genesis_MiSTer/issues/158<br>
-https://twitter.com/St1ka/status/1364024924873097216<br>
-https://twitter.com/MyLifeInGaming/status/1341092115250630656<br>
-https://twitter.com/watermelongames/status/1365356392022966278<br>
-https://twitter.com/watermelongames/status/1428150734361661440<br>
-https://twitter.com/watermelongames/status/1366710552005906439<br>
-https://twitter.com/watermelongames/status/1428156649823424512<br>
-https://twitter.com/watermelongames/status/1428157032549556225<br>
-https://twitter.com/watermelongames/status/1428159286388133892<br>
-https://twitter.com/watermelongames/status/1428162198078164997<br>
-https://twitter.com/watermelongames/status/1428164359923118086<br>
-https://www.youtube.com/watch?v=fukGY5wDTiQ<br>
-https://www.youtube.com/watch?v=lxByzNzWTlI<br>
-https://www.youtube.com/watch?v=xQTD0Z4tWvE<br>
-https://www.youtube.com/watch?v=sFfNuhEyzD0<br>
-https://www.youtube.com/watch?v=2it-3NwZ9Go<br>
-https://www.youtube.com/watch?v=Nj2LM1rvFQ8<br>
-https://www.youtube.com/watch?v=kATTdGY8HkI<br>
-https://www.youtube.com/watch?v=bhHp5Q7LUbs<br>
-https://www.youtube.com/watch?v=VUaAEqiIi_s<br>
-https://www.youtube.com/watch?v=Nj2LM1rvFQ8<br>
-https://www.youtube.com/watch?v=svHHCMNOvN8<br>
-https://www.youtube.com/watch?v=x482W3m8P7I<br>
-https://www.youtube.com/watch?v=BXr229U9430<br>
-https://www.youtube.com/watch?v=kXLtnqbeBNI<br>
-https://www.youtube.com/watch?v=kOiM7ikcBx0<br>
-https://www.youtube.com/watch?v=jbBIua_BXjc<br>
-https://www.youtube.com/watch?v=PdUTPv038HE<br>
-
-
 https://www.change.org/p/paypal-paypal-usa-please-transfer-the-money-to-watermelon-for-releasing-the-game-paprium<br>
 
 ## DATENMEISTER DT128M16VA1LT
@@ -44,6 +9,7 @@ The "secret" chip, that is really a bunch of comodity parts covered in black epo
 ### Main Components as related to potential data storage, or game logic. 
 Altera 10M02SCU169C8G FPGA (UBGA169)<br>
 https://www.mouser.com/datasheet/2/612/m10_overview-2401081.pdf<br>
+https://www.intel.com/content/dam/www/programmable/us/en/pdfs/literature/an/an556.pdf
 
 ST STM32F446ZEJ6 MCU (UFBGA144)<br>
 https://www.st.com/resource/en/datasheet/stm32f446re.pdf<br>
@@ -87,5 +53,39 @@ https://warosu.org/vr/thread/7319474#p7322579<br>
 
 #### Exposed vias on rear of cart
 Vias on the cart expose the BGA ball array from the STM32F4, making the epoxy less effective at protecting it. 
+
+## References
+https://www.facebook.com/110283612372658/posts/2326873840713613/<br>
+https://web.archive.org/web/20190417023031/http://magicalgamefactory.com/en/boards/paprium-about_24/<br>
+https://web.archive.org/web/20190226071931/http://www.magicalgamefactory.com/en/blogs/wm-blog_1/<br>
+https://papriumfiasco.wordpress.com/tag/datenmeister/<br>
+https://github.com/MiSTer-devel/Genesis_MiSTer/issues/158<br>
+https://twitter.com/St1ka/status/1364024924873097216<br>
+https://twitter.com/MyLifeInGaming/status/1341092115250630656<br>
+https://twitter.com/watermelongames/status/1365356392022966278<br>
+https://twitter.com/watermelongames/status/1428150734361661440<br>
+https://twitter.com/watermelongames/status/1366710552005906439<br>
+https://twitter.com/watermelongames/status/1428156649823424512<br>
+https://twitter.com/watermelongames/status/1428157032549556225<br>
+https://twitter.com/watermelongames/status/1428159286388133892<br>
+https://twitter.com/watermelongames/status/1428162198078164997<br>
+https://twitter.com/watermelongames/status/1428164359923118086<br>
+https://www.youtube.com/watch?v=fukGY5wDTiQ<br>
+https://www.youtube.com/watch?v=lxByzNzWTlI<br>
+https://www.youtube.com/watch?v=xQTD0Z4tWvE<br>
+https://www.youtube.com/watch?v=sFfNuhEyzD0<br>
+https://www.youtube.com/watch?v=2it-3NwZ9Go<br>
+https://www.youtube.com/watch?v=Nj2LM1rvFQ8<br>
+https://www.youtube.com/watch?v=kATTdGY8HkI<br>
+https://www.youtube.com/watch?v=bhHp5Q7LUbs<br>
+https://www.youtube.com/watch?v=VUaAEqiIi_s<br>
+https://www.youtube.com/watch?v=Nj2LM1rvFQ8<br>
+https://www.youtube.com/watch?v=svHHCMNOvN8<br>
+https://www.youtube.com/watch?v=x482W3m8P7I<br>
+https://www.youtube.com/watch?v=BXr229U9430<br>
+https://www.youtube.com/watch?v=kXLtnqbeBNI<br>
+https://www.youtube.com/watch?v=kOiM7ikcBx0<br>
+https://www.youtube.com/watch?v=jbBIua_BXjc<br>
+https://www.youtube.com/watch?v=PdUTPv038HE<br>
 
 
