@@ -3,6 +3,10 @@ Details on efforts to dump the contents of the Watermelon Games Paprium cart.
 
 https://www.change.org/p/paypal-paypal-usa-please-transfer-the-money-to-watermelon-for-releasing-the-game-paprium<br>
 
+Paprium Press Release 03/16/2017
+http://www.paprium.com/press/?language=en
+https://www.youtube.com/watch?v=f3CTqTzkgZQ
+
 ## DATENMEISTER DT128M16VA1LT
 The "secret" chip, that is really a bunch of comodity parts covered in black epoxy glob top encapsulate<br>
 
