@@ -45,8 +45,8 @@ The DT128M16VA1LT is supposedly a "custom" chip made by [Daten Semiconductor](ht
 
 The Datenmeister serves as the central piece of technology driving the Paprium cart. The only problem is, that it does not exist, at all. In reality, it is just handful of common components.<br>
 
-### DT128M16VA1LT components related to data storage, and game logic. 
-Several components of ficticious "DT128M16VA1LT" in the Paprium cart are actually known components that are succeptable to known weaknesses, and potential attacks. Being beneath black goop does not at all make the chips impervious to attack.<br>
+### DT128M16VA1LT parts related to data storage, and game logic. 
+The actual technology in the ficticious "DT128M16VA1LT" from the Paprium cart is made up of known ICs that are succeptable to known weaknesses, and potential attacks. Being beneath black goop does not at all make the chips impervious to attack.<br>
 
 #### Intel® MAX 10 FPGAs
 Altera 10M02SCU169C8G FPGA (UBGA169)<br>
@@ -71,7 +71,7 @@ https://www.synacktiv.com/sites/default/files/2020-11/presentation.pdf<br>
 https://tches.iacr.org/index.php/TCHES/article/download/7390/6562/<br>
 https://blog.kraken.com/post/3662/kraken-identifies-critical-flaw-in-trezor-hardware-wallets/<br>
 
-[TheHpman](https://wiki.mamedev.org/index.php/TheHpman) appears to have done some basic reversing of the cart, but did not fully disclose which components he worked with. The logic used by the STM32 is explictly mentioned on his Twitter account:<br>
+[TheHpman](https://wiki.mamedev.org/index.php/TheHpman) appears to have done some basic reversing of the cart, but did not fully disclose which chips he worked with. The logic used by the STM32 is explictly mentioned on his Twitter account:<br>
 https://twitter.com/The_Hpman/status/1383191393393389570<br>
 https://twitter.com/The_Hpman/status/1383191380743356416<br>
 
