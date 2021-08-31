@@ -108,7 +108,7 @@ Before the ChipWisperer came along you often saw [FeelTech FY3200S](https://www.
 The Paprium cart is a special unicorn. If you don't pay attention, you may perhaps miss some notable "features".<br>
 
 #### Megawire 4.0 (MW4.0)
-Described in the manual as being used to "Connect to PAPRIUM's NXT network and enable the game's online services.". It can also be used because "Some game updates may be available for download. Nobody's perfect...", or for DLC that "can be purchased with GEMS".<br>
+Described in the manual as being used to "Connect to PAPRIUM's NXT network and enable the game's online services". It can also be used because "Some game updates may be available for download. Nobody's perfect...", or for DLC that "can be purchased with GEMS".<br>
 
 "Megawire 4.0 is a special connector that has 4 segments to it. There are 2 segments for data transfer & 2 for are for power & ground."
 https://warosu.org/vr/thread/7319474<br>
