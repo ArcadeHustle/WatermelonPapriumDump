@@ -41,10 +41,12 @@ President Joe Biden’s latest executive order is a huge win for right to repair
 https://www.whitehouse.gov/briefing-room/presidential-actions/2021/07/09/executive-order-on-promoting-competition-in-the-american-economy/<br>
 
 ## DATENMEISTER DT128M16VA1LT
-The DT128M16VA1LT is a "custom" chip made by [Daten Semiconductor](https://web.archive.org/web/20190706065046/http://datensemi.com/), that is really just a bunch of commodity parts covered in black [epoxy glob top encapsulant](https://www.youtube.com/watch?v=dRsl4c6NM8U). Never mind that ["Datenmeister DT128M16VA1LT chipset is fake"](https://papriumfiasco.wordpress.com/tag/datenmeister/), or that the website of the company that "makes" it, was originally registered to Fonzie. It serves as the central piece of technology driving the Paprium cart. The only problem is, that it does not exist, at all. 
+The DT128M16VA1LT is a "custom" chip made by [Daten Semiconductor](https://web.archive.org/web/20190706065046/http://datensemi.com/), that is really just a bunch of commodity parts covered in black [epoxy glob top encapsulant](https://www.youtube.com/watch?v=dRsl4c6NM8U). Never mind that it has been proven that ["Datenmeister DT128M16VA1LT chipset is fake"](https://papriumfiasco.wordpress.com/tag/datenmeister/), or that the website of the company that "makes" it, was originally registered to Fonzie.<br>
+
+The Datenmeister serves as the central piece of technology driving the Paprium cart. The only problem is, that it does not exist, at all.<br>
 
 ### DT128M16VA1LT components related to data storage, and game logic. 
-Several components of "DT128M16VA1LT" on the Paprium cart are succeptable to known weaknesses, and potential attacks. Being beneath black goop does not at all make the chips impervious to attack.<br>
+Several components of ficticious "DT128M16VA1LT" in the Paprium cart are actually known components that are succeptable to known weaknesses, and potential attacks. Being beneath black goop does not at all make the chips impervious to attack.<br>
 
 #### Intel® MAX 10 FPGAs
 Altera 10M02SCU169C8G FPGA (UBGA169)<br>
