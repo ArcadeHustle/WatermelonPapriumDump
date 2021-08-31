@@ -92,11 +92,15 @@ Reading the Spansion flash should be possible with a standard Universal Programm
 https://www.aliexpress.com/item/32820731419.html<br>
 https://www.aliexpress.com/item/32978614065.html<br>
 
+You can see from the chip routing that the Flash is gatekept by the FPGA.<br>
+<img src="https://github.com/ArcadeHustle/WatermelonPapriumDump/blob/main/flashdatalines.jpg">
+
 ### i2c EEPROM
 24C64WP EEprom (SO8)<br>
 https://www.st.com/resource/en/datasheet/m24c64-f.pdf<br>
 
-Similarly reading the i2c EEPROM should be possible with standard EEPROM readers, or even an [Arduino](https://learn.sparkfun.com/tutorials/reading-and-writing-serial-eeproms/all). 
+Similarly reading the i2c EEPROM should be possible with standard EEPROM readers, or even an [Arduino](https://learn.sparkfun.com/tutorials/reading-and-writing-serial-eeproms/all). It is sitting outside the black epoxy, making it easy to examine. 
+<img src="https://github.com/ArcadeHustle/WatermelonPapriumDump/blob/main/exposedi2cflash.jpg">
 
 ## Useful tools
 The standard tool for voltage glitching is the Chip Whisperer, STM32 is a default target in the "level 1" kit, so this seems like a natural fit for anyone wanting to play along:<br>
@@ -118,6 +122,9 @@ https://warosu.org/vr/thread/7319474<br>
 Vias on the cart expose the BGA ball array from the STM32F4, making the epoxy less effective at protecting it. 
 <img src="https://github.com/ArcadeHustle/WatermelonPapriumDump/blob/main/exposedVIAs.jpg">
 <img src="https://github.com/ArcadeHustle/WatermelonPapriumDump/blob/main/exposedVIAmirror.jpg">
+
+This allows for access to SWD lines from outisde of the black epoxy obfuscation blob. 
+<img src="https://github.com/ArcadeHustle/WatermelonPapriumDump/blob/main/exposedSWD.jpg">
 
 ## References
 These are random related backstory items that make for good reading, or listening.<br>
