@@ -25,8 +25,7 @@ Altera 10M02SCU169C8G FPGA (UBGA169)<br>
 https://www.mouser.com/datasheet/2/612/m10_overview-2401081.pdf<br>
 https://www.intel.com/content/dam/www/programmable/us/en/pdfs/literature/an/an556.pdf
 
-The Intel FPGA on the Paprium cart ["may allow an authenticated user to potentially enable escalation of privilege and information disclosure via physical access"](https://www.intel.com/content/www/us/en/security-center/advisory/intel-sa-00349.html). The vulnerability has been assigned [CVE-2020-0574](https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2020-0574).<br>
-Dr. Sergei Skorobogatov of the Dept of Computer Science and Technology, University of Cambridge, Cambridge, UK, has been credited with reporting this issue. His papers and persentations on the subject are linked below:<br> 
+The Intel FPGA on the Paprium cart ["may allow an authenticated user to potentially enable escalation of privilege and information disclosure via physical access"](https://www.intel.com/content/www/us/en/security-center/advisory/intel-sa-00349.html). The vulnerability has been assigned [CVE-2020-0574](https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2020-0574). Dr. Sergei Skorobogatov of the Dept of Computer Science and Technology, University of Cambridge, Cambridge, UK, has been credited with reporting this issue. His papers and persentations on the subject are linked below:<br> 
 https://arxiv.org/abs/1910.05086<br>
 https://arxiv.org/pdf/1910.05086.pdf<br>
 https://www.cl.cam.ac.uk/~sps32/HWIO_MAX10.pdf<br>
