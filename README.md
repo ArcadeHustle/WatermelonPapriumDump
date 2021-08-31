@@ -102,7 +102,7 @@ The standard tool for voltage glitching is the Chip Whisperer, STM32 is a defaul
 https://store.newae.com/side-channel-glitching-starter-pack-level-1/<br>
 https://www.mouser.com/new/newae-technology/newae-chipwhisperer-lite-l1-kit/<br>
 
-Before the ChipWisperer came along you often saw [FeelTech FY3200S](https://www.ebay.com/itm/402781810775) used in academic papers about voltage glitching STM32. This device contains a USB API that can be used to script voltage changes. A [Python API](https://github.com/atx/python-feeltech) makes scripting easy.<br>
+Before the ChipWisperer came along you often saw [FeelTech FY3200S](https://www.ebay.com/itm/402781810775) used in academic papers about voltage glitching STM32 MCUs. This device contains a USB API that can be used to script voltage changes. A [Python API](https://github.com/atx/python-feeltech) makes scripting easy.<br>
 
 ### Cart Specific detail
 The Paprium cart is a special unicorn. If you don't pay attention, you may perhaps miss some notable "features".<br>
