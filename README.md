@@ -14,9 +14,9 @@ The [Paprium Press Release](http://www.paprium.com/press/?language=en) from 03/1
 
 [![Paprium launch](http://img.youtube.com/vi/f3CTqTzkgZQ/0.jpg)](https://www.youtube.com/watch?v=f3CTqTzkgZQ)<br>
 
-<notes on DMCA security exemption on research of Voltage Glitching, FPGA security through obscurity, and physical protection methods, and anti tamper techniques go here><br>
-<notes on DMCA obsolete cart exception go here><br>
-<notes on Right to repair go here><br>
+<notes on DMCA security exemption on research of Voltage Glitching, FPGA security through obscurity, and physical protection methods, and anti tamper techniques go here></notes><br>
+<notes on DMCA obsolete cart exception go here></notes><br>
+<notes on Right to repair go here></notes><br>
 
 ## DATENMEISTER DT128M16VA1LT
 The DT128M16VA1LT is a "custom" chip made by [Daten Semiconductor](https://web.archive.org/web/20190706065046/http://datensemi.com/), that is really just a bunch of commodity parts covered in black [epoxy glob top encapsulant](https://www.youtube.com/watch?v=dRsl4c6NM8U). Never mind that ["Datenmeister DT128M16VA1LT chipset is fake"](https://papriumfiasco.wordpress.com/tag/datenmeister/), or that the website of the company that "makes" it, was originally registered to Fonzie. It serves as the central piece of technology driving the Paprium cart. The only problem is, that it does not exist, at all. 
