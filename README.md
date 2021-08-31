@@ -10,7 +10,7 @@ Big thanks to Fonzie for allowing this to be published.
 # Project Little Man 
 This project details the active efforts to dump the contents of the Watermelon Games Paprium cart.<br>
 
-The [Paprium Press Release](http://www.paprium.com/press/?language=en) from 03/16/2017 brought many promises that <br>
+The [Paprium Press Release](http://www.paprium.com/press/?language=en) from 03/16/2017 brought many promises that simply never manifested into reality.<br>
 
 [![Paprium launch](http://img.youtube.com/vi/f3CTqTzkgZQ/0.jpg)](https://www.youtube.com/watch?v=f3CTqTzkgZQ)<br>
 
