@@ -87,6 +87,7 @@ https://warosu.org/vr/thread/7319474<br>
 #### Exposed vias on rear of cart
 Vias on the cart expose the BGA ball array from the STM32F4, making the epoxy less effective at protecting it. 
 <img src="https://github.com/ArcadeHustle/WatermelonPapriumDump/blob/main/exposedVIAs.jpg">
+<img src="https://github.com/ArcadeHustle/WatermelonPapriumDump/blob/main/exposedVIAmirror.jpg">
 
 ## References
 These are random related backstory items that make for good reading, or listening.<br>
