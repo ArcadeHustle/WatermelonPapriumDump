@@ -42,6 +42,7 @@ https://www.whitehouse.gov/briefing-room/presidential-actions/2021/07/09/executi
 
 ## DATENMEISTER DT128M16VA1LT
 The DT128M16VA1LT is supposedly a "custom" chip made by [Daten Semiconductor](https://web.archive.org/web/20190706065046/http://datensemi.com/), that is really just a bunch of commodity parts covered in black [epoxy glob top encapsulant](https://www.youtube.com/watch?v=dRsl4c6NM8U). Never mind that it has been proven that ["Datenmeister DT128M16VA1LT chipset is fake"](https://papriumfiasco.wordpress.com/tag/datenmeister/), or that the website of the company that "makes" it, was originally registered to Fonzie.<br>
+<img src="https://github.com/ArcadeHustle/WatermelonPapriumDump/blob/main/datenwhois.png"><br>
 
 The Datenmeister serves as the central piece of technology driving the Paprium cart. The only problem is, that it does not exist, at all. In reality, it is just handful of common components.<br>
 https://twitter.com/MyLifeInGaming/status/1341092115250630656
