@@ -71,7 +71,7 @@ https://www.synacktiv.com/sites/default/files/2020-11/presentation.pdf<br>
 https://tches.iacr.org/index.php/TCHES/article/download/7390/6562/<br>
 https://blog.kraken.com/post/3662/kraken-identifies-critical-flaw-in-trezor-hardware-wallets/<br>
 
-[TheHpman](https://wiki.mamedev.org/index.php/TheHpman) appears to have done some basic reversing of the cart, but did not fully disclose which chips he worked with. The logic used by the STM32 is explictly mentioned on his Twitter account:<br>
+[TheHpman](https://wiki.mamedev.org/index.php/TheHpman) appears to have done some basic reversing of the Paprium cart, but did not fully disclose which chips he worked with. The logic used by the STM32 is explictly mentioned on his Twitter account:<br>
 https://twitter.com/The_Hpman/status/1383191393393389570<br>
 https://twitter.com/The_Hpman/status/1383191380743356416<br>
 
