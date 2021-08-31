@@ -79,7 +79,7 @@ https://twitter.com/The_Hpman/status/1383191380743356416<br>
 
 <img src="https://github.com/ArcadeHustle/WatermelonPapriumDump/blob/main/breakIC.jpg">
 
-Practicing on [STM32F4 dev boards](https://www.st.com/en/evaluation-tools/nucleo-f446re.html) using a standard ChipWhisperer setup should set the stage for dumping the Paprium STM32F4. <br>
+Practicing on [STM32F4 dev boards](https://www.st.com/en/evaluation-tools/nucleo-f446re.html) using a standard ChipWhisperer setup should set the stage for dumping the Paprium STM32F4 using standard community accessible tools. <br>
 
 Similarly starting with the standard [STM43F4 "UFO" target board](https://store.newae.com/stm32f4-target-for-cw308-arm-cortex-m4-1mb-flash-192kb-sram) is a great way to practice before moving on to attack the Paprium cart.<br>
 
