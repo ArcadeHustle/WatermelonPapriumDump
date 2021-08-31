@@ -7,6 +7,11 @@ Big thanks to Fonzie for allowing this to be published.
 <img src="https://github.com/ArcadeHustle/WatermelonPapriumDump/blob/main/FonzieWMProjectLittleMan.jpg">
 </p>
 
+- [Project Little Man](#project-little-man)
+  - [DATENMEISTER DT128M16VA1LT](#datenmeister-dt128m16va1lt)
+  - [Useful tools](#useful-tools)
+  - [References](#references)
+
 # Project Little Man 
 This project details the active efforts to dump the contents of the Watermelon Games Paprium cart.<br>
 
