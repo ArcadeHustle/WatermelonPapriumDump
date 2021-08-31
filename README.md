@@ -44,6 +44,7 @@ https://www.whitehouse.gov/briefing-room/presidential-actions/2021/07/09/executi
 The DT128M16VA1LT is supposedly a "custom" chip made by [Daten Semiconductor](https://web.archive.org/web/20190706065046/http://datensemi.com/), that is really just a bunch of commodity parts covered in black [epoxy glob top encapsulant](https://www.youtube.com/watch?v=dRsl4c6NM8U). Never mind that it has been proven that ["Datenmeister DT128M16VA1LT chipset is fake"](https://papriumfiasco.wordpress.com/tag/datenmeister/), or that the website of the company that "makes" it, was originally registered to Fonzie.<br>
 
 The Datenmeister serves as the central piece of technology driving the Paprium cart. The only problem is, that it does not exist, at all. In reality, it is just handful of common components.<br>
+https://twitter.com/MyLifeInGaming/status/1341092115250630656
 
 ### DT128M16VA1LT parts related to data storage, and game logic. 
 The actual technology in the ficticious "DT128M16VA1LT" from the Paprium cart is made up of known ICs that are succeptable to known weaknesses, and potential attacks. Being beneath black goop does not at all make the chips impervious to attack.<br>
@@ -121,12 +122,23 @@ Vias on the cart expose the BGA ball array from the STM32F4, making the epoxy le
 ## References
 These are random related backstory items that make for good reading, or listening.<br>
 
-https://www.facebook.com/110283612372658/posts/2326873840713613/<br>
-https://web.archive.org/web/20190417023031/http://magicalgamefactory.com/en/boards/paprium-about_24/<br>
+### Grandious Ideas
 https://web.archive.org/web/20190226071931/http://www.magicalgamefactory.com/en/blogs/wm-blog_1/<br>
-https://papriumfiasco.wordpress.com/tag/datenmeister/<br>
+
+### Failure to deliver
+https://www.facebook.com/110283612372658/posts/2326873840713613/<br>
+
+### Nweed for Change!
+https://www.change.org/p/paypal-paypal-usa-please-transfer-the-money-to-watermelon-for-releasing-the-game-paprium<br>
+
+### Drama
 https://twitter.com/St1ka/status/1364024924873097216<br>
-https://twitter.com/MyLifeInGaming/status/1341092115250630656<br>
+
+### An amazing Paprium troll, ahead of their time
+https://papriumfiasco.wordpress.com/tag/datenmeister/<br>
+
+### Little men
+Fonzie ranting on Twitter calling everyone "little man", and complaining about PayPal. 
 https://twitter.com/watermelongames/status/1365356392022966278<br>
 https://twitter.com/watermelongames/status/1428150734361661440<br>
 https://twitter.com/watermelongames/status/1366710552005906439<br>
@@ -135,21 +147,23 @@ https://twitter.com/watermelongames/status/1428157032549556225<br>
 https://twitter.com/watermelongames/status/1428159286388133892<br>
 https://twitter.com/watermelongames/status/1428162198078164997<br>
 https://twitter.com/watermelongames/status/1428164359923118086<br>
-https://www.youtube.com/watch?v=fukGY5wDTiQ<br>
-https://www.youtube.com/watch?v=lxByzNzWTlI<br>
-https://www.youtube.com/watch?v=xQTD0Z4tWvE<br>
-https://www.youtube.com/watch?v=sFfNuhEyzD0<br>
-https://www.youtube.com/watch?v=2it-3NwZ9Go<br>
-https://www.youtube.com/watch?v=Nj2LM1rvFQ8<br>
-https://www.youtube.com/watch?v=kATTdGY8HkI<br>
-https://www.youtube.com/watch?v=bhHp5Q7LUbs<br>
-https://www.youtube.com/watch?v=VUaAEqiIi_s<br>
-https://www.youtube.com/watch?v=Nj2LM1rvFQ8<br>
-https://www.youtube.com/watch?v=svHHCMNOvN8<br>
-https://www.youtube.com/watch?v=x482W3m8P7I<br>
-https://www.youtube.com/watch?v=BXr229U9430<br>
-https://www.youtube.com/watch?v=kXLtnqbeBNI<br>
-https://www.youtube.com/watch?v=kOiM7ikcBx0<br>
-https://www.youtube.com/watch?v=jbBIua_BXjc<br>
-https://www.youtube.com/watch?v=PdUTPv038HE<br>
-https://www.change.org/p/paypal-paypal-usa-please-transfer-the-money-to-watermelon-for-releasing-the-game-paprium<br>
+
+### Youtube Interviews & Documentaries
+
+[![Paprium Update: Fonzie FINALLY Breaks His Silence](http://img.youtube.com/vi/fukGY5wDTiQ/0.jpg)](https://www.youtube.com/watch?v=fukGY5wDTiQ)<br>
+[![Scene World Podcast Episode #109 - Watermelon Games' CEO Gwénaël Godde aka Fonzie](http://img.youtube.com/vi/lxByzNzWTlI/0.jpg)](https://www.youtube.com/watch?v=lxByzNzWTlI)<br>
+[![PAPRIUM megadrive / genesis longplay part 1](http://img.youtube.com/vi/xQTD0Z4tWvE/0.jpg)](https://www.youtube.com/watch?v=xQTD0Z4tWvE)<br>
+[![PAPRIUM megadrive / genesis longplay part 2](http://img.youtube.com/vi/sFfNuhEyzD0/0.jpg)](https://www.youtube.com/watch?v=sFfNuhEyzD0)<br>
+[![PAPRIUM megadrive / genesis part 3 - instruction manual & manga investors](http://img.youtube.com/vi/2it-3NwZ9Go/0.jpg)](https://www.youtube.com/watch?v=2it-3NwZ9Go)<br>
+[![Paprium's Creator: An Interview | St1ka's Retro Corner](http://img.youtube.com/vi/Nj2LM1rvFQ8/0.jpg)](https://www.youtube.com/watch?v=Nj2LM1rvFQ8)<br>
+[![PAPRIUM - THE FONZIE INTERVIEW (English Subtitles)](http://img.youtube.com/vi/kATTdGY8HkI/0.jpg)](https://www.youtube.com/watch?v=kATTdGY8HkI)<br>
+[![The Paprium SCANDAL](http://img.youtube.com/vi/bhHp5Q7LUbs/0.jpg)](https://www.youtube.com/watch?v=bhHp5Q7LUbs)<br>
+[![Paprium Documentary - Complete Series | Movie Length Documentary | St1ka's Retro Corner](http://img.youtube.com/vi/VUaAEqiIi_s/0.jpg)](https://www.youtube.com/watch?v=VUaAEqiIi_s)<br>
+[![Paprium's Creator: An Interview | St1ka's Retro Corner](http://img.youtube.com/vi/Nj2LM1rvFQ8/0.jpg)](https://www.youtube.com/watch?v=Nj2LM1rvFQ8)<br>
+[![L'entrevue la plus puissante avec Gwénaël "fonzie" Godde PDG de Watermelon Partie 1](http://img.youtube.com/vi/svHHCMNOvN8/0.jpg)](https://www.youtube.com/watch?v=svHHCMNOvN8)<br>
+[![Entrevue avec "Fonzie", PDG de Watermelon #teaser](http://img.youtube.com/vi/x482W3m8P7I/0.jpg)](https://www.youtube.com/watch?v=x482W3m8P7I)<br>
+[![Entrevue avec fonzie, suite et fin.](http://img.youtube.com/vi/BXr229U9430/0.jpg)](https://www.youtube.com/watch?v=BXr229U9430)<br>
+[![What Happened to Paprium? A Documentary - St1ka's Retro Corner](http://img.youtube.com/vi/kXLtnqbeBNI/0.jpg)](https://www.youtube.com/watch?v=kXLtnqbeBNI)<br>
+[![What Happened to Paprium? A Documentary (Part 2) - St1ka's Retro Corner](http://img.youtube.com/vi/kOiM7ikcBx0/0.jpg)](https://www.youtube.com/watch?v=kOiM7ikcBx0)<br>
+[![What Happened to Paprium? A Documentary (Part 3) - St1ka's Retro Corner](http://img.youtube.com/vi/jbBIua_BXjc/0.jpg)](https://www.youtube.com/watch?v=jbBIua_BXjc)<br>
+[![Analyse de l'interview de Fonzie](http://img.youtube.com/vi/PdUTPv038HE/0.jpg)](https://www.youtube.com/watch?v=PdUTPv038HE)<br>
