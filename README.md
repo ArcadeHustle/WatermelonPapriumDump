@@ -126,6 +126,9 @@ Vias on the cart expose the BGA ball array from the STM32F4, making the epoxy le
 This allows for access to SWD lines from outisde of the black epoxy obfuscation blob. 
 <img src="https://github.com/ArcadeHustle/WatermelonPapriumDump/blob/main/exposedSWD.jpg">
 
+#### Debug headers?
+There is a 9 pin header at the top of the cart labeled "DT", there is also an 8 pin header just below the STM32 above the cart connector. The functionality is not known for either connector at this time. <br>
+
 ## References
 These are random related backstory items that make for good reading, or listening.<br>
 
