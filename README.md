@@ -8,14 +8,18 @@ Big thanks to Fonzie for allowing this to be published.
 </p>
 
 # Project Little Man 
-Details on efforts to dump the contents of the Watermelon Games Paprium cart.<br>
+This project details the active efforts to dump the contents of the Watermelon Games Paprium cart.<br>
 
-[Paprium Press Release 03/16/2017](http://www.paprium.com/press/?language=en)<br>
+The [Paprium Press Release](http://www.paprium.com/press/?language=en) from 03/16/2017 brought many promises that <br>
 
 [![Paprium launch](http://img.youtube.com/vi/f3CTqTzkgZQ/0.jpg)](https://www.youtube.com/watch?v=f3CTqTzkgZQ)<br>
 
+DMCA security exemption on research of Voltage glitching, FPGA security through obscurity, and physical protection methods. 
+DMCA obsolete cart exception
+Right to repair. 
+
 ## DATENMEISTER DT128M16VA1LT
-The DT128M16VA1LT is a "custom" chip made by [Daten Semiconductor](https://web.archive.org/web/20190706065046/http://datensemi.com/), that is really just a bunch of comodity parts covered in black [epoxy glob top encapsulant](https://www.youtube.com/watch?v=dRsl4c6NM8U). Never mind that ["Datenmeister DT128M16VA1LT chipset is fake"](https://papriumfiasco.wordpress.com/tag/datenmeister/), or that the website of the company that "makes" it, was originally registered to Fonzie. It serves as the central piece of technology driving the Paprium cart. The only problem is, that it does not exist, at all. 
+The DT128M16VA1LT is a "custom" chip made by [Daten Semiconductor](https://web.archive.org/web/20190706065046/http://datensemi.com/), that is really just a bunch of commodity parts covered in black [epoxy glob top encapsulant](https://www.youtube.com/watch?v=dRsl4c6NM8U). Never mind that ["Datenmeister DT128M16VA1LT chipset is fake"](https://papriumfiasco.wordpress.com/tag/datenmeister/), or that the website of the company that "makes" it, was originally registered to Fonzie. It serves as the central piece of technology driving the Paprium cart. The only problem is, that it does not exist, at all. 
 
 ### DT128M16VA1LT components related to data storage, and game logic. 
 Several components of "DT128M16VA1LT" on the Paprium cart are succeptable to known weaknesses, and potential attacks. Being beneath black goop does not at all make the chips impervious to attack.<br>
