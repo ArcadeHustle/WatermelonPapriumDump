@@ -76,6 +76,7 @@ https://twitter.com/The_Hpman/status/1383191393393389570<br>
 https://twitter.com/The_Hpman/status/1383191380743356416<br>
 
 [BreakIC](http://www.break-ic.com) aka Mikatech will dump the STM32 for a fee of $6500 USD, claiming that "The tools needed to read it costs USD2million". Mikatech claims to be "World first mcu cloning company", we have reliably used them in the past for less costly extractions. Worst case scenario, we could pay to have the chip dumped via this method, albiet costly.<br>
+
 <img src="https://github.com/ArcadeHustle/WatermelonPapriumDump/blob/main/breakIC.jpg">
 
 Practicing on [STM32F4 dev boards](https://www.st.com/en/evaluation-tools/nucleo-f446re.html) using a standard ChipWhisperer setup should set the stage for dumping the Paprium STM32F4. <br>
