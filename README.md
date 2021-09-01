@@ -190,25 +190,25 @@ https://twitter.com/watermelongames/status/1428164359923118086<br>
 [![The Paprium SCANDAL](http://img.youtube.com/vi/bhHp5Q7LUbs/0.jpg)](https://www.youtube.com/watch?v=bhHp5Q7LUbs)
 
 ### Fun Quotes
-https://www.youtube.com/watch?v=Nj2LM1rvFQ8&t=4550s
-st1ka: "A ROM dump will always happen, I believe Paprium has already Been dumped, if I'm not mistaken"
-Fonzie: "no no no no no no no no no no I don't think so I don't think so, I don't encourage anyone to dump anything"
-...
-"What about the customer"
-"These guys are lucky we don't have very strong lawyers"
+https://www.youtube.com/watch?v=Nj2LM1rvFQ8&t=4550s<br>
+st1ka: "A ROM dump will always happen, I believe Paprium has already Been dumped, if I'm not mistaken"<br>
+Fonzie: "no no no no no no no no no no I don't think so I don't think so, I don't encourage anyone to dump anything"<br>
+...<br>
+"What about the customer"<br>
+"These guys are lucky we don't have very strong lawyers"<br>
 
-https://www.youtube.com/watch?v=Nj2LM1rvFQ8&t=5530s
-st1ka: "the fpga is primarily used as a copy protection"
-Fonzie: "... what ever is said is just some ideas, it is true it serves in some way as copy protection"
-"It has a memory interface"
-"the game is going realtime decompression, and this decompression algorithem is inside the one IC"
+https://www.youtube.com/watch?v=Nj2LM1rvFQ8&t=5530s<br>
+st1ka: "the fpga is primarily used as a copy protection"<br>
+Fonzie: "... what ever is said is just some ideas, it is true it serves in some way as copy protection"<br>
+"It has a memory interface"<br>
+"the game is going realtime decompression, and this decompression algorithem is inside the one IC"<br>
 
-https://www.youtube.com/watch?v=Nj2LM1rvFQ8&t=5650s
-Fonzie: "I chose component from the market, because I can not make my own IC". 
-"I chose the IC from the market that fits the requirements, of course becuase it is not custom". 
+https://www.youtube.com/watch?v=Nj2LM1rvFQ8&t=5650s<br>
+Fonzie: "I chose component from the market, because I can not make my own IC".<br>
+"I chose the IC from the market that fits the requirements, of course becuase it is not custom".<br>
 
-https://youtu.be/lxByzNzWTlI?t=1300
-Fonzie: "The final state of testing we modified something on the game, but we could not test again"
-"We have to trust everybody to not put the cartridge on eBay. the problem is it was very big risk"
-"for sure someone with alot of money will try to take the cartridge and dump it"
+https://youtu.be/lxByzNzWTlI?t=1300<br>
+Fonzie: "The final state of testing we modified something on the game, but we could not test again"<br>
+"We have to trust everybody to not put the cartridge on eBay. the problem is it was very big risk"<br>
+"for sure someone with alot of money will try to take the cartridge and dump it"<br>
 
