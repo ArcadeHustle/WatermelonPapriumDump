@@ -78,13 +78,13 @@ Sergei's research outlines several weaknesses that can aid in archival of Papriu
 
 "Encrypted POF Only fuse on its own does not protect JTAG access to the Flash memory"<br>
 
-"write access to both user Flash and configuration Flash is still possible. This can be used for modification attacks, for example, to extract the encrypted bitstream"<br>
+"Write access to both user Flash and configuration Flash is still possible. This can be used for modification attacks, for example, to extract the encrypted bitstream"<br>
 
 "AES decryption always leaves distinctive power traces clearly distinguishable for different keys and different data. In combination with Flash modification attacks this can be used for encrypted bitstream extraction."<br>
 
 "Semi-invasive attacks in the form of laser fault injection were found to be capable of bypassing all security protection fuses in MAX 10 devices."<br>
 
-All of these techniques can in theory be used to dump the FPGA that is present on the Paprium cartridge.<br>
+All of these vulnerabilities can in theory be used to dump the FPGA that is present on the Paprium cartridge.<br>
 
 #### STM32F4
 ST STM32F446ZEJ6 MCU (UFBGA144)<br>
