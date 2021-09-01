@@ -207,3 +207,9 @@ https://www.youtube.com/watch?v=Nj2LM1rvFQ8&t=5650s
 "I chose component from the market, because I can not make my own IC". 
 "I chose the IC from the market that fits the requirements, of course becuase it is not custom". 
 
+https://youtu.be/lxByzNzWTlI?t=1300
+"The final state of testing we modified something on the game, but we could not test again"
+"We have to trust everybody to not put the cartridge on eBay. the problem is it was very big risk"
+"for sure someone with alot of money will try to take the cartridge and dump it"
+
+
