@@ -73,11 +73,15 @@ https://www.cl.cam.ac.uk/~sps32/HWIO_MAX10.pdf<br>
 
 [![Hardware security evaluation of Intel MAX 10 FPGAs | Dr. Sergei Skorobogatov](http://img.youtube.com/vi/Ev28MXJdjHE/0.jpg)](https://www.youtube.com/watch?v=Ev28MXJdjHE)<br>
 
-This writeup outlines a number of applicable weaknesses that can aid in archival of Paprium's FPGA contens:
+This writeup outlines a number of applicable weaknesses that can aid in archival of Paprium's FPGA contents:<br>
 "Verify Protect fuse only protects the configuration Flash memory (CFM) but leaves user Flash memory (UFM) fully accessible"<br>
+
 "Encrypted POF Only fuse on its own does not protect JTAG access to the Flash memory"<br>
+
 "write access to both user Flash and configuration Flash is still possible. This can be used for modification attacks, for example, to extract the encrypted bitstream"<br>
+
 "AES decryption always leaves distinctive power traces clearly distinguishable for different keys and different data. In combination with Flash modification attacks this can be used for encrypted bitstream extraction."<br>
+
 "Semi-invasive attacks in the form of laser fault injection were found to be capable of bypassing all security protection fuses in MAX 10 devices."<br>
 
 All of these techniques can in theory be used to dump the FPGA that is present on the Paprium cartridge.<br>
