@@ -91,7 +91,7 @@ ST STM32F446ZEJ6 MCU (UFBGA144)<br>
 https://www.st.com/resource/en/datasheet/stm32f446re.pdf<br>
 https://www.st.com/resource/en/application_note/dm00493651-introduction-to-stm32-microcontrollers-security-stmicroelectronics.pdf<br>
 
-STM32F4 is known vulnerable to voltage glitching attacks. The attacks have moved from theory, and manual one off demonstrations to now being available in ready made productized form with tools like [ChipWhisperer](https://www.newae.com/chipwhisperer). Various demonstrations have occured outside lab constraints, with SDK kits. Real, actual products have been attacked at this point. The exploitation techniques are reliable:<br> 
+Similar to the Intel FPGA, the STM32F4 inside the Paprium cart is known to be vulnerable to voltage glitching attacks that should aid in archival of Paprium's data. The attacks have moved from theory, and manual one off demonstrations to now being available in ready made productized form with tools like [ChipWhisperer](https://www.newae.com/chipwhisperer). Various demonstrations have occured outside lab constraints, with SDK kits. Real, actual products have been attacked at this point. The exploitation techniques are reliable:<br> 
 https://lists.gnupg.org/pipermail/gnuk-users/2020-February/000243.html<br>
 https://www.synacktiv.com/sites/default/files/2020-11/presentation.pdf<br>
 https://tches.iacr.org/index.php/TCHES/article/download/7390/6562/<br>
