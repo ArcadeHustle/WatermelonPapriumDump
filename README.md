@@ -54,8 +54,12 @@ The DT128M16VA1LT is supposedly a "custom" chip made by [Daten Semiconductor](ht
 The Datenmeister serves as the central piece of technology driving the Paprium cart. The only problem is, that it does not exist, at all. In reality, it is just handful of common components.<br>
 https://twitter.com/MyLifeInGaming/status/1341092115250630656
 
+Any Paprium ROM archival efforts would have to revolve around exploiting weaknesses in the "DT128M16VA1LT" components.
+
 ### DT128M16VA1LT parts related to data storage, and game logic. 
 The actual technology in the ficticious "DT128M16VA1LT" from the Paprium cart is made up of known ICs that are succeptable to known weaknesses, and potential attacks. Being beneath black goop does not at all make the chips impervious to attack.<br>
+
+It should in practice be trivial to interface with each of the major componets. The major hurdle right now is physical access to each component, or it's pinout due to the black epoxy.  
 
 #### Intel® MAX 10 FPGAs
 Altera 10M02SCU169C8G FPGA (UBGA169)<br>
@@ -68,6 +72,15 @@ https://arxiv.org/pdf/1910.05086.pdf<br>
 https://www.cl.cam.ac.uk/~sps32/HWIO_MAX10.pdf<br>
 
 [![Hardware security evaluation of Intel MAX 10 FPGAs | Dr. Sergei Skorobogatov](http://img.youtube.com/vi/Ev28MXJdjHE/0.jpg)](https://www.youtube.com/watch?v=Ev28MXJdjHE)<br>
+
+This writeup outlines a number of applicable weaknesses that can aid in archival of Paprium's FPGA contens:
+"Verify Protect fuse only protects the configuration Flash memory (CFM) but leaves user Flash memory (UFM) fully accessible"<br>
+"Encrypted POF Only fuse on its own does not protect JTAG access to the Flash memory"<br>
+"write access to both user Flash and configuration Flash is still possible. This can be used for modification attacks, for example, to extract the encrypted bitstream"<br>
+"AES decryption always leaves distinctive power traces clearly distinguishable for different keys and different data. In combination with Flash modification attacks this can be used for encrypted bitstream extraction."<br>
+"Semi-invasive attacks in the form of laser fault injection were found to be capable of bypassing all security protection fuses in MAX 10 devices."<br>
+
+All of these techniques can in theory be used to dump the FPGA that is present on the Paprium cartridge.<br>
 
 #### STM32F4
 ST STM32F446ZEJ6 MCU (UFBGA144)<br>
