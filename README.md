@@ -15,7 +15,7 @@ Big thanks to Fonzie for allowing this to be published.
 # Project Little Man 
 This project details the active efforts to dump the contents of the Watermelon Games Paprium cart.<br>
 
-The [Paprium Press Release](http://www.paprium.com/press/?language=en) from 03/16/2017 brought many promises that simply never manifested into reality. At this point many people have recieved their Paprium cart, where as many others have not. Some of those that have carts in hand, happen to have broken, unusable carts. There is no replacement path, there are no support options, you simply have the pleasure of owning a brick. What can you do? Shitpost? Bellyache, and whine? Quit being a "little man", and take matters into your own hands?<br>
+The [Paprium Press Release](http://www.paprium.com/press/?language=en) from 03/16/2017 brought many promises that simply never manifested into reality. At this point many people have recieved their Paprium cart, where as many others have not. Some of those that have carts in hand, happen to have broken, unusable carts. There is no replacement path, there are no support options, you simply have the pleasure of owning a brick. What can you do? Shitpost? Bellyache, and whine? Quit being a "little man", and take matters into your own hands? "Rule, Be Ruled, or Die"!<br>
 
 [![Paprium launch](http://img.youtube.com/vi/f3CTqTzkgZQ/0.jpg)](https://www.youtube.com/watch?v=f3CTqTzkgZQ)<br>
 
