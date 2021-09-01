@@ -15,9 +15,11 @@ Big thanks to Fonzie for allowing this to be published.
 # Project Little Man 
 This project details the active efforts to dump the contents of the Watermelon Games Paprium cart.<br>
 
-The [Paprium Press Release](http://www.paprium.com/press/?language=en) from 03/16/2017 brought many promises that simply never manifested into reality.<br>
+The [Paprium Press Release](http://www.paprium.com/press/?language=en) from 03/16/2017 brought many promises that simply never manifested into reality. At this point many people have recieved their Paprium cart, where as many others have not. Some of those that have carts in hand, happen to have broken, unusable carts. There is no replacement path, there are no support options, you simply have the pleasure of owning a brick. What can you do? Shitpost? Bellyache, and whine? Quit being a "little man", and take matters into your own hands?<br>
 
 [![Paprium launch](http://img.youtube.com/vi/f3CTqTzkgZQ/0.jpg)](https://www.youtube.com/watch?v=f3CTqTzkgZQ)<br>
+
+The goal of this project is to empower Paprium cart owners to ensure that their investment is protected well into the future. Design flaws in the cartridge manufacturing process make it succeptible to failure. It is literally a ticking timebomb, and it will likely fail eventually.<br>
 
 Additional text relevant to this document can be found below:<br>
 
@@ -211,4 +213,3 @@ https://youtu.be/lxByzNzWTlI?t=1300<br>
 Fonzie: "The final state of testing we modified something on the game, but we could not test again"<br>
 "We have to trust everybody to not put the cartridge on eBay. the problem is it was very big risk"<br>
 "for sure someone with alot of money will try to take the cartridge and dump it"<br>
-
