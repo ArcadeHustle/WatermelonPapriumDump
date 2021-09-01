@@ -73,7 +73,7 @@ https://www.cl.cam.ac.uk/~sps32/HWIO_MAX10.pdf<br>
 
 [![Hardware security evaluation of Intel MAX 10 FPGAs | Dr. Sergei Skorobogatov](http://img.youtube.com/vi/Ev28MXJdjHE/0.jpg)](https://www.youtube.com/watch?v=Ev28MXJdjHE)<br>
 
-This writeup outlines a number of applicable weaknesses that can aid in archival of Paprium's FPGA contents:<br>
+Sergei's research outlines several weaknesses that can aid in archival of Paprium's FPGA contents:<br>
 "Verify Protect fuse only protects the configuration Flash memory (CFM) but leaves user Flash memory (UFM) fully accessible"<br>
 
 "Encrypted POF Only fuse on its own does not protect JTAG access to the Flash memory"<br>
