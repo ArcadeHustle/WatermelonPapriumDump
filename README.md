@@ -180,7 +180,7 @@ https://twitter.com/watermelongames/status/1428164359923118086<br>
 [![What Happened to Paprium? A Documentary (Part 2) - St1ka's Retro Corner](http://img.youtube.com/vi/kOiM7ikcBx0/0.jpg)](https://www.youtube.com/watch?v=kOiM7ikcBx0)
 [![What Happened to Paprium? A Documentary (Part 3) - St1ka's Retro Corner](http://img.youtube.com/vi/jbBIua_BXjc/0.jpg)](https://www.youtube.com/watch?v=jbBIua_BXjc)
 [![Analyse de l'interview de Fonzie](http://img.youtube.com/vi/PdUTPv038HE/0.jpg)](https://www.youtube.com/watch?v=PdUTPv038HE)
-[![Scene World Podcast Episode #109 - Watermelon Games' CEO Gwénaël Godde aka Fonzie](http://img.youtube.com/vi/lxByzNzWTlI/0.jpg)](https://www.youtube.com/watch?v=lxByzNzWTlI)
+[![Scene World Podcast Episode #109 - Watermelon Games' CEO Gwénaël Godde aka Fonzie](http://img.youtube.com/vi/lxByzNzWTlI/0.jpg)](https://www.youtube.com/watch?v=lxByzNzWTlI&t=514s)
 [![PAPRIUM - THE FONZIE INTERVIEW (English Subtitles)](http://img.youtube.com/vi/kATTdGY8HkI/0.jpg)](https://www.youtube.com/watch?v=kATTdGY8HkI)
 [![L'entrevue la plus puissante avec Gwénaël "fonzie" Godde PDG de Watermelon Partie 1](http://img.youtube.com/vi/svHHCMNOvN8/0.jpg)](https://www.youtube.com/watch?v=svHHCMNOvN8)
 [![Entrevue avec "Fonzie", PDG de Watermelon #teaser](http://img.youtube.com/vi/x482W3m8P7I/0.jpg)](https://www.youtube.com/watch?v=x482W3m8P7I)
@@ -204,12 +204,11 @@ Fonzie: "... what ever is said is just some ideas, it is true it serves in some 
 "the game is going realtime decompression, and this decompression algorithem is inside the one IC"
 
 https://www.youtube.com/watch?v=Nj2LM1rvFQ8&t=5650s
-"I chose component from the market, because I can not make my own IC". 
+Fonzie: "I chose component from the market, because I can not make my own IC". 
 "I chose the IC from the market that fits the requirements, of course becuase it is not custom". 
 
 https://youtu.be/lxByzNzWTlI?t=1300
-"The final state of testing we modified something on the game, but we could not test again"
+Fonzie: "The final state of testing we modified something on the game, but we could not test again"
 "We have to trust everybody to not put the cartridge on eBay. the problem is it was very big risk"
 "for sure someone with alot of money will try to take the cartridge and dump it"
-
 
