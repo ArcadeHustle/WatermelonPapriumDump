@@ -4,7 +4,7 @@ https://github.com/ArcadeHustle/WatermelonPapriumDump/fork
 Big thanks to Fonzie for allowing this to be published.
 - written by hostile, with supporting information from the community at large!
 <p align="center">
-<img src="https://github.com/ArcadeHustle/WatermelonPapriumDump/blob/main/FonzieWMProjectLittleMan.jpg">
+<img src="https://github.com/ArcadeHustle/WatermelonPapriumDump/blob/main/images/FonzieWMProjectLittleMan.jpg">
 </p>
 
 - [Project Little Man](#project-little-man)
@@ -105,7 +105,7 @@ https://twitter.com/The_Hpman/status/1383191380743356416<br>
 
 Commerical RE company [BreakIC](http://www.break-ic.com) aka Mikatech will dump the STM32 for a fee of $6500 USD, claiming that "The tools needed to read it costs USD2million". We have reliably used Mikatech in the past for less costly extractions, we originally found them because their marketing claims that they are "World first mcu cloning company". Worst case scenario, we could in theory pay to have the Paprium STM32 chip dumped via their expensive machine.<br>
 
-<img src="https://github.com/ArcadeHustle/WatermelonPapriumDump/blob/main/breakIC.jpg">
+<img src="https://github.com/ArcadeHustle/WatermelonPapriumDump/blob/main/images/breakIC.jpg">
 
 Alternatively practicing on [STM32F4 dev boards](https://www.st.com/en/evaluation-tools/nucleo-f446re.html) using a standard ChipWhisperer setup should set the stage for dumping the Paprium STM32F4 using standard community accessible tools. <br>
 
@@ -120,14 +120,14 @@ https://www.aliexpress.com/item/32820731419.html<br>
 https://www.aliexpress.com/item/32978614065.html<br>
 
 You can see from the chip routing that the Flash is gatekept by the FPGA.<br>
-<img src="https://github.com/ArcadeHustle/WatermelonPapriumDump/blob/main/flashdatalines.jpg">
+<img src="https://github.com/ArcadeHustle/WatermelonPapriumDump/blob/main/images/flashdatalines.jpg">
 
 ### i2c EEPROM
 24C64WP EEprom (SO8)<br>
 https://www.st.com/resource/en/datasheet/m24c64-f.pdf<br>
 
 Similarly reading the i2c EEPROM should be possible with standard EEPROM readers, or even an [Arduino](https://learn.sparkfun.com/tutorials/reading-and-writing-serial-eeproms/all). It is sitting outside the black epoxy, making it easy to examine. 
-<img src="https://github.com/ArcadeHustle/WatermelonPapriumDump/blob/main/exposedi2cflash.jpg">
+<img src="https://github.com/ArcadeHustle/WatermelonPapriumDump/blob/main/images/exposedi2cflash.jpg">
 
 ## Useful tools
 The standard tool for voltage glitching is the Chip Whisperer, STM32 is a default target in the "level 1" kit, so this seems like a natural fit for anyone wanting to play along:<br>
@@ -147,19 +147,19 @@ https://warosu.org/vr/thread/7319474<br>
 
 #### Exposed vias on rear of cart
 Vias on the cart expose the BGA ball array from the STM32F4, making the epoxy less effective at protecting it. 
-<img src="https://github.com/ArcadeHustle/WatermelonPapriumDump/blob/main/exposedVIAs.jpg">
-<img src="https://github.com/ArcadeHustle/WatermelonPapriumDump/blob/main/exposedVIAmirror.jpg">
+<img src="https://github.com/ArcadeHustle/WatermelonPapriumDump/blob/main/images/exposedVIAs.jpg">
+<img src="https://github.com/ArcadeHustle/WatermelonPapriumDump/blob/main/images/exposedVIAmirror.jpg">
 
 This allows for access to SWD lines from outisde of the black epoxy obfuscation blob. 
-<img src="https://github.com/ArcadeHustle/WatermelonPapriumDump/blob/main/exposedSWD.jpg">
+<img src="https://github.com/ArcadeHustle/WatermelonPapriumDump/blob/main/images/exposedSWD.jpg">
 
 #### Debug headers?
 
 There is a 9 pin header at the top of the cart labeled "DT", there is also an 8 pin header just below the STM32 above the cart connector. The functionality is not known for either connector at this time. <br>
 
-<img src="https://github.com/ArcadeHustle/WatermelonPapriumDump/blob/main/DT1.jpg"><br>
+<img src="https://github.com/ArcadeHustle/WatermelonPapriumDump/blob/main/images/DT1.jpg"><br>
 
-<img src="https://github.com/ArcadeHustle/WatermelonPapriumDump/blob/main/8pindebug.jpg"><br>
+<img src="https://github.com/ArcadeHustle/WatermelonPapriumDump/blob/main/images/8pindebug.jpg"><br>
 
 
 ## References
