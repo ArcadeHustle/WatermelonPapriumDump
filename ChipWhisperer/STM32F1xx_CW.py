@@ -203,6 +203,6 @@ while mem_current < mem_stop:
 output_to_file_buffer += End_of_File_Record + '\n'
 send_to_file(output_to_file_buffer, File_name, directory)
 print('success')
-print('--- $s seconds ---" % (time.time() - start_time))
+print("--- $s seconds ---" % (time.time() - start_time)))
 
 
