@@ -1,6 +1,10 @@
 #!/opt/homebrew/bin/python3
 
-PLATFORM = 'CW308_STM32F3'
+PLATFORM = 'CW308_STM32F0'
+#PLATFORM = 'CW308_STM32F1'
+#PLATFORM = 'CW308_STM32F2'
+#PLATFORM = 'CW308_STM32F3'
+#PLATFORM = 'CW308_STM32F4'
 SCOPETYPE = 'OPENADC'
 
 import chipwhisperer as cw
@@ -14,14 +18,7 @@ try:
     except NameError:
         scope = cw.scope()
 
-    try:
-        if SS_VER == "SS_VER_2_0":
-            target_type = cw.targets.SimpleSerial2
-        else:
-            target_type = cw.targets.SimpleSerial
-    except:
-        SS_VER="SS_VER_1_1"
-        target_type = cw.targets.SimpleSerial
+    target_type = cw.targets.SimpleSerial2
 
     try:
         target = cw.target(scope, target_type)
@@ -37,10 +34,10 @@ except:
         print("-----------------------------------")
     raise
 
-print("INFO: Found ChipWhispererp")
+print("INFO: Connected to ChipWhispererp")
 
 # Check for presence of STM32 chipset
-if (PLATFORM == 'CW308_STM32F3'):
+if (PLATFORM == 'CW308_STM32F0' or PLATFORM == 'CW308_STM32F1' or PLATFORM == 'CW308_STM32F2'  or PLATFORM == 'CW308_STM32F3' or PLATFORM == 'CW308_STM32F4' ):
     try:
         target = cw.target(scope, cw.targets.SimpleSerial)
         scope.default_setup()
