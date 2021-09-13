@@ -8,6 +8,13 @@ import logging
 from chipwhisperer.common.utils import util
 from chipwhisperer.hardware.naeusb.programmer_stm32fserial import supported_stm32f
 from chipwhisperer.capture.api.programmers import Programmer
+import chipwhisperer as cw
+import usb
+
+############## Platform defines ##############
+
+PLATFORM = 'CW308_STM32F3'
+SCOPETYPE = 'OPENADC'
 
 ############## Library #################
 
@@ -138,11 +145,62 @@ Range = namedtuple('Range', ['min', 'max', 'step'])
 
 ############## Code omitted from article #################
 
-prog = STM32Reader()  #api
-prog.scope = scope
-prog._logging = None
-prog.stm32open()
-prog.stm32find()
+try:
+    try:
+        if not scope.connectStatus:
+            scope.con()
+    except NameError:
+        scope = cw.scope()
+
+    try:
+        if SS_VER == "SS_VER_2_0":
+            target_type = cw.targets.SimpleSerial2
+        else:
+            target_type = cw.targets.SimpleSerial
+    except:
+        SS_VER="SS_VER_1_1"
+        target_type = cw.targets.SimpleSerial
+
+    try:
+        target = cw.target(scope, target_type)
+    except IOError:
+        print("INFO: Caught exception on reconnecting to target - attempting to reconnect to scope first.")
+        print("INFO: This is a work-around when USB has died without Python knowing. Ignore errors above this line.")
+        scope = cw.scope()
+        target = cw.target(scope, target_type)
+except:
+    if usb.__version__ < '1.1.0':
+        print("-----------------------------------")
+        print("Unable to connect to chipwhisperer. pyusb {} detected (>= 1.1.0 required)".format(usb.__version))
+        print("-----------------------------------")
+    raise
+
+print("INFO: Found ChipWhispererp^_")
+
+# Check for presence of STM32 chipset
+if (PLATFORM == 'CW308_STM32F3'):
+	try:
+		target = cw.target(scope, cw.targets.SimpleSerial)
+		scope.default_setup()
+
+		prog = cw.programmers.STM32FProgrammer()
+
+#		prog = STM32Reader()  #api
+
+		prog.scope = scope
+		prog._logging = None
+		prog.open()
+		prog.find()
+	except Exception as e:
+		print("fail gracefully " + e)
+		# Disconnect, and allow reuse by another instance
+		scope.dis()
+		target.dis()
+
+File_name = "STM32_dump"
+directory = "./"
+mem_start = 0x08000000
+mem_stop = 0x08000300
 
 ############## Code #################
 
@@ -174,7 +232,7 @@ while mem_current < mem_stop:
     # run aux stuff that should run before the scope arms here
     reset_target(scope)
     # initialize STM32 after each reset
-    prog.FindSTM()
+    prog.find()
 
     try:
         # reading of closed memory sector
@@ -182,16 +240,16 @@ while mem_current < mem_stop:
     except Exception as message:
         message = str(message)
         if "Can't read port" in message:
-#            print('Port silence')
+            print('Port silence')
             pass
         elif 'Unknown response. 0x11: 0x0' in message:
-#            print('Crashed. Reload!')
+            print('Crashed. Reload!')
             pass
         elif 'NACK 0x11' in message:
-#            print('Firmware is closed!')
+            print('Firmware is closed!')
             pass
         else:
-#            print('Unknown error:', message, scope.glitch.offset, scope.glitch.width, scope.glitch.ext_offset)
+            print('Unknown error:', message, scope.glitch.offset, scope.glitch.width, scope.glitch.ext_offset)
             pass
 
     else:
@@ -203,6 +261,6 @@ while mem_current < mem_stop:
 output_to_file_buffer += End_of_File_Record + '\n'
 send_to_file(output_to_file_buffer, File_name, directory)
 print('success')
-print("--- $s seconds ---" % (time.time() - start_time))
+print("--- %s seconds ---" % (time.time() - start_time))
 
 
