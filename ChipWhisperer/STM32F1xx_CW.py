@@ -55,8 +55,8 @@ class STM32Reader(Programmer):
     def stm32readMem(self, addr, lng):
         stm32f = self.stm32prog()
         stm32f.scope = self.scope
-        #answer = stm32f.readMemory(addr, lng)
-        answer = self.ReadMemory(addr, lng)
+        answer = stm32f.readMemory(addr, lng)
+        #answer = self.ReadMemory(addr, lng)
         return answer
 
     def stm32GetID(self):
@@ -72,12 +72,16 @@ class STM32Reader(Programmer):
 
         try:
             stm32f.initChip()
+            print("Re-init chip")
         except IOError:
             print("Failed to detect chip. Check following: ")
             print("   1. Connections and device power. ")
             print("   2. Device has valid clock (or remove clock entirely for internal osc).")
             print("   3. On Rev -02 CW308T-STM32Fx boards, BOOT0 is routed to PDIC.")
             raise
+
+        print("Chip has been initted")
+        prog.stm32find()
 
         boot_version = stm32f.cmdGet()
         chip_id = stm32f.cmdGetID()
@@ -186,8 +190,6 @@ if (PLATFORM == 'CW308_STM32F3'):
 		target = cw.target(scope, cw.targets.SimpleSerial)
 		scope.default_setup()
 
-#		prog = cw.programmers.STM32FProgrammer()
-
 		prog = STM32Reader()  #api
 
 		prog.scope = scope
@@ -234,10 +236,14 @@ while mem_current < mem_stop:
     target.ser.flush()
     # run aux stuff that should run before the scope arms here
     reset_target(scope)
-    # initialize STM32 after each reset
-    prog.stm32find()
+    time.sleep(2)
+
+    print('Glitch settings:', scope.glitch.offset, scope.glitch.width, scope.glitch.ext_offset)
 
     try:
+        # initialize STM32 after each reset
+        prog.FindSTM()
+
         # reading of closed memory sector
         data = prog.stm32readMem(mem_current, length_of_sector)
     except Exception as message:
@@ -259,12 +265,15 @@ while mem_current < mem_stop:
         data_to_out = data_dividing_from_256_to_32_bytes (data, mem_current)
         print(data_to_out)
         output_to_file_buffer += data_to_out
-    mem_current += length_of_sector
+        mem_current += length_of_sector
 
 output_to_file_buffer += End_of_File_Record + '\n'
 send_to_file(output_to_file_buffer, File_name, directory)
 print('success')
 print("--- %s seconds ---" % (time.time() - start_time))
 
+# Disconnect, and allow reuse by another instance
+scope.dis()
+target.dis()
 
 
