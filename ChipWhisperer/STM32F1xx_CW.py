@@ -1,6 +1,9 @@
 #!/opt/homebrew/bin/python3
 #
 # https://pcnews.ru/blogs/scityvanie_zasisennoj_prosivki_iz_fles_pamati_stm32f1xx_s_ispolzovaniem_chipwhisperer-953713.html#gsc.tab=0
+# https://vk.com/@haccking1-schityvanie-zaschischennoi-proshivki-iz-flesh-pamyati-stm32f
+#
+# Uses 2018 code from ChipWhisperer, may need slight adaptations. 
 
 import time
 import sys
@@ -31,14 +34,14 @@ class STM32Reader(Programmer):
     def stm32prog(self):
 
         if self.stm is None:
-            stm = self.scope.scopetype.dev.serialstm32f
+            stm = self.scope.scopetype.serialstm32f
         else:
             stm = self.stm
 
         stm.slow_speed = self.slow_speed
         stm.small_blocks = self.small_blocks
 
-        return stm
+        return stm # stm is expected to be a STM32FSerial() object
 
     def stm32open(self):
         stm32f = self.stm32prog()
@@ -81,10 +84,10 @@ class STM32Reader(Programmer):
 
         for t in supported_stm32f:
             if chip_id == t.signature:
-#                print("Detected known STMF32: %s" % t.name)
+                print("Detected known STMF32: %s" % t.name)
                 stm32f.setChip(t)
                 return chip_id, t
-#        print("Detected unknown STM32F ID: 0x%03x" % chip_id)
+        print("Detected unknown STM32F ID: 0x%03x" % chip_id)
         return chip_id, None
 
 
@@ -183,14 +186,14 @@ if (PLATFORM == 'CW308_STM32F3'):
 		target = cw.target(scope, cw.targets.SimpleSerial)
 		scope.default_setup()
 
-		prog = cw.programmers.STM32FProgrammer()
+#		prog = cw.programmers.STM32FProgrammer()
 
-#		prog = STM32Reader()  #api
+		prog = STM32Reader()  #api
 
 		prog.scope = scope
 		prog._logging = None
-		prog.open()
-		prog.find()
+		prog.stm32open()
+		prog.stm32find()
 	except Exception as e:
 		print("fail gracefully " + e)
 		# Disconnect, and allow reuse by another instance
@@ -232,7 +235,7 @@ while mem_current < mem_stop:
     # run aux stuff that should run before the scope arms here
     reset_target(scope)
     # initialize STM32 after each reset
-    prog.find()
+    prog.stm32find()
 
     try:
         # reading of closed memory sector
@@ -262,5 +265,6 @@ output_to_file_buffer += End_of_File_Record + '\n'
 send_to_file(output_to_file_buffer, File_name, directory)
 print('success')
 print("--- %s seconds ---" % (time.time() - start_time))
+
 
 
