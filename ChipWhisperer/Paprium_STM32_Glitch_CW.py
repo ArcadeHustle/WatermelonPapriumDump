@@ -126,6 +126,13 @@ while mem_current < mem_stop:
     stm32f = prog.stm32prog()
     stm32f.reset()
 
+#    scope.glitch.width=10 # Values [-49.8, 49.8] 
+#    scope.glitch.offset=5 # Values [-50, 50] 
+#    scope.glitch.ext_offset=0 # Values [0, 2**32]
+    scope.glitch.repeat=5 # Values [1, 8192]    
+#    scope.glitch.trigger_src="manual" # “continuous”, “manual”, “ext_single”, “ext_continuous”
+#    print(scope.glitch)
+
     print('Glitch settings:', scope.glitch.offset, scope.glitch.width, scope.glitch.ext_offset)
 
     try:
@@ -149,10 +156,10 @@ while mem_current < mem_stop:
             stm32f.setChip(t)
             print("Detected unknown STM32F ID: 0x%03x" % chip_id)
 
+    scope.arm()
 
     try:
         # reading of closed memory sector
-#        data = stm32f.readMemory(mem_current, length_of_sector)
         data = stm32f.cmdReadMemory(mem_current, length_of_sector)
     except Exception as message:
         message = str(message)
