@@ -1,6 +1,7 @@
 #!/opt/homebrew/bin/python3
 #
 # Replicate work from: https://vk.com/@haccking1-schityvanie-zaschischennoi-proshivki-iz-flesh-pamyati-stm32f
+# 		       https://www.youtube.com/watch?v=CRfg9-1BV0k
 
 PLATFORM = 'CW308_STM32F0'
 #PLATFORM = 'CW308_STM32F1'
@@ -42,7 +43,7 @@ if (PLATFORM == 'CW308_STM32F0' or PLATFORM == 'CW308_STM32F1' or PLATFORM == 'C
 
 # Functions for firmware dump
 def int2str_0xFF(int_number, number_of_bytes):
-    return '{0:0{1}X}'.format(int_number,number_of_bytes_in_string)
+    return '{0:0{1}X}'.format(int_number,number_of_bytes)
 
 def data_dividing_from_256_to_32_bytes (data_to_divide, mem_sector, mem_step=32):
     if mem_sector > 0xFFFF:
@@ -76,11 +77,16 @@ def read_and_convert_data_hex_file(data_to_convert, memory_address, mem_step):
     if crcacc == 0x100:
         crcacc = 0
     RECTYP = 0x00
-    out_string = ':'+ Int_To_Hex_String(mem_step, 2)  +\
-        Int_To_Hex_String((addr_string),4) +\
-        Int_To_Hex_String(RECTYP, 2) +\
+#    out_string = ':'+ Int_To_Hex_String(mem_step, 2)  +\
+#        Int_To_Hex_String((addr_string),4) +\
+#        Int_To_Hex_String(RECTYP, 2) +\
+#        data_buffer +\
+#        Int_To_Hex_String(crcacc, 2)
+    out_string = ':'+ hex(mem_step)  +\
+        hex(addr_string) +\
+        hex(RECTYP) +\
         data_buffer +\
-        Int_To_Hex_String(crcacc, 2)
+        hex(crcacc)
     return out_string
 
 def send_to_file(info_to_output, File_name, directory):
