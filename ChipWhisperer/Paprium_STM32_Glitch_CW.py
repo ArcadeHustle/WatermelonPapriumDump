@@ -77,16 +77,7 @@ def read_and_convert_data_hex_file(data_to_convert, memory_address, mem_step):
     if crcacc == 0x100:
         crcacc = 0
     RECTYP = 0x00
-#    out_string = ':'+ Int_To_Hex_String(mem_step, 2)  +\
-#        Int_To_Hex_String((addr_string),4) +\
-#        Int_To_Hex_String(RECTYP, 2) +\
-#        data_buffer +\
-#        Int_To_Hex_String(crcacc, 2)
-    out_string = ':'+ hex(mem_step)  +\
-        hex(addr_string) +\
-        hex(RECTYP) +\
-        data_buffer +\
-        hex(crcacc)
+    out_string =  hex(mem_step+addr_string) + ' - ' + data_buffer
     return out_string
 
 def send_to_file(info_to_output, File_name, directory):
