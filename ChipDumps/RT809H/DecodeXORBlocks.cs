@@ -47,7 +47,7 @@ namespace DecodeXORBlocks {
 				bCoded[addr * 2] = (byte)((coded[addr] ^ key) >> 8);
 			}
 
-			File.WriteAllBytes(@"DECODED.BIN", bCoded);
+			File.WriteAllBytes(@"S29GL064N90BFI03@BGA48_20210924_142237_DECODED.BIN", bCoded);
 
 			Console.WriteLine("All done, press enter!");
 			Console.ReadKey();
