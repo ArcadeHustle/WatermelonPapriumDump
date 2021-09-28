@@ -1,3 +1,5 @@
+// https://docs.microsoft.com/en-us/dotnet/api/system.io.file.writeallbytes?view=net-5.0
+
 //Base logic for decoding 256 u16 blocks (512bytes)
 //Key appears to vary within file, can't tie to some logic right now. Might be arbitrary?
 //Might not cover whole file correctly
