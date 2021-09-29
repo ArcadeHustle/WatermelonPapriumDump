@@ -7,10 +7,28 @@ Big thanks to Fonzie for allowing this to be published.
 <img src="https://github.com/ArcadeHustle/WatermelonPapriumDump/blob/main/images/FonzieWMProjectLittleMan.jpg">
 </p>
 
-- [Project Little Man](#project-little-man)
-  - [DATENMEISTER DT128M16VA1LT](#datenmeister-dt128m16va1lt)
-  - [Useful tools](#useful-tools)
-  - [References](#references)
+* [Project Little Man](#project-little-man)
+   * [DATENMEISTER DT128M16VA1LT](#datenmeister-dt128m16va1lt)
+      * [DT128M16VA1LT parts related to data storage, and game logic.](#dt128m16va1lt-parts-related-to-data-storage-and-game-logic)
+         * [Intel® MAX 10 FPGAs](#intel-max-10-fpgas)
+         * [STM32F4](#stm32f4)
+      * [MirrorBit Flash](#mirrorbit-flash)
+      * [i2c EEPROM](#i2c-eeprom)
+   * [Useful tools](#useful-tools)
+      * [Cart Specific detail](#cart-specific-detail)
+         * [Megawire 4.0 (MW4.0)](#megawire-40-mw40)
+         * [Exposed vias on rear of cart](#exposed-vias-on-rear-of-cart)
+         * [Debug headers?](#debug-headers)
+   * [References](#references)
+      * [Grandious Ideas](#grandious-ideas)
+      * [Failure to deliver](#failure-to-deliver)
+      * [Need for Change!](#need-for-change)
+      * [Drama](#drama)
+      * [An amazing Paprium troll, ahead of their time](#an-amazing-paprium-troll-ahead-of-their-time)
+      * [Little men](#little-men)
+      * [Youtube Interviews &amp; Documentaries](#youtube-interviews--documentaries)
+      * [Fun Quotes](#fun-quotes)
+* [Pseudo-Legal opinion](#pseudo-legal-opinion)
 
 # Project Little Man 
 This project details the active efforts to dump the contents of the Watermelon Games Paprium cart.<br>
