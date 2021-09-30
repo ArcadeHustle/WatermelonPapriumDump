@@ -162,8 +162,11 @@ The Paprium cart is a special unicorn. If you don't pay attention, you may perha
 #### Megawire 4.0 (MW4.0)
 Described in the manual as being used to "Connect to PAPRIUM's NXT network and enable the game's online services". It can also be used because "Some game updates may be available for download. Nobody's perfect...", or for DLC that "can be purchased with GEMS".<br>
 
-"Megawire 4.0 is a special connector that has 4 segments to it. There are 2 segments for data transfer & 2 for are for power & ground."
+"Megawire 4.0 is a special connector that has 4 segments to it. There are 2 segments for data transfer & 2 for are for power & ground."<br>
 https://warosu.org/vr/thread/7319474<br>
+
+You can find the appropriate 4 Pole Stereo 2.5mm adapter easily on Amazon<br>
+https://www.amazon.com/gp/product/B07ZT85PN7/<br>
 
 #### Exposed vias on rear of cart
 Vias on the cart expose the BGA ball array from the STM32F4, making the epoxy less effective at protecting it. 
