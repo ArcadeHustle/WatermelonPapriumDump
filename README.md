@@ -104,7 +104,7 @@ https://www.synacktiv.com/sites/default/files/2020-11/presentation.pdf<br>
 https://tches.iacr.org/index.php/TCHES/article/download/7390/6562/<br>
 https://blog.kraken.com/post/3662/kraken-identifies-critical-flaw-in-trezor-hardware-wallets/<br>
 
-[TheHpman](https://wiki.mamedev.org/index.php/TheHpman) appears to have done some basic reversing of the Paprium cart, but did not fully disclose which techniques he worked with, or what files he examined. The logic used by the STM32 is however explictly mentioned on his Twitter account:<br>
+[TheHpman](https://wiki.mamedev.org/index.php/TheHpman) appears to have done some basic reversing of the Paprium cart mini game that was dumped via traditional techniques. Watermelongames included a security mechanism to prevent dumping of the actual game, instead serving up a "mini game" when dumping is attempted. The logic used by the carts STM32 is explictly mentioned on his Twitter account as he explains his disassembly efforts:<br>
 https://twitter.com/The_Hpman/status/1383191393393389570<br>
 https://twitter.com/The_Hpman/status/1383191380743356416<br>
 
