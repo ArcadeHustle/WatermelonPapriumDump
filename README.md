@@ -27,8 +27,8 @@ Big thanks to Fonzie for allowing this to be published.
       * [Drama](#drama)
       * [An amazing Paprium troll, ahead of their time](#an-amazing-paprium-troll-ahead-of-their-time)
       * [Little men](#little-men)
-      * [Youtube Interviews &amp; Documentaries](#youtube-interviews--documentaries)
       * [Fun Quotes](#fun-quotes)
+      * [Youtube Interviews &amp; Documentaries](#youtube-interviews--documentaries)
 * [Pseudo-Legal opinion](#pseudo-legal-opinion)
 
 # Project Little Man 
@@ -218,25 +218,6 @@ https://twitter.com/watermelongames/status/1428159286388133892<br>
 https://twitter.com/watermelongames/status/1428162198078164997<br>
 https://twitter.com/watermelongames/status/1428164359923118086<br>
 
-### Youtube Interviews & Documentaries
-
-[![PAPRIUM megadrive / genesis longplay part 1](http://img.youtube.com/vi/xQTD0Z4tWvE/0.jpg)](https://www.youtube.com/watch?v=xQTD0Z4tWvE)
-[![PAPRIUM megadrive / genesis longplay part 2](http://img.youtube.com/vi/sFfNuhEyzD0/0.jpg)](https://www.youtube.com/watch?v=sFfNuhEyzD0)
-[![PAPRIUM megadrive / genesis part 3 - instruction manual & manga investors](http://img.youtube.com/vi/2it-3NwZ9Go/0.jpg)](https://www.youtube.com/watch?v=2it-3NwZ9Go)
-[![Paprium Update: Fonzie FINALLY Breaks His Silence](http://img.youtube.com/vi/fukGY5wDTiQ/0.jpg)](https://www.youtube.com/watch?v=fukGY5wDTiQ)
-[![What Happened to Paprium? A Documentary - St1ka's Retro Corner](http://img.youtube.com/vi/kXLtnqbeBNI/0.jpg)](https://www.youtube.com/watch?v=kXLtnqbeBNI)
-[![What Happened to Paprium? A Documentary (Part 2) - St1ka's Retro Corner](http://img.youtube.com/vi/kOiM7ikcBx0/0.jpg)](https://www.youtube.com/watch?v=kOiM7ikcBx0)
-[![What Happened to Paprium? A Documentary (Part 3) - St1ka's Retro Corner](http://img.youtube.com/vi/jbBIua_BXjc/0.jpg)](https://www.youtube.com/watch?v=jbBIua_BXjc)
-[![Analyse de l'interview de Fonzie](http://img.youtube.com/vi/PdUTPv038HE/0.jpg)](https://www.youtube.com/watch?v=PdUTPv038HE)
-[![Scene World Podcast Episode #109 - Watermelon Games' CEO Gwénaël Godde aka Fonzie](http://img.youtube.com/vi/lxByzNzWTlI/0.jpg)](https://www.youtube.com/watch?v=lxByzNzWTlI&t=514s)
-[![PAPRIUM - THE FONZIE INTERVIEW (English Subtitles)](http://img.youtube.com/vi/kATTdGY8HkI/0.jpg)](https://www.youtube.com/watch?v=kATTdGY8HkI)
-[![L'entrevue la plus puissante avec Gwénaël "fonzie" Godde PDG de Watermelon Partie 1](http://img.youtube.com/vi/svHHCMNOvN8/0.jpg)](https://www.youtube.com/watch?v=svHHCMNOvN8)
-[![Entrevue avec "Fonzie", PDG de Watermelon #teaser](http://img.youtube.com/vi/x482W3m8P7I/0.jpg)](https://www.youtube.com/watch?v=x482W3m8P7I)
-[![Entrevue avec fonzie, suite et fin.](http://img.youtube.com/vi/BXr229U9430/0.jpg)](https://www.youtube.com/watch?v=BXr229U9430)
-[![Paprium's Creator: An Interview | St1ka's Retro Corner](http://img.youtube.com/vi/Nj2LM1rvFQ8/0.jpg)](https://www.youtube.com/watch?v=Nj2LM1rvFQ8)
-[![Paprium Documentary - Complete Series | Movie Length Documentary | St1ka's Retro Corner](http://img.youtube.com/vi/VUaAEqiIi_s/0.jpg)](https://www.youtube.com/watch?v=VUaAEqiIi_s)
-[![The Paprium SCANDAL](http://img.youtube.com/vi/bhHp5Q7LUbs/0.jpg)](https://www.youtube.com/watch?v=bhHp5Q7LUbs)
-
 ### Fun Quotes
 https://www.youtube.com/watch?v=Nj2LM1rvFQ8&t=4550s<br>
 st1ka: "A ROM dump will always happen, I believe Paprium has already Been dumped, if I'm not mistaken"<br>
@@ -259,6 +240,72 @@ https://youtu.be/lxByzNzWTlI?t=1300<br>
 Fonzie: "The final state of testing we modified something on the game, but we could not test again"<br>
 "We have to trust everybody to not put the cartridge on eBay. the problem is it was very big risk"<br>
 "for sure someone with alot of money will try to take the cartridge and dump it"<br>
+
+### Youtube Interviews & Documentaries
+
+<a href="https://www.youtube.com/watch?v=xQTD0Z4tWvE" target="_blank">
+ <img src="http://img.youtube.com/vi/xQTD0Z4tWvE/0.jpg" alt="PAPRIUM megadrive / genesis longplay part 1" width="240" height="180" border="10" />
+</a>
+<a href="https://www.youtube.com/watch?v=sFfNuhEyzD0" target="_blank">
+ <img src="http://img.youtube.com/vi/sFfNuhEyzD0/0.jpg" alt="PAPRIUM megadrive / genesis longplay part 2" width="240" height="180" border="10" />
+</a>
+
+[![PAPRIUM megadrive / genesis part 3 - instruction manual & manga investors](http://img.youtube.com/vi/2it-3NwZ9Go/0.jpg)](https://www.youtube.com/watch?v=2it-3NwZ9Go)
+<a href="" target="_blank">
+ <img src="" alt="" width="240" height="180" border="10" />
+</a>
+[![Paprium Update: Fonzie FINALLY Breaks His Silence](http://img.youtube.com/vi/fukGY5wDTiQ/0.jpg)](https://www.youtube.com/watch?v=fukGY5wDTiQ)
+<a href="" target="_blank">
+ <img src="" alt="" width="240" height="180" border="10" />
+</a>
+[![What Happened to Paprium? A Documentary - St1ka's Retro Corner](http://img.youtube.com/vi/kXLtnqbeBNI/0.jpg)](https://www.youtube.com/watch?v=kXLtnqbeBNI)
+<a href="" target="_blank">
+ <img src="" alt="" width="240" height="180" border="10" />
+</a>
+[![What Happened to Paprium? A Documentary (Part 2) - St1ka's Retro Corner](http://img.youtube.com/vi/kOiM7ikcBx0/0.jpg)](https://www.youtube.com/watch?v=kOiM7ikcBx0)
+<a href="" target="_blank">
+ <img src="" alt="" width="240" height="180" border="10" />
+</a>
+[![What Happened to Paprium? A Documentary (Part 3) - St1ka's Retro Corner](http://img.youtube.com/vi/jbBIua_BXjc/0.jpg)](https://www.youtube.com/watch?v=jbBIua_BXjc)
+<a href="" target="_blank">
+ <img src="" alt="" width="240" height="180" border="10" />
+</a>
+[![Analyse de l'interview de Fonzie](http://img.youtube.com/vi/PdUTPv038HE/0.jpg)](https://www.youtube.com/watch?v=PdUTPv038HE)
+<a href="" target="_blank">
+ <img src="" alt="" width="240" height="180" border="10" />
+</a>
+[![Scene World Podcast Episode #109 - Watermelon Games' CEO Gwénaël Godde aka Fonzie](http://img.youtube.com/vi/lxByzNzWTlI/0.jpg)](https://www.youtube.com/watch?v=lxByzNzWTlI&t=514s)
+<a href="" target="_blank">
+ <img src="" alt="" width="240" height="180" border="10" />
+</a>
+[![PAPRIUM - THE FONZIE INTERVIEW (English Subtitles)](http://img.youtube.com/vi/kATTdGY8HkI/0.jpg)](https://www.youtube.com/watch?v=kATTdGY8HkI)
+<a href="" target="_blank">
+ <img src="" alt="" width="240" height="180" border="10" />
+</a>
+[![L'entrevue la plus puissante avec Gwénaël "fonzie" Godde PDG de Watermelon Partie 1](http://img.youtube.com/vi/svHHCMNOvN8/0.jpg)](https://www.youtube.com/watch?v=svHHCMNOvN8)
+<a href="" target="_blank">
+ <img src="" alt="" width="240" height="180" border="10" />
+</a>
+[![Entrevue avec "Fonzie", PDG de Watermelon #teaser](http://img.youtube.com/vi/x482W3m8P7I/0.jpg)](https://www.youtube.com/watch?v=x482W3m8P7I)
+<a href="" target="_blank">
+ <img src="" alt="" width="240" height="180" border="10" />
+</a>
+[![Entrevue avec fonzie, suite et fin.](http://img.youtube.com/vi/BXr229U9430/0.jpg)](https://www.youtube.com/watch?v=BXr229U9430)
+<a href="" target="_blank">
+ <img src="" alt="" width="240" height="180" border="10" />
+</a>
+[![Paprium's Creator: An Interview | St1ka's Retro Corner](http://img.youtube.com/vi/Nj2LM1rvFQ8/0.jpg)](https://www.youtube.com/watch?v=Nj2LM1rvFQ8)
+<a href="" target="_blank">
+ <img src="" alt="" width="240" height="180" border="10" />
+</a>
+[![Paprium Documentary - Complete Series | Movie Length Documentary | St1ka's Retro Corner](http://img.youtube.com/vi/VUaAEqiIi_s/0.jpg)](https://www.youtube.com/watch?v=VUaAEqiIi_s)
+<a href="" target="_blank">
+ <img src="" alt="" width="240" height="180" border="10" />
+</a>
+[![The Paprium SCANDAL](http://img.youtube.com/vi/bhHp5Q7LUbs/0.jpg)](https://www.youtube.com/watch?v=bhHp5Q7LUbs)
+<a href="" target="_blank">
+ <img src="" alt="" width="240" height="180" border="10" />
+</a>
 
 # Pseudo-Legal opinion
 Additional text relevant to this document can be found below:<br>
