@@ -249,62 +249,47 @@ Fonzie: "The final state of testing we modified something on the game, but we co
 <a href="https://www.youtube.com/watch?v=sFfNuhEyzD0" target="_blank">
  <img src="http://img.youtube.com/vi/sFfNuhEyzD0/0.jpg" alt="PAPRIUM megadrive / genesis longplay part 2" width="240" height="180" border="10" />
 </a>
-
 <a href="https://www.youtube.com/watch?v=2it-3NwZ9Go" target="_blank">
  <img src="http://img.youtube.com/vi/2it-3NwZ9Go/0.jpg" alt="PAPRIUM megadrive / genesis part 3 - instruction manual & manga investors" width="240" height="180" border="10" />
 </a>
-
 <a href="https://www.youtube.com/watch?v=fukGY5wDTiQ" target="_blank">
  <img src="http://img.youtube.com/vi/fukGY5wDTiQ/0.jpg" alt="Paprium Update: Fonzie FINALLY Breaks His Silence" width="240" height="180" border="10" />
 </a>
-
 <a href="https://www.youtube.com/watch?v=kXLtnqbeBNI" target="_blank">
  <img src="http://img.youtube.com/vi/kXLtnqbeBNI/0.jpg" alt="What Happened to Paprium? A Documentary - St1ka's Retro Corner" width="240" height="180" border="10" />
 </a>
-
-[![What Happened to Paprium? A Documentary (Part 2) - St1ka's Retro Corner](http://img.youtube.com/vi/kOiM7ikcBx0/0.jpg)](https://www.youtube.com/watch?v=kOiM7ikcBx0)
-<a href="" target="_blank">
- <img src="" alt="" width="240" height="180" border="10" />
+<a href="https://www.youtube.com/watch?v=kOiM7ikcBx0" target="_blank">
+ <img src="http://img.youtube.com/vi/kOiM7ikcBx0/0.jpg" alt="What Happened to Paprium? A Documentary (Part 2) - St1ka's Retro Corner" width="240" height="180" border="10" />
 </a>
-[![What Happened to Paprium? A Documentary (Part 3) - St1ka's Retro Corner](http://img.youtube.com/vi/jbBIua_BXjc/0.jpg)](https://www.youtube.com/watch?v=jbBIua_BXjc)
-<a href="" target="_blank">
- <img src="" alt="" width="240" height="180" border="10" />
+<a href="https://www.youtube.com/watch?v=jbBIua_BXjc" target="_blank">
+ <img src="http://img.youtube.com/vi/jbBIua_BXjc/0.jpg" alt="What Happened to Paprium? A Documentary (Part 3) - St1ka's Retro Corner" width="240" height="180" border="10" />
 </a>
-[![Analyse de l'interview de Fonzie](http://img.youtube.com/vi/PdUTPv038HE/0.jpg)](https://www.youtube.com/watch?v=PdUTPv038HE)
-<a href="" target="_blank">
- <img src="" alt="" width="240" height="180" border="10" />
+<a href="https://www.youtube.com/watch?v=PdUTPv038HE" target="_blank">
+ <img src="http://img.youtube.com/vi/PdUTPv038HE/0.jpg" alt="Analyse de l'interview de Fonzie" width="240" height="180" border="10" />
 </a>
-[![Scene World Podcast Episode #109 - Watermelon Games' CEO Gwénaël Godde aka Fonzie](http://img.youtube.com/vi/lxByzNzWTlI/0.jpg)](https://www.youtube.com/watch?v=lxByzNzWTlI&t=514s)
-<a href="" target="_blank">
- <img src="" alt="" width="240" height="180" border="10" />
+<a href="https://www.youtube.com/watch?v=lxByzNzWTlI&t=514s" target="_blank">
+ <img src="http://img.youtube.com/vi/lxByzNzWTlI/0.jpg" alt="Scene World Podcast Episode #109 - Watermelon Games' CEO Gwénaël Godde aka Fonzie" width="240" height="180" border="10" />
 </a>
-[![PAPRIUM - THE FONZIE INTERVIEW (English Subtitles)](http://img.youtube.com/vi/kATTdGY8HkI/0.jpg)](https://www.youtube.com/watch?v=kATTdGY8HkI)
-<a href="" target="_blank">
- <img src="" alt="" width="240" height="180" border="10" />
+<a href="https://www.youtube.com/watch?v=kATTdGY8HkI" target="_blank">
+ <img src="http://img.youtube.com/vi/kATTdGY8HkI/0.jpg" alt="PAPRIUM - THE FONZIE INTERVIEW (English Subtitles)" width="240" height="180" border="10" />
 </a>
-[![L'entrevue la plus puissante avec Gwénaël "fonzie" Godde PDG de Watermelon Partie 1](http://img.youtube.com/vi/svHHCMNOvN8/0.jpg)](https://www.youtube.com/watch?v=svHHCMNOvN8)
-<a href="" target="_blank">
- <img src="" alt="" width="240" height="180" border="10" />
+<a href="https://www.youtube.com/watch?v=svHHCMNOvN8" target="_blank">
+ <img src="http://img.youtube.com/vi/svHHCMNOvN8/0.jpg" alt="L'entrevue la plus puissante avec Gwénaël 'fonzie' Godde PDG de Watermelon Partie 1" width="240" height="180" border="10" />
 </a>
-[![Entrevue avec "Fonzie", PDG de Watermelon #teaser](http://img.youtube.com/vi/x482W3m8P7I/0.jpg)](https://www.youtube.com/watch?v=x482W3m8P7I)
-<a href="" target="_blank">
- <img src="" alt="" width="240" height="180" border="10" />
+<a href="https://www.youtube.com/watch?v=x482W3m8P7I" target="_blank">
+ <img src="http://img.youtube.com/vi/x482W3m8P7I/0.jpg" alt="Entrevue avec 'Fonzie', PDG de Watermelon #teaser" width="240" height="180" border="10" />
 </a>
-[![Entrevue avec fonzie, suite et fin.](http://img.youtube.com/vi/BXr229U9430/0.jpg)](https://www.youtube.com/watch?v=BXr229U9430)
-<a href="" target="_blank">
- <img src="" alt="" width="240" height="180" border="10" />
+<a href="https://www.youtube.com/watch?v=BXr229U9430" target="_blank">
+ <img src="http://img.youtube.com/vi/BXr229U9430/0.jpg" alt="Entrevue avec fonzie, suite et fin." width="240" height="180" border="10" />
 </a>
-[![Paprium's Creator: An Interview | St1ka's Retro Corner](http://img.youtube.com/vi/Nj2LM1rvFQ8/0.jpg)](https://www.youtube.com/watch?v=Nj2LM1rvFQ8)
-<a href="" target="_blank">
- <img src="" alt="" width="240" height="180" border="10" />
+<a href="https://www.youtube.com/watch?v=Nj2LM1rvFQ8" target="_blank">
+ <img src="http://img.youtube.com/vi/Nj2LM1rvFQ8/0.jpg" alt="Paprium's Creator: An Interview | St1ka's Retro Corner" width="240" height="180" border="10" />
 </a>
-[![Paprium Documentary - Complete Series | Movie Length Documentary | St1ka's Retro Corner](http://img.youtube.com/vi/VUaAEqiIi_s/0.jpg)](https://www.youtube.com/watch?v=VUaAEqiIi_s)
-<a href="" target="_blank">
- <img src="" alt="" width="240" height="180" border="10" />
+<a href="https://www.youtube.com/watch?v=VUaAEqiIi_s" target="_blank">
+ <img src="http://img.youtube.com/vi/VUaAEqiIi_s/0.jpg" alt="Paprium Documentary - Complete Series | Movie Length Documentary | St1ka's Retro Corner" width="240" height="180" border="10" />
 </a>
-[![The Paprium SCANDAL](http://img.youtube.com/vi/bhHp5Q7LUbs/0.jpg)](https://www.youtube.com/watch?v=bhHp5Q7LUbs)
-<a href="" target="_blank">
- <img src="" alt="" width="240" height="180" border="10" />
+<a href="https://www.youtube.com/watch?v=bhHp5Q7LUbs" target="_blank">
+ <img src="http://img.youtube.com/vi/bhHp5Q7LUbs/0.jpg" alt="The Paprium SCANDAL" width="240" height="180" border="10" />
 </a>
 
 # Pseudo-Legal opinion
