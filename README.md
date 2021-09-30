@@ -250,18 +250,18 @@ Fonzie: "The final state of testing we modified something on the game, but we co
  <img src="http://img.youtube.com/vi/sFfNuhEyzD0/0.jpg" alt="PAPRIUM megadrive / genesis longplay part 2" width="240" height="180" border="10" />
 </a>
 
-[![PAPRIUM megadrive / genesis part 3 - instruction manual & manga investors](http://img.youtube.com/vi/2it-3NwZ9Go/0.jpg)](https://www.youtube.com/watch?v=2it-3NwZ9Go)
-<a href="" target="_blank">
- <img src="" alt="" width="240" height="180" border="10" />
+<a href="https://www.youtube.com/watch?v=2it-3NwZ9Go" target="_blank">
+ <img src="http://img.youtube.com/vi/2it-3NwZ9Go/0.jpg" alt="PAPRIUM megadrive / genesis part 3 - instruction manual & manga investors" width="240" height="180" border="10" />
 </a>
-[![Paprium Update: Fonzie FINALLY Breaks His Silence](http://img.youtube.com/vi/fukGY5wDTiQ/0.jpg)](https://www.youtube.com/watch?v=fukGY5wDTiQ)
-<a href="" target="_blank">
- <img src="" alt="" width="240" height="180" border="10" />
+
+<a href="https://www.youtube.com/watch?v=fukGY5wDTiQ" target="_blank">
+ <img src="http://img.youtube.com/vi/fukGY5wDTiQ/0.jpg" alt="Paprium Update: Fonzie FINALLY Breaks His Silence" width="240" height="180" border="10" />
 </a>
-[![What Happened to Paprium? A Documentary - St1ka's Retro Corner](http://img.youtube.com/vi/kXLtnqbeBNI/0.jpg)](https://www.youtube.com/watch?v=kXLtnqbeBNI)
-<a href="" target="_blank">
- <img src="" alt="" width="240" height="180" border="10" />
+
+<a href="https://www.youtube.com/watch?v=kXLtnqbeBNI" target="_blank">
+ <img src="http://img.youtube.com/vi/kXLtnqbeBNI/0.jpg" alt="What Happened to Paprium? A Documentary - St1ka's Retro Corner" width="240" height="180" border="10" />
 </a>
+
 [![What Happened to Paprium? A Documentary (Part 2) - St1ka's Retro Corner](http://img.youtube.com/vi/kOiM7ikcBx0/0.jpg)](https://www.youtube.com/watch?v=kOiM7ikcBx0)
 <a href="" target="_blank">
  <img src="" alt="" width="240" height="180" border="10" />
