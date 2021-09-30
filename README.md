@@ -180,11 +180,11 @@ Attacking the cart through via access would require some effort to build a bed o
 
 #### Debug headers?
 
-There is a 9 pin header at the top of the cart labeled "DT", there is also an 8 pin header just below the STM32 above the cart connector. The functionality is not known for either connector at this time. <br>
+There is a 9 pin header at the top of the cart labeled "DT", the functionality is not understood at this time. Several of the pins are GND, and three of the pins connect to themselves. The remaining pins may go to the Megawire interface, or to the Spansion flash. They may also simply be a red herring troll by Fonzie. <br>
 
 <img src="https://github.com/ArcadeHustle/WatermelonPapriumDump/blob/main/images/DT1.jpg"><br>
 
-The 8 pin header may connect to the UART pins and be useful for the UART bootloader programming interface.<br>
+There is also an 8 pin header just below the STM32 above the cart connector that appears as if it may connect to the UART pins and be useful for the UART bootloader programming interface. In order to use it BOOT0 would need to be pulled to GND.<br>
 https://github.com/ArcadeHustle/WatermelonPapriumDump/blob/main/ChipDocs/programming-an-external-flash-memory-using-the-uart-bootloader-builtin-stm32-microcontrollers-stmicroelectronics.pdf
 <img src="https://github.com/ArcadeHustle/WatermelonPapriumDump/blob/main/images/8pindebug.jpg"><br>
 
