@@ -115,11 +115,11 @@ https://blog.kraken.com/post/3662/kraken-identifies-critical-flaw-in-trezor-hard
 https://twitter.com/The_Hpman/status/1383191393393389570<br>
 https://twitter.com/The_Hpman/status/1383191380743356416<br>
 
-Commerical RE company [BreakIC](http://www.break-ic.com) aka Mikatech will dump the STM32 for a fee of $6500 USD, claiming that "The tools needed to read it costs USD2million". We have reliably used Mikatech in the past for less costly extractions, we originally found them because their marketing claims that they are "World first mcu cloning company". Worst case scenario, we could in theory pay to have the Paprium STM32 chip dumped via their expensive machine.<br>
+Commerical RE company [BreakIC](http://www.break-ic.com) aka Mikatech will dump the STM32 for a fee of $6500 USD, claiming that "The tools needed to read it costs USD2million". We have reliably used Mikatech in the past for less costly extractions, and originally found them because their marketing claims that they are "World first mcu cloning company". Worst case scenario, we could in theory pay to have the Paprium STM32 chip dumped via their expensive machine.<br>
 
 <img src="https://github.com/ArcadeHustle/WatermelonPapriumDump/blob/main/images/breakIC.jpg">
 
-Alternatively practicing on [STM32F4 dev boards](https://www.st.com/en/evaluation-tools/nucleo-f446re.html) using a standard ChipWhisperer setup should set the stage for dumping the Paprium STM32F4 using standard community accessible tools. <br>
+Alternatively practicing on [STM32F4 dev boards](https://www.st.com/en/evaluation-tools/nucleo-f446re.html) using a standard ChipWhisperer setup should set the stage for dumping the Paprium STM32F4 using standard community accessible tools. Again, assuming there is RDP protection enabled at all!<br>
 
 Similarly starting with the standard [STM43F4 "UFO" target board](https://store.newae.com/stm32f4-target-for-cw308-arm-cortex-m4-1mb-flash-192kb-sram) is a great way to practice before moving on attempting to attack the Paprium cart.<br>
 
@@ -131,7 +131,7 @@ Reading the Spansion flash is confirmed to be possible with a standard Universal
 https://www.aliexpress.com/item/32820731419.html<br>
 https://www.aliexpress.com/item/32978614065.html<br>
 
-You can see from the chip routing that the Flash is gatekept by the FPGA.<br>
+You can see from the chip routing that the Flash data access for the running cart is gatekept by the FPGA.<br>
 <img src="https://github.com/ArcadeHustle/WatermelonPapriumDump/blob/main/images/flashdatalines.jpg">
 
 ### i2c EEPROM
@@ -144,12 +144,17 @@ Example dumps can be found here:<br>
 https://github.com/ArcadeHustle/WatermelonPapriumDump/blob/main/ChipDumps/RT809H/24_64_1.8V_20210924_215810_goodcart.BIN
 https://github.com/ArcadeHustle/WatermelonPapriumDump/blob/main/ChipDumps/RT809H/24_64_1.8V_20210924_220101_badcart.BIN
 
+You can read the chip in place on the cart without removing it by using a pogo reader. 
+https://www.ebay.com/itm/324696874863
+
 ## Useful tools
 The standard tool for voltage glitching is the Chip Whisperer, STM32 is a default target in the "level 1" kit, so this seems like a natural fit for anyone wanting to play along:<br>
 https://store.newae.com/side-channel-glitching-starter-pack-level-1/<br>
 https://www.mouser.com/new/newae-technology/newae-chipwhisperer-lite-l1-kit/<br>
 
 Before the ChipWisperer came along you often saw [FeelTech FY3200S](https://www.ebay.com/itm/402781810775) used in academic papers about voltage glitching STM32 MCUs. This device contains a USB API that can be used to script voltage changes. A [Python API](https://github.com/atx/python-feeltech) makes scripting easy.<br>
+
+Keeping in mind of course that these tools may only be necessary if RDP protection is enabled on the STM32F4.<br>
 
 ### Cart Specific detail
 The Paprium cart is a special unicorn. If you don't pay attention, you may perhaps miss some notable "features".<br>
