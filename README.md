@@ -261,6 +261,15 @@ Fonzie: "The final state of testing we modified something on the game, but we co
 <a href="https://www.youtube.com/watch?v=jbBIua_BXjc" target="_blank">
  <img src="http://img.youtube.com/vi/jbBIua_BXjc/0.jpg" alt="What Happened to Paprium? A Documentary (Part 3) - St1ka's Retro Corner" width="240" height="180" border="10" />
 </a>
+<a href="https://www.youtube.com/watch?v=VUaAEqiIi_s" target="_blank">
+ <img src="http://img.youtube.com/vi/VUaAEqiIi_s/0.jpg" alt="Paprium Documentary - Complete Series | Movie Length Documentary | St1ka's Retro Corner" width="240" height="180" border="10" />
+</a>
+<a href="https://www.youtube.com/watch?v=kATTdGY8HkI" target="_blank">
+ <img src="http://img.youtube.com/vi/kATTdGY8HkI/0.jpg" alt="PAPRIUM - THE FONZIE INTERVIEW (English Subtitles)" width="240" height="180" border="10" />
+</a>
+<a href="https://www.youtube.com/watch?v=bhHp5Q7LUbs" target="_blank">
+ <img src="http://img.youtube.com/vi/bhHp5Q7LUbs/0.jpg" alt="The Paprium SCANDAL" width="240" height="180" border="10" />
+</a>
 <a href="https://www.youtube.com/watch?v=fukGY5wDTiQ" target="_blank">
  <img src="http://img.youtube.com/vi/fukGY5wDTiQ/0.jpg" alt="Paprium Update: Fonzie FINALLY Breaks His Silence" width="240" height="180" border="10" />
 </a>
@@ -269,9 +278,6 @@ Fonzie: "The final state of testing we modified something on the game, but we co
 </a>
 <a href="https://www.youtube.com/watch?v=lxByzNzWTlI&t=514s" target="_blank">
  <img src="http://img.youtube.com/vi/lxByzNzWTlI/0.jpg" alt="Scene World Podcast Episode #109 - Watermelon Games' CEO Gwénaël Godde aka Fonzie" width="240" height="180" border="10" />
-</a>
-<a href="https://www.youtube.com/watch?v=kATTdGY8HkI" target="_blank">
- <img src="http://img.youtube.com/vi/kATTdGY8HkI/0.jpg" alt="PAPRIUM - THE FONZIE INTERVIEW (English Subtitles)" width="240" height="180" border="10" />
 </a>
 <a href="https://www.youtube.com/watch?v=svHHCMNOvN8" target="_blank">
  <img src="http://img.youtube.com/vi/svHHCMNOvN8/0.jpg" alt="L'entrevue la plus puissante avec Gwénaël 'fonzie' Godde PDG de Watermelon Partie 1" width="240" height="180" border="10" />
@@ -284,12 +290,6 @@ Fonzie: "The final state of testing we modified something on the game, but we co
 </a>
 <a href="https://www.youtube.com/watch?v=Nj2LM1rvFQ8" target="_blank">
  <img src="http://img.youtube.com/vi/Nj2LM1rvFQ8/0.jpg" alt="Paprium's Creator: An Interview | St1ka's Retro Corner" width="240" height="180" border="10" />
-</a>
-<a href="https://www.youtube.com/watch?v=VUaAEqiIi_s" target="_blank">
- <img src="http://img.youtube.com/vi/VUaAEqiIi_s/0.jpg" alt="Paprium Documentary - Complete Series | Movie Length Documentary | St1ka's Retro Corner" width="240" height="180" border="10" />
-</a>
-<a href="https://www.youtube.com/watch?v=bhHp5Q7LUbs" target="_blank">
- <img src="http://img.youtube.com/vi/bhHp5Q7LUbs/0.jpg" alt="The Paprium SCANDAL" width="240" height="180" border="10" />
 </a>
 
 # Pseudo-Legal opinion
