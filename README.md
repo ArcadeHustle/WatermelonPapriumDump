@@ -8,6 +8,7 @@ Big thanks to Fonzie for allowing this to be published.
 </p>
 
 * [Project Little Man](#project-little-man)
+   * [Current Progress](#current-progress)
    * [DATENMEISTER DT128M16VA1LT](#datenmeister-dt128m16va1lt)
       * [DT128M16VA1LT parts related to data storage, and game logic.](#dt128m16va1lt-parts-related-to-data-storage-and-game-logic)
          * [Intel® MAX 10 FPGAs](#intel-max-10-fpgas)
@@ -37,7 +38,17 @@ The [Paprium Press Release](http://www.paprium.com/press/?language=en) from 03/1
 
 [![Paprium launch](http://img.youtube.com/vi/f3CTqTzkgZQ/0.jpg)](https://www.youtube.com/watch?v=f3CTqTzkgZQ)<br>
 
-The goal of this project is to empower Paprium cart owners to ensure that their investment is protected well into the future. Design flaws in the cartridge manufacturing process make it succeptible to failure. It is literally a ticking timebomb, and it will likely fail eventually.<br>
+The goal of this project is to empower Paprium cart owners to ensure that their investment is protected well into the future. Design flaws such as BGA voiding in the cartridge manufacturing process make it succeptible to failure. It is literally a ticking timebomb, and it will likely fail eventually.<br>
+
+## Current Progress
+Update: 9/29/21<br>
+- Intel 10M02 (10M04 dev board ordered for research)<br>
+- STM32F4 (custom SWD breakout PCB sent to Fab House)<br>
+- 24C64WP EEprom (dumped)<br>
+- Spansion GL064N Series Flash (dumped)<br>
+
+https://github.com/ArcadeHustle/WatermelonPapriumDump/blob/main/ChipDumps/RT809H/S29GL064N90BFI03%40BGA48_20210924_142237_DECODED.BIN<br>
+https://github.com/ArcadeHustle/WatermelonPapriumDump/blob/main/ChipDumps/RT809H/24_64_1.8V_20210924_215810_goodcart.BIN<br>
 
 ## DATENMEISTER DT128M16VA1LT
 The DT128M16VA1LT is supposedly a "custom" chip made by [Daten Semiconductor](https://web.archive.org/web/20190706065046/http://datensemi.com/), that is really just a bunch of commodity parts covered in black [epoxy glob top encapsulant](https://www.youtube.com/watch?v=dRsl4c6NM8U). Never mind that it has been proven that ["Datenmeister DT128M16VA1LT chipset is fake"](https://papriumfiasco.wordpress.com/tag/datenmeister/), or that the website of the company that "makes" it, was originally registered to Fonzie.<br>
@@ -62,10 +73,10 @@ The Intel "10M02" FPGA on the Paprium cart ["may allow an authenticated user to 
 https://arxiv.org/abs/1910.05086<br>
 https://arxiv.org/pdf/1910.05086.pdf<br>
 https://www.cl.cam.ac.uk/~sps32/HWIO_MAX10.pdf<br>
+https://www.youtube.com/watch?v=Ev28MXJdjHE<br>
 
-[![Hardware security evaluation of Intel MAX 10 FPGAs | Dr. Sergei Skorobogatov](http://img.youtube.com/vi/Ev28MXJdjHE/0.jpg)](https://www.youtube.com/watch?v=Ev28MXJdjHE)<br>
+Sergei's research outlines several weaknesses that can aid in archival of Paprium's Max10 FPGA contents:<br>
 
-Sergei's research outlines several weaknesses that can aid in archival of Paprium's FPGA contents:<br>
 "Verify Protect fuse only protects the configuration Flash memory (CFM) but leaves user Flash memory (UFM) fully accessible"<br>
 
 "Encrypted POF Only fuse on its own does not protect JTAG access to the Flash memory"<br>
@@ -76,12 +87,14 @@ Sergei's research outlines several weaknesses that can aid in archival of Papriu
 
 "Semi-invasive attacks in the form of laser fault injection were found to be capable of bypassing all security protection fuses in MAX 10 devices."<br>
 
-All of these vulnerabilities can in theory be used to dump the FPGA that is present on the Paprium cartridge.<br>
+All of these vulnerabilities can in theory be used to dump the FPGA that is present on the Paprium cartridge. Although the bitstream can not be easily reverse engineered, it could absolutly be used in a remanufactured cart, assuming it plays some role in security, or audio and GFX rendering<br>
 
 #### STM32F4
 ST STM32F446ZEJ6 MCU (UFBGA144)<br>
 https://www.st.com/resource/en/datasheet/stm32f446re.pdf<br>
 https://www.st.com/resource/en/application_note/dm00493651-introduction-to-stm32-microcontrollers-security-stmicroelectronics.pdf<br>
+
+Assuming that the STM32 is making use of RDP based protection it will require some special conditions in order to dump the firmware. If it is on the otherhand not protected, a physical connection to the SWD pins will be all that is needed. Once freed from the black epoxy, the chip is more succeptable to examination, and attack.<br> 
 
 Similar to the Intel FPGA, the STM32F4 inside the Paprium cart is known to be vulnerable to voltage glitching attacks that should aid in archival of Paprium's data. The attacks have moved from theory, and manual one off demonstrations to now being available in ready made productized form with tools like [ChipWhisperer](https://www.newae.com/chipwhisperer). Various exploitation demonstrations have occured outside common lab constraints, and SDK kit based testing.<br>
 
@@ -91,7 +104,7 @@ https://www.synacktiv.com/sites/default/files/2020-11/presentation.pdf<br>
 https://tches.iacr.org/index.php/TCHES/article/download/7390/6562/<br>
 https://blog.kraken.com/post/3662/kraken-identifies-critical-flaw-in-trezor-hardware-wallets/<br>
 
-[TheHpman](https://wiki.mamedev.org/index.php/TheHpman) appears to have done some basic reversing of the Paprium cart, but did not fully disclose which chips he worked with. The logic used by the STM32 is explictly mentioned on his Twitter account:<br>
+[TheHpman](https://wiki.mamedev.org/index.php/TheHpman) appears to have done some basic reversing of the Paprium cart, but did not fully disclose which techniques he worked with, or what files he examined. The logic used by the STM32 is however explictly mentioned on his Twitter account:<br>
 https://twitter.com/The_Hpman/status/1383191393393389570<br>
 https://twitter.com/The_Hpman/status/1383191380743356416<br>
 
