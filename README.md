@@ -176,7 +176,7 @@ Vias on the cart expose the BGA ball array from the STM32F4, making the epoxy le
 This allows for access to SWD lines from outisde of the black epoxy obfuscation blob. 
 <img src="https://github.com/ArcadeHustle/WatermelonPapriumDump/blob/main/images/exposedSWD.jpg">
 
-Attacking the cart through via access would require some effort to build a bed of nails, or some sort of effective jig.<br>
+Attacking the cart through via access would require some effort to build a bed of nails, or some sort of effective jig. This is really intended as a last ditch effort in the event that the STM32 can't be free'd effectively from the epoxy. It is unlikely that chasing via's will be needed, but the information is good to have on hand.<br>
 
 #### Debug headers?
 
