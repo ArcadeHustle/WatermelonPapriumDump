@@ -20,3 +20,7 @@ scope.glitch.repeat = int(sys.argv[1])
 while 1==1:
 	scope.glitch.manual_trigger()
 	print("xX",end = '', flush=True)
+<<<<<<< HEAD
+=======
+
+>>>>>>> 9b73f4301ea47ee5183e7474449d06d6940cf53c
