@@ -319,4 +319,7 @@ Fonzie: "The final state of testing we modified something on the game, but we co
 <a href="https://www.youtube.com/watch?v=Nj2LM1rvFQ8" target="_blank">
  <img src="http://img.youtube.com/vi/Nj2LM1rvFQ8/0.jpg" alt="Paprium's Creator: An Interview | St1ka's Retro Corner" width="240" height="180" border="10" />
 </a>
+<a href="https://www.youtube.com/watch?v=ZgTRyHRtdCA" target="_blank">
+ <img src="http://img.youtube.com/vi/ZgTRyHRtdCA/0.jpg" alt="FAQ watermelon : Les réponses" width="240" height="180" border="10" />
+</a>
 
