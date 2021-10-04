@@ -1,3 +1,6 @@
+# Information on Tile mapper
+This is useful to help reverse engineer how the tile mapping system displays pixels on the screen. Some carts never display anything, is the tile mapper broken?<br>
+
 Canvas is 1024x12352 pixels<br>
 Lines are 1024x32 pixels<br>
 Tiles are 32x32 pixels <br>
