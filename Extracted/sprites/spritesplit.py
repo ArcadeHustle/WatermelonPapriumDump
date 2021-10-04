@@ -1,27 +1,19 @@
 #!/usr/local/opt/python@3.8/bin/python3
 import os
-import glob
-from PIL import Image
-Image.MAX_IMAGE_PIXELS = None # to avoid image size warning
+import cv2
+import sys
 
-# if you want file of a specific extension (.png):
-filelist = [f for f in glob.glob("*.png", recursive=True)]
-savedir = "."
+file = sys.argv[1]
+folder = file.split(".")[0]
+print(folder)
 
-start_pos = start_x, start_y = (0, 0)
-cropped_image_size = w, h = (32, 32)
+try:
+    os.stat(folder)
+except:
+    os.mkdir(folder)
 
-for file in filelist:
-    img = Image.open(file)
-    width, height = img.size
-
-    frame_num = 1
-    for col_i in range(0, height, h):
-        for row_i in range(0, width, w):
-            crop = img.crop((col_i, row_i, col_i + w, row_i + h))
-            name = os.path.basename(file)
-            name = os.path.splitext(name)[0]
-            save_to= os.path.join(savedir, name+"_{:03}_{:03}.png")
-            crop.save(save_to.format(row_i, col_i))
-            frame_num += 1
-
+import cv2
+img = cv2.imread(file)
+for r in range(0,img.shape[0],32):
+    for c in range(0,img.shape[1],32):
+        cv2.imwrite(f"sprite_{r}_{c}.png",img[r:r+32, c:c+32,:])
