@@ -2,7 +2,7 @@
 This is useful to help reverse engineer how the tile mapping system displays pixels on the screen. Some carts never display anything, is the tile mapper broken?<br>
 
 <p align="center">
-<img src="https://github.com/ArcadeHustle/WatermelonPapriumDump/blob/main/Extracted/sprites/SpriteDescribe.jpg">
+<img src="https://github.com/ArcadeHustle/WatermelonPapriumDump/blob/main/Extracted/sprites/SpriteDescribe.jpeg">
 </p>
 
 Canvas is 1024x12352 pixels<br>
