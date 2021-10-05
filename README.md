@@ -30,6 +30,7 @@ Big thanks to Fonzie for allowing this to be published.
       * [Little men](#little-men)
       * [Fun Quotes](#fun-quotes)
       * [Youtube Interviews &amp; Documentaries](#youtube-interviews--documentaries)
+      * [Support situation](#support-situation)
 
 # Pseudo-Legal opinion
 Additional text relevant to this document can be found below:<br>
@@ -325,4 +326,23 @@ Fonzie: "The final state of testing we modified something on the game, but we co
 <a href="https://www.youtube.com/watch?v=axvJSqKApdo" target="_blank">
  <img src="http://img.youtube.com/vi/axvJSqKApdo/0.jpg" alt="Scene World Podcast Episode #125 - Watermelon Games - Fonzie Part 2" width="240" height="180" border="10" />
 </a>
+
+### Support situation
+https://twitter.com/Scene_World interview with https://twitter.com/watermelongames<br>
+https://twitter.com/Scene_World/status/1445178396988874754<br>
+
+https://www.youtube.com/watch?v=axvJSqKApdo&t=1936s<br>
+Q: So before this interview we actually spoke a couple of times on the phone and you told me that you found a way to mak ean update on Paprium cartridge for the compatibility and perhaps tell me about that because I'm waiting to make to make my game running on my version one of my megadrive"<br>
+
+https://www.youtube.com/watch?v=axvJSqKApdo&t=1957s<br>
+A: "Yes Yes many people ask this on linke at least we got uh not many customers asking to us on our customer support but many people ask online so I think there's some problem with that. It's a serious problem and uh I have to confirm I would say it should be fine, but I I don't want to give something and then I don't want to tell anything until I want 100% sure people can do it at home themselves. So that's the only point I'm not sure if people have to return their cartridge to some service point or if they can do it themselves. That's the thing I need to confirm but I would not hide that the last couple of months have been very tough and uh I'd say <haha> I have to decide on which thing I focus. My main focus was to not get bankrupt mostly"<br>
+...<br>
+https://youtu.be/axvJSqKApdo?t=2033<br>
+"This kind of stuff does not work well if the company is not in a good shape, you don't want to ship something and of course if we had everything running fine if our shop was still running I could have paid someone full time to do this servicing, it's no problem. We can even pay for the shipping is not so expensive the problem is that there is no way to do anything like so I don't want to I I I want to wait and see how things are going to happen. Then we can give a good service to the customers becasue it's not a at the moment it's not good. Like we don't the customer support. I have to shut it down like some cusomers they call us on the phone, it's fine, but when some people they send emails so but it's um too many people make fake requests or to get free games. It takes a lot of time people don't see that like it takes a lot of time to figure that out and uh we have nobody to do the customer support at the moment. <br>
+...<br>
+https://youtu.be/axvJSqKApdo?t=2101<br>
+"Oh there's nobody. So I got to decide if I do it, and then nothing else is done, or it's like I got to decide what I want to do like. I think it's better for now that we try to solve this situation. We try to move forward and then we when things is back on track we can fix every people's problem. But if I start handling the case one by one uh in a in a cheap way, it's not going to be good. So yeah, I'm sorry for that some cusomers are waiting and they get the personal return but like I keep saying that I cannot ship you back. There's no way like as they say oh hey but I can pay but I can pay. Even if you pay I cannot ship back to you becasue I have so many uh things to pay before I got to ship your things. <br>
+...<br>
+https://youtu.be/axvJSqKApdo?t=2159<br>
+"If the kickstarter goes well if we get back on track I can arrange a customer service. Someone to contact every customer and fix this, yeah by the way like, a yeah, it's my the biggest issue is for people who are living in the US because um in europe uh maybe we can have a even center in paris or in germany. Some people who liver around can bring their cartridge you can fix them. But um in USA it's a very big country so you can't do this easily. So he has to do he has to be some shipping or people to do it at home. We will see, we will see. I don't want to announce this thing yet because uh I'm a very um let's say I have good experience now and I'm saying something, and the next day it goes horrible.<br>
 
