@@ -322,4 +322,7 @@ Fonzie: "The final state of testing we modified something on the game, but we co
 <a href="https://www.youtube.com/watch?v=ZgTRyHRtdCA" target="_blank">
  <img src="http://img.youtube.com/vi/ZgTRyHRtdCA/0.jpg" alt="FAQ watermelon : Les réponses" width="240" height="180" border="10" />
 </a>
+<a href="https://www.youtube.com/watch?v=axvJSqKApdo" target="_blank">
+ <img src="http://img.youtube.com/vi/axvJSqKApdo/0.jpg" alt="Scene World Podcast Episode #125 - Watermelon Games - Fonzie Part 2" width="240" height="180" border="10" />
+</a>
 
