@@ -4,7 +4,7 @@ https://github.com/ArcadeHustle/WatermelonPapriumDump/fork
 Big thanks to Fonzie for allowing this to be published.
 - written by hostile, with supporting information from the community at large!
 <p align="center">
-<img src="https://github.com/ArcadeHustle/WatermelonPapriumDump/blob/main/images/FonzieWMProjectLittleMan.jpg">
+<img src="https://arcadehustle.github.io/WatermelonPapriumDump/images/FonzieWMProjectLittleMan.jpg">
 </p>
 
 * [Pseudo-Legal opinion](#pseudo-legal-opinion)
@@ -146,7 +146,7 @@ https://twitter.com/The_Hpman/status/1383191380743356416<br>
 
 Commerical RE company [BreakIC](http://www.break-ic.com) aka Mikatech will dump the STM32 for a fee of $6500 USD, claiming that "The tools needed to read it costs USD2million". We have reliably used Mikatech in the past for less costly extractions, and originally found them because their marketing claims that they are "World first mcu cloning company". Worst case scenario, we could in theory pay to have the Paprium STM32 chip dumped via their expensive machine.<br>
 
-<img src="https://github.com/ArcadeHustle/WatermelonPapriumDump/blob/main/images/breakIC.jpg">
+<img src="https://arcadehustle.github.io/WatermelonPapriumDump/images/breakIC.jpg">
 
 Alternatively practicing on [STM32F4 dev boards](https://www.st.com/en/evaluation-tools/nucleo-f446re.html) using a standard ChipWhisperer setup should set the stage for dumping the Paprium STM32F4 using standard community accessible tools. Again, assuming there is RDP protection enabled at all!<br>
 
@@ -161,14 +161,14 @@ https://www.aliexpress.com/item/32820731419.html<br>
 https://www.aliexpress.com/item/32978614065.html<br>
 
 You can see from the chip routing that the Flash data access for the running cart is gatekept by the FPGA.<br>
-<img src="https://github.com/ArcadeHustle/WatermelonPapriumDump/blob/main/images/flashdatalines.jpg">
+<img src="https://arcadehustle.github.io/WatermelonPapriumDump/images/flashdatalines.jpg">
 
 ### i2c EEPROM
 24C64WP EEprom (SO8)<br>
 https://www.st.com/resource/en/datasheet/m24c64-f.pdf<br>
 
 Similarly reading the i2c EEPROM is confirmed possible with standard EEPROM readers, or even an [Arduino](https://learn.sparkfun.com/tutorials/reading-and-writing-serial-eeproms/all). It is sitting outside the black epoxy, making it easy to examine. 
-<img src="https://github.com/ArcadeHustle/WatermelonPapriumDump/blob/main/images/exposedi2cflash.jpg">
+<img src="https://arcadehustle.github.io/WatermelonPapriumDump/images/exposedi2cflash.jpg">
 Example dumps can be found here:<br>
 https://github.com/ArcadeHustle/WatermelonPapriumDump/blob/main/ChipDumps/RT809H/24_64_1.8V_20210924_215810_goodcart.BIN
 https://github.com/ArcadeHustle/WatermelonPapriumDump/blob/main/ChipDumps/RT809H/24_64_1.8V_20210924_220101_badcart.BIN
@@ -199,11 +199,11 @@ https://www.amazon.com/gp/product/B07ZT85PN7/<br>
 
 #### Exposed vias on rear of cart
 Vias on the cart expose the BGA ball array from the STM32F4, making the epoxy less effective at protecting it. 
-<img src="https://github.com/ArcadeHustle/WatermelonPapriumDump/blob/main/images/exposedVIAs.jpg">
-<img src="https://github.com/ArcadeHustle/WatermelonPapriumDump/blob/main/images/exposedVIAmirror.jpg">
+<img src="https://arcadehustle.github.io/WatermelonPapriumDump/images/exposedVIAs.jpg">
+<img src="https://arcadehustle.github.io/WatermelonPapriumDump/images/exposedVIAmirror.jpg">
 
 This allows for access to SWD lines from outisde of the black epoxy obfuscation blob. 
-<img src="https://github.com/ArcadeHustle/WatermelonPapriumDump/blob/main/images/exposedSWD.jpg">
+<img src="https://arcadehustle.github.io/WatermelonPapriumDump/images/exposedSWD.jpg">
 
 Attacking the cart through via access would require some effort to build a bed of nails, or some sort of effective jig. This is really intended as a last ditch effort in the event that the STM32 can't be free'd effectively from the epoxy. It is unlikely that chasing via's will be needed, but the information is good to have on hand.<br>
 
@@ -211,11 +211,11 @@ Attacking the cart through via access would require some effort to build a bed o
 
 There is a 9 pin header at the top of the cart labeled "DT", the functionality is not understood at this time. Several of the pins are GND, and three of the pins connect to themselves. The remaining pins may go to the Megawire interface, or to the Spansion flash. They may also simply be a red herring troll by Fonzie. <br>
 
-<img src="https://github.com/ArcadeHustle/WatermelonPapriumDump/blob/main/images/DT1.jpg"><br>
+<img src="https://arcadehustle.github.io/WatermelonPapriumDump/images/DT1.jpg"><br>
 
 There is also an 8 pin header just below the STM32 above the cart connector that appears as if it may connect to the UART pins and be useful for the UART bootloader programming interface. In order to use it BOOT0 would need to be pulled to GND.<br>
 https://github.com/ArcadeHustle/WatermelonPapriumDump/blob/main/ChipDocs/programming-an-external-flash-memory-using-the-uart-bootloader-builtin-stm32-microcontrollers-stmicroelectronics.pdf
-<img src="https://github.com/ArcadeHustle/WatermelonPapriumDump/blob/main/images/8pindebug.jpg"><br>
+<img src="https://arcadehustle.github.io/WatermelonPapriumDump/images/8pindebug.jpg"><br>
 
 
 ## References
