@@ -79,7 +79,8 @@ Update: 10/3/21<br>
 - Game Strings have been extracted
 - Sprite Sheets! 
 
-Codes!
+###
+Paprium Codes!
 ```
 Enable 3P mode: 
 on map screen before character select.
@@ -115,6 +116,10 @@ A A A C C C St D St U St
 Nothing:
 Original mode, on file select screen with city map:
 D D D D D D D D A
+
+Enable JP region features:
+pause game
+A B A B A B
 ```
 
 https://github.com/ArcadeHustle/WatermelonPapriumDump/blob/main/ChipDumps/RT809H/S29GL064N90BFI03%40BGA48_20210924_142237_DECODED.BIN<br>
