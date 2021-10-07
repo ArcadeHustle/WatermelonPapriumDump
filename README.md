@@ -79,6 +79,44 @@ Update: 10/3/21<br>
 - Game Strings have been extracted
 - Sprite Sheets! 
 
+Codes!
+```
+Enable 3P mode: 
+on map screen before character select.
+A A A U U U D D D 
+
+obj viewer:
+on options screen Highlight "BOF naming" and input
+St X X A Y C  
+
+Megawire 4.0 screen:
+on options screen Highlight "BOF naming" and input
+St St St St C C  
+
+Train Wreck Demo:
+on title screen
+A A C C C B
+
+Sound Test:
+on title screen
+U U D D L R L R B B
+
+Better CPU Buddy with megaCD(?):
+on menu screen
+B B U D U D L R
+
+Nothing:
+A A A C C C St U St D St  
+on options screen Highlight "BOF naming" and input
+
+Nothing:
+A A A C C C St D St U St  
+
+Nothing:
+Original mode, on file select screen with city map:
+D D D D D D D D A
+```
+
 https://github.com/ArcadeHustle/WatermelonPapriumDump/blob/main/ChipDumps/RT809H/S29GL064N90BFI03%40BGA48_20210924_142237_DECODED.BIN<br>
 https://github.com/ArcadeHustle/WatermelonPapriumDump/blob/main/ChipDumps/RT809H/24_64_1.8V_20210924_215810_goodcart.BIN<br>
 https://github.com/ArcadeHustle/WatermelonPapriumDump/blob/main/Extracted/audio/AllSoundsDirty.wav<br>
