@@ -256,8 +256,13 @@ There is a 9 pin header at the top of the cart labeled "DT", the functionality i
 
 <img src="https://arcadehustle.github.io/WatermelonPapriumDump/images/DT1.jpg"><br>
 
-There is also an 8 pin header just below the STM32 above the cart connector that appears as if it may connect to the UART pins and be useful for the UART bootloader programming interface. In order to use it BOOT0 would need to be pulled to GND.<br>
-https://github.com/ArcadeHustle/WatermelonPapriumDump/blob/main/ChipDocs/programming-an-external-flash-memory-using-the-uart-bootloader-builtin-stm32-microcontrollers-stmicroelectronics.pdf
+Below is the pinout:
+        "DT 1" silkscreen wording  ◍ GND ◍ SELF ◍ SELF ◍ SELF ◍ DQ6 on Spansion ◍ VCC on Spansion ◍ VDD ◍ unknown ◍ Pin7 BR3  "9" silkscreen wording
+
+Pin map:
+DQ6 - "Toggle bit" for erase / write status 
+
+There is also an 8 pin header just below the STM32 above the cart connector that appears as if it may connect to the USB OTG pins, or alternately it could be an SPI interface.<br>
 <img src="https://arcadehustle.github.io/WatermelonPapriumDump/images/8pindebug.jpg"><br>
 
 Below is the pinout:
@@ -272,6 +277,8 @@ PB12 - SPI2_NSS,  OTG_HS_ID
 PB13 - SPI2_SCK,  OTG_HS_VBUS
 PB14 - SPI2_MISO, OTG_HS_DM
 PB14 - SPI2_MOSI, OTG_HS_DP 
+
+Possible use for DFU protocol bootloader. https://www.st.com/resource/en/application_note/cd00264379-usb-dfu-protocol-used-in-the-stm32-bootloader-stmicroelectronics.pdf
 
 ## References
 These are random related backstory items that make for good reading, or listening.<br>
