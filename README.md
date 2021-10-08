@@ -260,6 +260,18 @@ There is also an 8 pin header just below the STM32 above the cart connector that
 https://github.com/ArcadeHustle/WatermelonPapriumDump/blob/main/ChipDocs/programming-an-external-flash-memory-using-the-uart-bootloader-builtin-stm32-microcontrollers-stmicroelectronics.pdf
 <img src="https://arcadehustle.github.io/WatermelonPapriumDump/images/8pindebug.jpg"><br>
 
+Below is the pinout:
+
+                                    ░ PB14 ░ PB12 ░ PB13 ░ PB15              "DT128M16VA1LT" silkscreen wording
+                                    ░ GND  ░ GND  ░ GND  ░ GND
+
+"B1 (FRONT)" skilscreen wording
+
+Pin map:
+PB12 - SPI2_NSS,  OTG_HS_ID
+PB13 - SPI2_SCK,  OTG_HS_VBUS
+PB14 - SPI2_MISO, OTG_HS_DM
+PB14 - SPI2_MOSI, OTG_HS_DP 
 
 ## References
 These are random related backstory items that make for good reading, or listening.<br>
