@@ -256,29 +256,29 @@ There is a 9 pin header at the top of the cart labeled "DT", the functionality i
 
 <img src="https://arcadehustle.github.io/WatermelonPapriumDump/images/DT1.jpg"><br>
 
-Below is the pinout:
-        "DT 1" silkscreen wording  ◍ GND ◍ SELF ◍ SELF ◍ SELF ◍ DQ6 on Spansion ◍ VCC on Spansion ◍ VDD ◍ unknown ◍ Pin7 BR3  "9" silkscreen wording
+Below is the pinout:<br>
+        "DT 1" silkscreen wording  ◍ GND ◍ SELF ◍ SELF ◍ SELF ◍ DQ6 on Spansion ◍ VCC on Spansion ◍ VDD ◍ unknown ◍ Pin7 BR3  "9" silkscreen wording<br>
 
-Pin map:
-DQ6 - "Toggle bit" for erase / write status 
+Pin map:<br>
+DQ6 - "Toggle bit" for erase / write status <br>
 
 There is also an 8 pin header just below the STM32 above the cart connector that appears as if it may connect to the USB OTG pins, or alternately it could be an SPI interface.<br>
 <img src="https://arcadehustle.github.io/WatermelonPapriumDump/images/8pindebug.jpg"><br>
 
-Below is the pinout:
+Below is the pinout:<br>
 
-                                    ░ PB14 ░ PB12 ░ PB13 ░ PB15              "DT128M16VA1LT" silkscreen wording
-                                    ░ GND  ░ GND  ░ GND  ░ GND
+                                    ░ PB14 ░ PB12 ░ PB13 ░ PB15              "DT128M16VA1LT" silkscreen wording<br>
+                                    ░ GND  ░ GND  ░ GND  ░ GND<br>
 
-"B1 (FRONT)" skilscreen wording
+"B1 (FRONT)" skilscreen wording<br>
 
-Pin map:
-PB12 - SPI2_NSS,  OTG_HS_ID
-PB13 - SPI2_SCK,  OTG_HS_VBUS
-PB14 - SPI2_MISO, OTG_HS_DM
-PB14 - SPI2_MOSI, OTG_HS_DP 
+Pin map:<br>
+PB12 - SPI2_NSS,  OTG_HS_ID<br>
+PB13 - SPI2_SCK,  OTG_HS_VBUS<br>
+PB14 - SPI2_MISO, OTG_HS_DM<br>
+PB14 - SPI2_MOSI, OTG_HS_DP <br>
 
-Possible use for DFU protocol bootloader. https://www.st.com/resource/en/application_note/cd00264379-usb-dfu-protocol-used-in-the-stm32-bootloader-stmicroelectronics.pdf
+Possible use for DFU protocol bootloader. https://www.st.com/resource/en/application_note/cd00264379-usb-dfu-protocol-used-in-the-stm32-bootloader-stmicroelectronics.pdf<br>
 
 ## References
 These are random related backstory items that make for good reading, or listening.<br>
