@@ -1,0 +1,11 @@
+https://www.wavpack.com/wavpack-4.80.0.tar.bz2
+
+file name:         Paprium.wav
+file size:         1353414 bytes
+source:            8-bit ints at 44100 Hz
+channels:          1 (mono)
+duration:          0:00:30.28
+modalities:        lossless
+compression:       -1.37%
+ave bitrate:       358 kbps
+encoder version:   4
