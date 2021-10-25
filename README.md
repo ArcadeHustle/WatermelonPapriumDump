@@ -108,17 +108,16 @@ Per fair use guidelines the animation frames are shared for the purposes of "suc
 https://www.copyright.gov/fair-use/more-info.html
 
 <p align="center">
-<img src="https://arcadehustle.github.io/WatermelonPapriumDump/images/inspiration3.jpg">
+<img src="https://arcadehustle.github.io/WatermelonPapriumDump/Extracted/anim/inspiration1.png">
 </p>
-
 <p align="center">
-<img src="https://arcadehustle.github.io/WatermelonPapriumDump/images/inspiration1.jpg">
-<img src="https://arcadehustle.github.io/WatermelonPapriumDump/images/inspiration2.jpg">
+<img src="https://arcadehustle.github.io/WatermelonPapriumDump/Extracted/anim/inspiration2.png">
+<img src="https://arcadehustle.github.io/WatermelonPapriumDump/Extracted/anim/inspiration3.png">
 </p>
 
 Code Kitty nailed it with "To be this good takes AGES"<br>
 <p align="center">
-<img src="https://arcadehustle.github.io/WatermelonPapriumDump/images/inspiration4.jpeg">
+<img src="https://arcadehustle.github.io/WatermelonPapriumDump/Extracted/anim/inspiration4.jpeg">
 </p>
 
 Without question Luis Martins words frame the discussion: "Most of the character designs inspiration came from watching all kinds of cyberpunk anime and from playing tons of great beat em ups from the 90’s."<br>
