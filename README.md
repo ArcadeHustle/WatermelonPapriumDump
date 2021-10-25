@@ -68,16 +68,36 @@ The [Paprium Press Release](http://www.paprium.com/press/?language=en) from 03/1
 
 The goal of this project is to empower Paprium cart owners to ensure that their investment is protected well into the future. Design flaws such as BGA voiding in the cartridge manufacturing process make it succeptible to failure. It is literally a ticking timebomb, and it will likely fail eventually.<br>
 
+Since Project Little Man has been released, Paprium now has a new KickStarter, seemingly selling old assets that the company refused to give to existing customers for various reasons.<br>
+https://www.kickstarter.com/projects/573261866/paprium-the-16-bit-beat-them-all-coming-to-the-next-gen/faqs<br>
+
+<a href="https://www.youtube.com/watch?v=KUVzn0nLDdc" target="_blank">
+ <img src="http://img.youtube.com/vi/KUVzn0nLDdc/0.jpg" alt="PAPRIUM THANK YOU! New ADD-ONs and First Screen!" width="240" height="180" border="10" />
+</a>
+<a href="https://www.youtube.com/watch?v=NBbRHmVpe24" target="_blank">
+ <img src="http://img.youtube.com/vi/NBbRHmVpe24/0.jpg" alt="PAPRIUM, the 16-BIT Beat Them All Coming to the Next-GEN! " width="240" height="180" border="10" />
+</a>
+
+
 ## Current Progress
-Update: 10/3/21<br>
-- Intel 10M02 (10M04 dev board ordered for research)<br>
-- STM32F4 (custom SWD breakout PCB sent to Fab House)<br>
+Update: 10/25/21<br>
+- Intel 10M02 (10M04 dev board acquired, waiting on USB Blaster programmer)<br>
+- STM32F4 (custom SWD breakout PCB back from fab, requires repair of small bugs)<br>
 - 24C64WP EEprom (dumped)<br>
 - Spansion GL064N Series Flash (dumped)<br>
-- Game Audio has been extracted
-- Game 4Bpp & Palate images have been extracted
-- Game Strings have been extracted
-- Sprite Sheets! 
+- Game Audio has been extracted<br>
+- Game 4Bpp & Palate images have been extracted<br>
+- Game Strings have been extracted<br>
+- Sprite Sheets! <br>
+- Sprite animation sequences extracted<br>
+
+https://github.com/ArcadeHustle/WatermelonPapriumDump/blob/main/ChipDumps/RT809H/S29GL064N90BFI03%40BGA48_20210924_142237_DECODED.BIN<br>
+https://github.com/ArcadeHustle/WatermelonPapriumDump/blob/main/ChipDumps/RT809H/24_64_1.8V_20210924_215810_goodcart.BIN<br>
+https://github.com/ArcadeHustle/WatermelonPapriumDump/blob/main/Extracted/audio/AllSoundsDirty.wav<br>
+https://github.com/ArcadeHustle/WatermelonPapriumDump/blob/main/Extracted/strings/gametext.txt<br>
+https://github.com/ArcadeHustle/WatermelonPapriumDump/tree/main/Extracted/4BPP_bmp<br>
+https://github.com/ArcadeHustle/WatermelonPapriumDump/tree/main/Extracted/sprites<br>
+https://github.com/ArcadeHustle/WatermelonPapriumDump/tree/main/Extracted/anim/frames<br>
 
 ###
 Paprium Codes!
@@ -121,13 +141,6 @@ Enable JP region features:
 pause game
 A B A B A B
 ```
-
-https://github.com/ArcadeHustle/WatermelonPapriumDump/blob/main/ChipDumps/RT809H/S29GL064N90BFI03%40BGA48_20210924_142237_DECODED.BIN<br>
-https://github.com/ArcadeHustle/WatermelonPapriumDump/blob/main/ChipDumps/RT809H/24_64_1.8V_20210924_215810_goodcart.BIN<br>
-https://github.com/ArcadeHustle/WatermelonPapriumDump/blob/main/Extracted/audio/AllSoundsDirty.wav<br>
-https://github.com/ArcadeHustle/WatermelonPapriumDump/blob/main/Extracted/strings/gametext.txt<br>
-https://github.com/ArcadeHustle/WatermelonPapriumDump/tree/main/Extracted/4BPP_bmp<br>
-https://github.com/ArcadeHustle/WatermelonPapriumDump/tree/main/Extracted/sprites<br>
 
 ## DATENMEISTER DT128M16VA1LT
 The DT128M16VA1LT is supposedly a "custom" chip made by [Daten Semiconductor](https://web.archive.org/web/20190706065046/http://datensemi.com/), that is really just a bunch of commodity parts covered in black [epoxy glob top encapsulant](https://www.youtube.com/watch?v=dRsl4c6NM8U). Never mind that it has been proven that ["Datenmeister DT128M16VA1LT chipset is fake"](https://papriumfiasco.wordpress.com/tag/datenmeister/), or that the website of the company that "makes" it, was originally registered to Fonzie.<br>
