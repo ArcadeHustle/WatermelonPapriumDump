@@ -10,6 +10,7 @@ Big thanks to Fonzie for allowing this to be published.
 * [Pseudo-Legal opinion](#pseudo-legal-opinion)
 * [Project Little Man](#project-little-man)
    * [Current Progress](#current-progress)
+      * [The lines between reference and inspiration, and swiping and plagiarism can be murky](#the-lines-between-reference-and-inspiration-and-swiping-and-plagiarism-can-be-murky)
    * [DATENMEISTER DT128M16VA1LT](#datenmeister-dt128m16va1lt)
       * [DT128M16VA1LT parts related to data storage, and game logic.](#dt128m16va1lt-parts-related-to-data-storage-and-game-logic)
          * [Intel® MAX 10 FPGAs](#intel-max-10-fpgas)
@@ -98,6 +99,32 @@ https://github.com/ArcadeHustle/WatermelonPapriumDump/blob/main/Extracted/string
 https://github.com/ArcadeHustle/WatermelonPapriumDump/tree/main/Extracted/4BPP_bmp<br>
 https://github.com/ArcadeHustle/WatermelonPapriumDump/tree/main/Extracted/sprites<br>
 https://github.com/ArcadeHustle/WatermelonPapriumDump/tree/main/Extracted/anim/frames<br>
+
+### The lines between reference and inspiration, and swiping and plagiarism can be murky
+
+There has been a long raging debate about how much of the Paprium content is "stolen", vs an "homage", or "inspired by" other games. There is now plenty of animation data to examine to academically determine if there is any truth to this claim. Kenshiro vs Stalone is often cited by Paprium art director Luis Martins as a landmark example of inspiration vs piracy.<br> 
+
+Per fair use guidelines the animation frames are shared for the purposes of "such as criticism, comment, news reporting, teaching, scholarship, and research".<br>
+https://www.copyright.gov/fair-use/more-info.html
+
+<p align="center">
+<img src="https://arcadehustle.github.io/WatermelonPapriumDump/images/inspiration3.jpg">
+</p>
+
+<p align="center">
+<img src="https://arcadehustle.github.io/WatermelonPapriumDump/images/inspiration1.jpg">
+<img src="https://arcadehustle.github.io/WatermelonPapriumDump/images/inspiration2.jpg">
+</p>
+
+Code Kitty nailed it with "To be this good takes AGES"<br>
+<p align="center">
+<img src="https://arcadehustle.github.io/WatermelonPapriumDump/images/inspiration4.jpeg">
+</p>
+
+Without question Luis Martins words frame the discussion: "Most of the character designs inspiration came from watching all kinds of cyberpunk anime and from playing tons of great beat em ups from the 90’s."<br>
+https://www.arcadeattack.co.uk/luis-martins-paprium/
+
+In tweets that have now been deleted Luis stated that "a animator" before him was responsible for the Paprium artwork, and he only touched it up.<br> 
 
 ###
 Paprium Codes!
