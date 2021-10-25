@@ -72,14 +72,6 @@ The goal of this project is to empower Paprium cart owners to ensure that their 
 Since Project Little Man has been released, Paprium now has a new KickStarter, seemingly selling old assets that the company refused to give to existing customers for various reasons.<br>
 https://www.kickstarter.com/projects/573261866/paprium-the-16-bit-beat-them-all-coming-to-the-next-gen/faqs<br>
 
-<a href="https://www.youtube.com/watch?v=KUVzn0nLDdc" target="_blank">
- <img src="http://img.youtube.com/vi/KUVzn0nLDdc/0.jpg" alt="PAPRIUM THANK YOU! New ADD-ONs and First Screen!" width="240" height="180" border="10" />
-</a>
-<a href="https://www.youtube.com/watch?v=NBbRHmVpe24" target="_blank">
- <img src="http://img.youtube.com/vi/NBbRHmVpe24/0.jpg" alt="PAPRIUM, the 16-BIT Beat Them All Coming to the Next-GEN! " width="240" height="180" border="10" />
-</a>
-
-
 ## Current Progress
 Update: 10/25/21<br>
 - Intel 10M02 (10M04 dev board acquired, waiting on USB Blaster programmer)<br>
