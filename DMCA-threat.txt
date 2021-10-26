@@ -45,7 +45,7 @@ Company:
 Job title:
 > Art Director, Artist
 
-Address:
+Address: (non private info)
 > 615 Cedar St. Suite 101
 City:
 > Muscatine
@@ -54,7 +54,7 @@ State/Province:
 Postal code:
 > 52761
 Phone (optional):
-> +33783439588
+> +<censored>
 Fax (optional):
 > 
 
