@@ -8,9 +8,10 @@ Big thanks to Fonzie for allowing this to be published.
 </p>
 
 * [Pseudo-Legal opinion](#pseudo-legal-opinion)
+      * [Paprium CSI](#paprium-csi)
 * [Project Little Man](#project-little-man)
    * [Current Progress](#current-progress)
-      * [The lines between reference and inspiration, and swiping and plagiarism can be murky](#the-lines-between-reference-and-inspiration-and-swiping-and-plagiarism-can-be-murky)
+      * [Paprium Codes!](#paprium-codes)
    * [DATENMEISTER DT128M16VA1LT](#datenmeister-dt128m16va1lt)
       * [DT128M16VA1LT parts related to data storage, and game logic.](#dt128m16va1lt-parts-related-to-data-storage-and-game-logic)
          * [Intel® MAX 10 FPGAs](#intel-max-10-fpgas)
@@ -34,7 +35,14 @@ Big thanks to Fonzie for allowing this to be published.
       * [Support situation](#support-situation)
 
 # Pseudo-Legal opinion
-Additional text relevant to this document can be found in the ["legal"](https://github.com/ArcadeHustle/WatermelonPapriumDump/blob/main/legal) directory of this repository<br>
+Additional text relevant to our pseudo-legal opinion this document, and any accompanying digital artifacts resulting from our research work, can be found in the ["legal"](https://github.com/ArcadeHustle/WatermelonPapriumDump/blob/main/legal) directory of this repository.<br>
+
+### Paprium CSI
+As a result of our reverse engineering work there is now plenty of visual data that can be academically examined determine if there is any truth in the original plagiarism claims. 
+
+Kenshiro vs Stalone is often cited by Paprium art director Luis Martins as a landmark example of inspiration vs plagiarism. 
+
+Dive into [CSI Paprium](https://github.com/ArcadeHustle/CSI-Paprium) to learn more.<br> 
 
 # Project Little Man 
 This project details the active efforts to dump the contents of the Watermelon Games Paprium cart, and understand the logic that allows the cart to function.<br>
@@ -59,18 +67,6 @@ Update: 10/25/21<br>
 - Game Strings have been extracted<br>
 - Sprite Sheets! <br>
 - Sprite animation sequences extracted<br>
-
-https://github.com/ArcadeHustle/WatermelonPapriumDump/blob/main/ChipDumps/RT809H/S29GL064N90BFI03%40BGA48_20210924_142237_DECODED.BIN<br>
-https://github.com/ArcadeHustle/WatermelonPapriumDump/blob/main/ChipDumps/RT809H/24_64_1.8V_20210924_215810_goodcart.BIN<br>
-https://github.com/ArcadeHustle/WatermelonPapriumDump/blob/main/Extracted/audio/AllSoundsDirty.wav<br>
-https://github.com/ArcadeHustle/WatermelonPapriumDump/blob/main/Extracted/strings/gametext.txt<br>
-https://github.com/ArcadeHustle/WatermelonPapriumDump/tree/main/Extracted/4BPP_bmp<br>
-https://github.com/ArcadeHustle/WatermelonPapriumDump/tree/main/Extracted/sprites<br>
-https://github.com/ArcadeHustle/WatermelonPapriumDump/tree/main/Extracted/anim/frames<br>
-
-### The lines between reference and inspiration, and swiping and plagiarism can be murky
-
-There has been a long raging debate about how much of the Paprium content is "stolen", vs an "homage", or "inspired by" other games. There is now plenty of animation data to examine to academically determine if there is any truth to this claim. Kenshiro vs Stalone is often cited by Paprium art director Luis Martins as a landmark example of inspiration vs piracy. Dive into [CSI Paprium](https://github.com/ArcadeHustle/CSI-Paprium)to learn more.<br> 
 
 ### Paprium Codes!
 ```
@@ -380,6 +376,8 @@ Fonzie: "The final state of testing we modified something on the game, but we co
 </a>
 
 ### Support situation
+Per the [press release](https://www.paprium.com/press/) "Anyone pissed about lack of support, well, we cut out all our cost so the game can ever release. And the game is there, that's all matters."<br>
+
 https://twitter.com/Scene_World interview with https://twitter.com/watermelongames<br>
 https://twitter.com/Scene_World/status/1445178396988874754<br>
 
