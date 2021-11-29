@@ -1,17 +1,19 @@
 # Pseudo-Legal opinion
-### Does Watermelon Games own Paprium Intellectual Property?
 
 The lines between "reference and inspiration", and "swiping and plagiarism" can be murky as CodieKitty notes in ['Swipe-rium'](https://codiekitty.com/MOREC/wmswiping.htm). A goal of this project is to be able to provide commentary on the theory that some of Paprium's IP is borrowed from Sega, SNK, and other historic gaming sources.<br> 
 
 There has been a long raging debate about how much of the Paprium content is "stolen", vs. an "homage", or "inspired by" other games. The conversation of course has direct relevance in determining what is "fair use" vs. "infringement" with regard to use of Paprium's game assets, and game play logic.<br> 
 
-Per the US Copyright Office."[Preregistration](https://www.copyright.gov/fedreg/2005/70fr42286.html) is not a substitute for registration, but is a preliminary step prior to a full registration that will take place after the work has been published or infringed". Paprium was [preregistered](https://www.copyright.gov/prereg/) with the US Copyright Office on: ```2016-03-08``` citing "Creation of Work Began" ```2012-01-01```, "Date of Anticipated Completion" ```2016-06-01```, and a "Projected Date of Publication" of ```2016-08-16```. "Type of Work" was "Preregistration", with "Type of Work Preregistered" listed as ```Computer Program (may include a videogame)```.	
-
-You can search for Preregistration number [PRE000008627](https://publicrecords.copyright.gov/detailed-record/28281943) for more details.<br>  
+### Does Watermelon Games own Paprium Intellectual Property?
+Per the US Copyright Office: "[Preregistration](https://www.copyright.gov/fedreg/2005/70fr42286.html) is not a substitute for registration, but is a preliminary step prior to a full registration that will take place after the work has been published or infringed". Paprium was [preregistered](https://www.copyright.gov/prereg/) with the US Copyright Office on: ```2016-03-08``` citing "Creation of Work Began" ```2012-01-01```, "Date of Anticipated Completion" ```2016-06-01```, and a "Projected Date of Publication" of ```2016-08-16```. "Type of Work" was "Preregistration", with "Type of Work Preregistered" listed as ```Computer Program (may include a videogame)```. You can search for Preregistration number [PRE000008627](https://publicrecords.copyright.gov/detailed-record/28281943) for more details.<br>  
 
 The original works were by "Copyright Claimant":<br>
 ``` 
-WaterMelon Games Limited. Address: 361-363 Lockhart Street, Kiu Yin Building, Room 22B, HongKong, Hong Kong, 
+WaterMelon Games Limited. 
+Address: 361-363 Lockhart Street, 
+Kiu Yin Building, Room 22B, 
+HongKong, 
+Hong Kong, 
 ```
 With the following names attached to the registration:<br>
 ```
@@ -24,37 +26,17 @@ WaterMelon Games Limited
 ```
 
 As part of the preregistration paperwork WaterMelon Games Limited provided the following Description of Work: <br> 
-```
-Paprium is a project for the SEGA Mega Drive / SEGA Genesis game system; The video game style is Beat Them All (brawler) in post-apocalyptic setup and with cyberpunk elements. Game Story: "Earth is set to ashes... Survivors of the nuclear winter gathered at an equidistant point of Pyongyang, Tokyo, and Shanghai. This place is a city named PAPRIUM. Fight your way through PAPRIUM with Tug, Alex and Dice. Redefine the word justice, deal with the drug temptation and most importantly... STAY ALIVE."; A. Paprium includes: 1) Original Game software engine programmed in C and 68000 assembly language, mechanics described in section B; 2) Original Story; 3) Original Artwork; 4) Original Soundtrack compositions; 5) Original cartridge hardware specially developed for the game; 6) Original Recordings of voices and sound effects to be used in the game; 7) Original Advertisement motion pictures and artwork; 8) Original Story in book format that may be published as a book or art-book; 9) Original Accessories such as game controller, arcade cabinets, posters, figurines. B. Game mechanics includes: Punches; Blocks; Jumps; Charges; Front grab; Back grab, where the enemy act as a shield; Use of pills to gain temporary power and unlock a special attack move; Players and Enemies can become dizzy after receiving a major hit; Weapons such as metal bar, knife, wrench, electrical shock stick, extinguisher to freeze enemies, mechanical arm for extra punch power; Vehicles such as cars; Game is comprised of 24 levels, split into four sections, with interconnecting points (branching). C. To be released in physical cartridge format, with full color packaging, instruction manual, artbook, audio disc, poster, stickers and other goodies.```
+**Paprium is a project for the SEGA Mega Drive / SEGA Genesis game system;<br>
+The video game style is Beat Them All (brawler) in post-apocalyptic setup and with cyberpunk elements. <br><br>Game Story:<br> "Earth is set to ashes... Survivors of the nuclear winter gathered at an equidistant point of Pyongyang, Tokyo, and Shanghai. This place is a city named PAPRIUM. Fight your way through PAPRIUM with Tug, Alex and Dice. Redefine the word justice, deal with the drug temptation and most importantly... STAY ALIVE.";<br><br> A. Paprium includes:<br> 1) Original Game software engine programmed in C and 68000 assembly language, mechanics described in section B;<br> 2) Original Story;<br> 3) Original Artwork;<br> 4) Original Soundtrack compositions;<br> 5) Original cartridge hardware specially developed for the game;<br> 6) Original Recordings of voices and sound effects to be used in the game;<br> 7) Original Advertisement motion pictures and artwork;<br> 8) Original Story in book format that may be published as a book or art-book;<br> 9) Original Accessories such as game controller, arcade cabinets, posters, figurines. <br><br>B. Game mechanics includes: Punches;<br> Blocks;<br> Jumps;<br> Charges;<br> Front grab;<br> Back grab, where the enemy act as a shield;<br> Use of pills to gain temporary power and unlock a special attack move;<br> Players and Enemies can become dizzy after receiving a major hit;<br> Weapons such as metal bar, knife, wrench, electrical shock stick, extinguisher to freeze enemies, mechanical arm for extra punch power;<br> Vehicles such as cars;<br> Game is comprised of 24 levels, split into four sections, with interconnecting points (branching). <br><br>C. To be released in physical cartridge format, with full color packaging, instruction manual, artbook, audio disc, poster, stickers and other goodies.**
 
-The game began shipping in December 2020 to original crowd fund backers. Per the [press release](https://www.paprium.com/press/) "December 16th, 2020, 00:00 GMT - PAPRIUM IS RELEASED!"<br> 
+The game began shipping in December 2020 to original crowdfund backers. Per the [press release](https://www.paprium.com/press/): ```December 16th, 2020, 00:00 GMT - PAPRIUM IS RELEASED!```<br> 
 
-On 2020-12-22 registration PA0002318843 was completed with a "Date of Creation" listed as 2020, "Date of Publication" listed as 2020-12-16, and "Nation of First Publication" listed as United States. The type of work was
-```
-Computer Program (may include a videogame)
-```
+On ```2020-12-22``` Copyright registration ```PA0002318843``` was completed with a "Date of Creation" listed as ```2020```, "Date of Publication" listed as ```2020-12-16```, and "Nation of First Publication" listed as ```United States```.
 
-The "Copyright Claimant" is now: 
-```
-WATERMELON CO
-```
-With the only name attached to registration now being:
-```
-WATERMELON CO
-```
+The "Copyright Claimant" is now: ```WATERMELON CO. Address: 615 Cedar St., Suite 101, Muscatine, IA, 52761, United States.``` with the only name attached to registration now being: ```WATERMELON CO```, with "Rights and Permissions" assigned to ```WATERMELON CO, watermelon@watermelon-games.com```
 
-The type of work is now:
-```
-Computer File
-```
-The description has been simplified to 
-```
-Computer cartridge.
-```
-With the following note attached:
-```
-Videogame.
-```
+The type of work is now: ```Computer File```, and the description has been simplified to 
+```Computer cartridge.```, with the following note attached:```Videogame.```
 
 # Exemptions in DMCA
 
