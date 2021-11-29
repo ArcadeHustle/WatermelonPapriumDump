@@ -4,7 +4,7 @@ The lines between "reference and inspiration", and "swiping and plagiarism" can 
 
 There has been a long raging debate about how much of the Paprium content is "stolen", vs. an "homage", or "inspired by" other games. The conversation of course has direct relevance in determining what is "fair use" vs. "infringement" with regard to use of Paprium's game assets, and game play logic.<br> 
 
-### Does Watermelon Games own Paprium Intellectual Property?
+## Does Watermelon Games own Paprium Intellectual Property?
 Per the US Copyright Office: "[Preregistration](https://www.copyright.gov/fedreg/2005/70fr42286.html) is not a substitute for registration, but is a preliminary step prior to a full registration that will take place after the work has been published or infringed". Paprium was [preregistered](https://www.copyright.gov/prereg/) with the US Copyright Office on: ```2016-03-08``` citing "Creation of Work Began" ```2012-01-01```, "Date of Anticipated Completion" ```2016-06-01```, and a "Projected Date of Publication" of ```2016-08-16```. "Type of Work" was "Preregistration", with "Type of Work Preregistered" listed as ```Computer Program (may include a videogame)```. You can search for Preregistration number [PRE000008627](https://publicrecords.copyright.gov/detailed-record/28281943) for more details.<br>  
 
 The original works were by "Copyright Claimant":<br>
@@ -33,7 +33,15 @@ The game began shipping in December 2020 to original crowdfund backers. Per the 
 
 On ```2020-12-22``` Copyright registration ```PA0002318843``` was completed with a "Date of Creation" listed as ```2020```, "Date of Publication" listed as ```2020-12-16```, and "Nation of First Publication" listed as ```United States```.
 
-The "Copyright Claimant" is now: ```WATERMELON CO. Address: 615 Cedar St., Suite 101, Muscatine, IA, 52761, United States.``` with the only name attached to registration now being: ```WATERMELON CO```, with "Rights and Permissions" assigned to ```WATERMELON CO, watermelon@watermelon-games.com```
+The "Copyright Claimant" is now: 
+```WATERMELON CO. 
+Address: 615 Cedar St., 
+Suite 101, 
+Muscatine, IA, 
+52761, 
+United States.``` 
+
+The following is the only name attached to registration: ```WATERMELON CO```, with "Rights and Permissions" assigned to ```WATERMELON CO, watermelon@watermelon-games.com```
 
 The type of work is now: ```Computer File```, and the description has been simplified to 
 ```Computer cartridge.```, with the following note attached:```Videogame.```
