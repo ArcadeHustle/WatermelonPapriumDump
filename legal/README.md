@@ -34,12 +34,14 @@ The game began shipping in December 2020 to original crowdfund backers. Per the 
 On ```2020-12-22``` Copyright registration ```PA0002318843``` was completed with a "Date of Creation" listed as ```2020```, "Date of Publication" listed as ```2020-12-16```, and "Nation of First Publication" listed as ```United States```.
 
 The "Copyright Claimant" is now: 
-```WATERMELON CO. 
+```
+WATERMELON CO. 
 Address: 615 Cedar St., 
 Suite 101, 
 Muscatine, IA, 
 52761, 
-United States.``` 
+United States.
+``` 
 
 The following is the only name attached to registration: ```WATERMELON CO```, with "Rights and Permissions" assigned to ```WATERMELON CO, watermelon@watermelon-games.com```
 
