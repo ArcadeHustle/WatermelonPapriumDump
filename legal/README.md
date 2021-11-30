@@ -1,3 +1,7 @@
+* [Pseudo-Legal opinion](#pseudo-legal-opinion)
+   * [Does Watermelon Games own Paprium Intellectual Property?](#does-watermelon-games-own-paprium-intellectual-property)
+* [Exemptions in DMCA](#exemptions-in-dmca)
+* [Biden Executive Order](#biden-executive-order)
 # Pseudo-Legal opinion
 
 The lines between "reference and inspiration", and "swiping and plagiarism" can be murky as CodieKitty notes in ['Swipe-rium'](https://codiekitty.com/MOREC/wmswiping.htm). A goal of this project is to be able to provide commentary on the theory that some of Paprium's IP is borrowed from Sega, SNK, and other historic gaming sources.<br> 
