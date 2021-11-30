@@ -51,27 +51,26 @@ The type of work is now: ```Computer File```, and the description has been simpl
 # Exemptions in DMCA
 
 [Exemptions to Prohibition against Circumvention of Technological Measures Protecting Copyrighted Works](https://library.osu.edu/document-registry/docs/1027/stream)<br>
-Seventh Triennial Section 1201 Final Rule, Effective October 28, 2018 <br>
-"Video games in the form of computer programs, where outside server support has been discontinued, to allow individual play and preservation by an eligible library, archive, or museum".<br>
+"Video games in the form of computer programs, lawfully acquired as complete games. For personal, local gameplay; or To allow preservation in a playable format by an eligible library, archive, or museum, where carried out without any purpose of commercial advantage and without distribution outside the physical premises."<br>
 
-"[Note](https://www.copyright.gov/policy/section108/discussion-document.pdf) that the terms 'library' and 'archives' are not defined in section 108, or section 101".<br>
+"Computer programs on lawfully acquired device or machine or computer, computer system, or computer network on which a computer program operates. When circumvention is made soley for the purpose of good-faith security research (accessing soley for purposes of good-faith testing, investigation, and/or correction of a security flaw, or vulnerability, in an enviornment designed to avoid harm to invdividuals and the public, and where information is used primarily to promote security of devices on which the program operates) and does not violate any applicable law."
 
-https://library.osu.edu/site/copyright/2019/03/20/2018-dmca-section-1201-exemptions-announced/ <br>
-"Video games in the form of computer programs, lawfully acquired as complete games 37"<br> 
-"CFR §201.40(b)(12)"<br> 
-"For personal, local gameplay; or To allow preservation in a playable format..."<br>
+[A discussion document of the register of copyrights](https://www.copyright.gov/policy/section108/discussion-document.pdf)<br> 
+"Note that the terms 'library' and 'archives' are not defined in section 108, or section 101".<br>
 
+[Exemption to Prohibition on Circumvention of Copyright Protection Systems for Access Control Technologies](https://www.copyright.gov/fedreg/2006/71fr68472.html)<br>
 "Computer programs protected by dongles that prevent access due to malfunction or damage and which are obsolete. A dongle shall be considered obsolete if it is no longer manufactured or if a replacement or repair is no longer reasonably available in the commercial marketplace."<br>
-https://www.copyright.gov/fedreg/2006/71fr68472.html<br>
 
+[A Victory for Software Preservation: DMCA Exemption Granted for SPN](https://clinic.cyber.harvard.edu/2018/10/26/a-victory-for-software-preservation-dmca-exemption-granted-for-spn)<br>
 "The final rule allows eligible libraries, archives, and museums to circumvent technological protection measures on certain lawfully acquired computer programs (including video games) to preserve computer programs and computer program-dependent materials."<br>
-https://clinic.cyber.harvard.edu/2018/10/26/a-victory-for-software-preservation-dmca-exemption-granted-for-spn/<br>
 
-"Exemption to Prohibition on Circumvention of Copyright Protection Systems for Access Control Technologies"<br>
-https://www.govinfo.gov/content/pkg/FR-2018-10-26/pdf/2018-23241.pdf<br>
+["Exemption to Prohibition on Circumvention of Copyright Protection Systems for Access Control Technologies"](https://www.govinfo.gov/content/pkg/FR-2018-10-26/pdf/2018-23241.pdf)<br>
+"In this final rule, the Librarian of Congress adopts exemptions to the provision of the Digital Millennium Copyright Act (‘‘DMCA’’) that prohibits circumvention of technological measures that control access to copyrighted works, codified in the United States Code."
 
-Please note that the following text is considered ["for purposes of good-faith security research"](https://www.ftc.gov/news-events/blogs/techftc/2016/10/dmca-security-research-exemption-consumer-devices). This write up will give you all the knowledge, and access you need to backup and preserve your Genesis MegaDrive Paprium cart as supplied by Watermelon Games. It will also serve as an academic tome on the security ramification of Voltage Glitching the STM32F4 MCU, FPGA security through obscurity, physical protection methods, and anti tamper techniques.<br>
+# Biden Executive Order
+[Executive Order on Promoting Competition in the American Economy](https://www.whitehouse.gov/briefing-room/presidential-actions/2021/07/09/executive-order-on-promoting-competition-in-the-american-economy)<br>
+"To address persistent and recurrent practices that inhibit competition, the Chair of the FTC, in the Chair’s discretion, is also encouraged to consider working with the rest of the Commission to exercise the FTC’s statutory rulemaking authority, as appropriate and consistent with applicable law, in areas such as:<br>
+...<br>
+(ii)   unfair anticompetitive restrictions on third-party repair or self-repair of items, such as the restrictions imposed by powerful manufacturers that prevent farmers from repairing their own equipment;"<br>
 
-President Joe Biden’s latest executive order is a huge win for right to repair because it specifically calls out "unfair anticompetitive restrictions on third-party repair or self-repair of items", just like the DT128M16VA1LT concept in Paprium imposes on any end user lucky enough to acutally obtain the game. 
-https://www.whitehouse.gov/briefing-room/presidential-actions/2021/07/09/executive-order-on-promoting-competition-in-the-american-economy/<br>
-
+President Joe Biden’s latest executive order is a huge win for right to repair because it specifically calls out "unfair anticompetitive restrictions on third-party repair or self-repair of items", just like the DT128M16VA1LT concept in Paprium imposes on any end user lucky enough to acutally obtain the game. Manufacturing errors make these games subject to failure in the near future. They need to be preserved accordingly, and end users need to be able to repair broken game cartridges.
