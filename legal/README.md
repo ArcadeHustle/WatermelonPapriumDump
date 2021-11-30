@@ -2,6 +2,8 @@
    * [Does Watermelon Games own Paprium Intellectual Property?](#does-watermelon-games-own-paprium-intellectual-property)
 * [Exemptions in DMCA](#exemptions-in-dmca)
 * [Biden Executive Order](#biden-executive-order)
+* [Nintendo effect](#nintendo-effect)
+
 # Pseudo-Legal opinion
 
 The lines between "reference and inspiration", and "swiping and plagiarism" can be murky as CodieKitty notes in ['Swipe-rium'](https://codiekitty.com/MOREC/wmswiping.htm). A goal of this project is to be able to provide commentary on the theory that some of Paprium's IP is borrowed from Sega, SNK, and other historic gaming sources.<br> 
@@ -80,3 +82,10 @@ The type of work is now: ```Computer File```, and the description has been simpl
 (ii)   unfair anticompetitive restrictions on third-party repair or self-repair of items, such as the restrictions imposed by powerful manufacturers that prevent farmers from repairing their own equipment;"<br>
 
 President Joe Biden’s latest executive order is a huge win for right to repair because it specifically calls out "unfair anticompetitive restrictions on third-party repair or self-repair of items", just like the DT128M16VA1LT concept in Paprium imposes on any end user lucky enough to acutally obtain the game. Manufacturing errors make these games subject to failure in the near future. They need to be preserved accordingly, and end users need to be able to repair broken game cartridges.
+
+# Nintendo effect
+The current legal refrence is always Nintendo, and their deep pockets of influence<br>
+
+[Nintendo Legal Information](https://www.nintendo.com.au/legal/information)
+"the limited right which the Copyright Act gives to make backup copies of computer programs does not apply to Nintendo video games."
+
