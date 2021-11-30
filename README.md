@@ -39,13 +39,6 @@ Additional text relevant to our pseudo-legal opinion this document, and any acco
 
 Please note that the following text is considered ["for purposes of good-faith security research"](https://www.ftc.gov/news-events/blogs/techftc/2016/10/dmca-security-research-exemption-consumer-devices). This write up will give you all the knowledge, and access you need to backup and preserve your Genesis MegaDrive Paprium cart as supplied by Watermelon Games. It will also serve as an academic tome on the security ramification of Voltage Glitching the STM32F4 MCU, FPGA security through obscurity, physical protection methods, and anti tamper techniques.<br>
 
-### Paprium CSI
-As a result of our reverse engineering work there is now plenty of visual data that can be academically examined determine if there is any truth in the original plagiarism claims. 
-
-Kenshiro vs Stalone is often cited by Paprium art director Luis Martins as a landmark example of inspiration vs plagiarism. 
-
-Dive into [CSI Paprium](https://github.com/ArcadeHustle/CSI-Paprium) to learn more.<br> 
-
 # Project Little Man 
 This project details the active efforts to dump the contents of the Watermelon Games Paprium cart, and understand the logic that allows the cart to function.<br>
 
@@ -69,6 +62,11 @@ Update: 10/25/21<br>
 - Game Strings have been extracted<br>
 - Sprite Sheets! <br>
 - Sprite animation sequences extracted<br>
+
+### Paprium CSI
+As a result of our reverse engineering work there is now plenty of visual data that can be academically examined determine if there is any truth in the original plagiarism claims. 
+
+Kenshiro vs Stalone is often cited by Paprium art director Luis Martins as a landmark example of inspiration vs plagiarism. Dive into [CSI Paprium](https://github.com/ArcadeHustle/CSI-Paprium) to learn more.<br> 
 
 ### Paprium Codes!
 ```
