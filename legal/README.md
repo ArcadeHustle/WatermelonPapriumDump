@@ -50,10 +50,11 @@ The type of work is now: ```Computer File```, and the description has been simpl
 
 # Exemptions in DMCA
 
-Exemptions to Prohibition against Circumvention of Technological Measures Protecting Copyrighted Works<br>
+[Exemptions to Prohibition against Circumvention of Technological Measures Protecting Copyrighted Works](https://library.osu.edu/document-registry/docs/1027/stream)<br>
 Seventh Triennial Section 1201 Final Rule, Effective October 28, 2018 <br>
-https://library.osu.edu/document-registry/docs/1027/stream<br>
-"Video games in the form of computer programs, where outside server support has been discontinued, to allow individual play and preservation by an eligible library, archive, or museum"<br>
+"Video games in the form of computer programs, where outside server support has been discontinued, to allow individual play and preservation by an eligible library, archive, or museum".<br>
+
+"[Note](https://www.copyright.gov/policy/section108/discussion-document.pdf) that the terms 'library' and 'archives' are not defined in section 108, or section 101".<br>
 
 https://library.osu.edu/site/copyright/2019/03/20/2018-dmca-section-1201-exemptions-announced/ <br>
 "Video games in the form of computer programs, lawfully acquired as complete games 37"<br> 
