@@ -97,9 +97,6 @@ The current legal refrence is always Nintendo, and their deep pockets of influen
 [A White Paper on Controlled Digital Lending of Library Books](https://controlleddigitallending.org/whitepaper)<br>
 "CDL enables a library to circulate a digitized title in place of a physical one in a controlled manner. Under this approach, a library may only loan simultaneously the number of copies that it has legitimately acquired, usually through purchase or donation. For example, if a library owns three copies of a title and digitizes one copy, it may use CDL to circulate one digital copy and two print, or three digital copies, or two digital copies and one print; in all cases, it could only circulate the same number of copies that it owned before digitization"<br>
 
-[Would You Like to Save Your Game?: Establishing a Legal Framework for Long-Term Digital Game Preservation](https://kb.osu.edu/bitstream/handle/1811/91852/1/OSLJ_V81N3_0567.pdf)<br>
-"There is also the reality that much of this preservation is driven by individuals with nostalgic and personal attachments to the games they are preserving through these methods,154 and it is impossible to say whether future generations will pick up the torch of private, illegal preservation or if all those ROMs will simply fade into obscurity."<br>
-
 [Why authors are so angry about the Internet Archive’s Emergency Library](https://www.vox.com/culture/2020/4/2/21201193/emergency-library-internet-archive-controversy-coronavirus-pandemic)<br>
 "The Internet Archive is arguing that with the Emergency Library, it’s doing exactly what all public libraries are doing, legitimately and legally, only it’s eliminated the waiting list."<br>
 
@@ -128,3 +125,6 @@ We would also like to address the concern that we are publishing our images on t
 [1854. Copyright Infringement -- First Sale Doctrine](https://www.justice.gov/archives/jm/criminal-resource-manual-1854-copyright-infringement-first-sale-doctrine)<br>
 "The first sale doctrine, codified at 17 U.S.C. § 109, provides that an individual who knowingly purchases a copy of a copyrighted work from the copyright holder receives the right to sell, display or otherwise dispose of that particular copy, notwithstanding the interests of the copyright owner. "<br>
 
+# Hard Reality
+[Would You Like to Save Your Game?: Establishing a Legal Framework for Long-Term Digital Game Preservation](https://kb.osu.edu/bitstream/handle/1811/91852/1/OSLJ_V81N3_0567.pdf)<br>
+"There is also the reality that much of this preservation is driven by individuals with nostalgic and personal attachments to the games they are preserving through these methods, and it is impossible to say whether future generations will pick up the torch of private, illegal preservation or if all those ROMs will simply fade into obscurity."<br>
