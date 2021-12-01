@@ -72,11 +72,15 @@ Update: 11/30/21<br>
 
 
 ### Paprium CSI
-As a result of our reverse engineering work there is now plenty of visual data that can be academically examined determine if there is any truth in the original plagiarism claims. 
+As a result of our reverse engineering work there is now plenty of visual data that can be academically examined determine if there is any truth in the original plagiarism claims. Kenshiro vs Stalone is often cited by Paprium art director Luis Martins as a landmark example of inspiration vs plagiarism. Dive into [CSI Paprium](https://github.com/ArcadeHustle/CSI-Paprium) to learn more.<br> 
 
-Kenshiro vs Stalone is often cited by Paprium art director Luis Martins as a landmark example of inspiration vs plagiarism. Dive into [CSI Paprium](https://github.com/ArcadeHustle/CSI-Paprium) to learn more.<br> 
+<img src="https://github.com/ArcadeHustle/CSI-Paprium/raw/main/Evidence/ShowtimeVsSamson/140191987-a14d788c-1665-4394-851f-ca373b11f1a2.png" </img>
 
 ### Paprium Codes!
+An additional benefit of the reverse engineering work is the exposure of codes used in the game to influence behavior of the running cartridge. Our codes were in fact released before they were shared on Kickstarter. The entire list of known codes is shown below.<br>
+
+[3 Players CO-OP unlocked!](https://www.kickstarter.com/projects/573261866/paprium-the-16-bit-beat-them-all-coming-to-the-next-gen/posts/3344785)
+
 ```
 Enable 3P mode: 
 on map screen before character select.
