@@ -104,6 +104,9 @@ https://www.vox.com/culture/2020/4/2/21201193/emergency-library-internet-archive
 [Internet Archive’s Open Library and Copyright Law: Second Addendum](https://www.lutzker.com/internet-archives-open-library-and-copyright-law-second-addendum/)
 "Whether or not this litigation determines that Controlled Digital Lending (CDL) constitutes copyright infringement, this battle between new technology and existing channels of distribution will undoubtedly be a disruptive force in book publishing"
 
+[My Library: Copyright and the Role of Institutions in a Peer-to-Peer World](https://scholarship.law.georgetown.edu/cgi/viewcontent.cgi?article=1267&context=facpub)
+"Today's technology turns every computer-every hard drive-into a library. Every household can maintain and organize a stunningly large collection of media, from music to movies to texts. But if each hard drive is a kind of library, should we give the institutions traditionally known as libraries any special consideration in copyright as we historically have done? Can we distinguish the activities of institutional libraries (whether open to the public or attached to schools or universities) from those of individuals or of bookstores?'"<br>
+
 ## Console Classix
 
 [Console Classix Legal FAQ](https://web.archive.org/web/20070210000356/http://www.consoleclassix.com:80/legal.php)
