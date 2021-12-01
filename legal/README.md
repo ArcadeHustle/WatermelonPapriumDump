@@ -99,7 +99,6 @@ The current legal refrence is always Nintendo, and their deep pockets of influen
 
 [Would You Like to Save Your Game?: Establishing a Legal Framework for Long-Term Digital Game Preservation](https://kb.osu.edu/bitstream/handle/1811/91852/1/OSLJ_V81N3_0567.pdf)
 "There is also the reality that much of this preservation is driven by individuals with nostalgic and personal attachments to the games they are preserving through these methods,154 and it is impossible to say whether future generations will pick up the torch of private, illegal preservation or if all those ROMs will simply fade into obscurity."<br>
-https://www.vox.com/culture/2020/4/2/21201193/emergency-library-internet-archive-controversy-coronavirus-pandemic
 
 [Why authors are so angry about the Internet Archive’s Emergency Library](https://www.vox.com/culture/2020/4/2/21201193/emergency-library-internet-archive-controversy-coronavirus-pandemic)
 "The Internet Archive is arguing that with the Emergency Library, it’s doing exactly what all public libraries are doing, legitimately and legally, only it’s eliminated the waiting list."<br>
