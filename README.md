@@ -76,6 +76,18 @@ As a result of our reverse engineering work there is now plenty of visual data t
 
 <img src="https://github.com/ArcadeHustle/CSI-Paprium/raw/main/Evidence/ShowtimeVsSamson/140191987-a14d788c-1665-4394-851f-ca373b11f1a2.png">
 
+Keep in mind the lead art director has already had a run in with stolen art.<br>
+[Re: Infringement of “CHRONO TRIGGER” trademarks and copyrights](https://web.archive.org/web/20080616071429/http://www.chillingeffects.org/derivative/notice.cgi?NoticeID=1416)<br>
+"We understand that you are developing “Chrono Trigger: Resurrection”, a 3D remake of our client’s “CHRONO TRIGGER” game which will recreate scenes from the original game. Your conduct in this regard constitutes copyright infringement and, inter alia, violates our client’s exclusive right to prepare derivative works based on its copyrighted work. Your use of the words “CHRONO TRIGGER” in connection with your “remake” and on your web site “opcoder.com”, and your use of logos, scenes, characters and other images associated with our client’s games, constitutes trademark and copyright infringement and false designation of origin.<br>
+
+Accordingly, demand is hereby made that you immediately cease and desist from further development, promotion, sale or distribution of any product which is based on or derived from our client’s “CHRONO TRIGGER” games, and that you cease and desist from all use of the “CHRONO TRIGGER” trademark and logo, and all use of images or artwork from “CHRONO TRIGGER” games."<br>
+
+[Chrono Resurrection](https://en.wikipedia.org/wiki/Chrono_Resurrection)<br>
+"Artist(s)	Luis Martins"
+
+[Video Games and Intellectual Property: Chrono Trigger Fan Remakes and Copyright Protection](http://mttlr.org/2012/09/video-games-and-intellectual-property-chrono-trigger-fan-remakes-and-copyright-protection/)
+"These first two were notable in that Square Enix, owner of the copyrights and trademarks related to Chrono Trigger, sent cease-and-desist letters to the developers of these games claiming trademark and copyright infringement."
+
 ### Paprium Codes!
 An additional benefit of the reverse engineering work is the exposure of codes used in the game to influence behavior of the running cartridge. Our codes were in fact released before they were shared on Kickstarter. The entire list of known codes is shown below.<br>
 
