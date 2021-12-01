@@ -8,9 +8,9 @@ Big thanks to Fonzie for allowing this to be published.
 </p>
 
 * [Pseudo-Legal opinion](#pseudo-legal-opinion)
-      * [Paprium CSI](#paprium-csi)
 * [Project Little Man](#project-little-man)
    * [Current Progress](#current-progress)
+      * [Paprium CSI](#paprium-csi)
       * [Paprium Codes!](#paprium-codes)
    * [DATENMEISTER DT128M16VA1LT](#datenmeister-dt128m16va1lt)
       * [DT128M16VA1LT parts related to data storage, and game logic.](#dt128m16va1lt-parts-related-to-data-storage-and-game-logic)
@@ -51,6 +51,8 @@ The goal of this project is to empower Paprium cart owners to ensure that their 
 Since Project Little Man has been released, [Paprium now has a new KickStarter](https://www.kickstarter.com/projects/573261866/paprium-the-16-bit-beat-them-all-coming-to-the-next-gen/faqs), seemingly selling old assets that the company refused to give to existing customers for various reasons.<br>
 
 ## Current Progress
+[![Paprium in Mame](http://img.youtube.com/vi/gcilDVdup9k/3.jpg)](https://mega.nz/file/kIQBTSYI#6NoAHrU2w-mD2k625aEUcIbI9tSj4nU7j5uOYTUavYo)<br>Click the thumbnail to see Paprium running in MAME.<br>
+
 Update: 11/30/21<br>
 - Intel 10M02 (10M04 dev board & USB Blaster arrived, not used yet)<br>
 - STM32F4 (custom SWD breakout PCB version 2 back from fab with bug fixes)<br>
@@ -59,7 +61,7 @@ Update: 11/30/21<br>
 - Game Strings have been extracted<br>
 - Game Audio has been extracted<br>
 - Game 4Bpp & Palate images have been extracted<br>
-- Sprite Sheets!<br>
+- Sprite Sheets have been extracted<br>
 - Sprite animation sequences extracted<br>
 - Confirmed character "inspiration", in some cases egrigious<br>
 - Confirmed reused game assets from 3rd parties are present<br>
@@ -67,6 +69,7 @@ Update: 11/30/21<br>
 - Game boots & plays in MAME (no sound due to STM32)<br>
 - DMCA threats from Watermelon Games (achievement unlocked)
 - Hoes mad! 
+
 
 ### Paprium CSI
 As a result of our reverse engineering work there is now plenty of visual data that can be academically examined determine if there is any truth in the original plagiarism claims. 
