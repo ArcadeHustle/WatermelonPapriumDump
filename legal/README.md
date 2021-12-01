@@ -3,8 +3,8 @@
 * [Exemptions in DMCA](#exemptions-in-dmca)
 * [Biden Executive Order](#biden-executive-order)
 * [Nintendo effect](#nintendo-effect)
-* [Controlled Digital Lending](#controlled-digital-lending)
 * [Console Classix](#console-classix)
+* [Controlled Digital Lending](#controlled-digital-lending)
 * [First Sale Doctrine](#first-sale-doctrine)
 
 # Pseudo-Legal opinion
