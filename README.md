@@ -72,11 +72,10 @@ Update: 11/30/21<br>
 
 
 ### Paprium CSI
-As a result of our reverse engineering work there is now plenty of visual data that can be academically examined determine if there is any truth in the original plagiarism claims. Kenshiro vs Stalone is often cited by Paprium art director Luis Martins as a landmark example of inspiration vs plagiarism. Dive into [CSI Paprium](https://github.com/ArcadeHustle/CSI-Paprium) to learn more.<br> 
+As a result of our reverse engineering work there is now plenty of visual data that can be academically examined determine if there is any truth in the original plagiarism claims. Kenshiro vs Stalone is often cited by Paprium art director Luis Martins as a landmark example of inspiration vs plagiarism. Dive into [CSI Paprium](https://github.com/ArcadeHustle/CSI-Paprium) to learn more, while keeping in mind that the lead art director has already had a run in with stolen art.<br>
 
 <img src="https://github.com/ArcadeHustle/CSI-Paprium/raw/main/Evidence/ShowtimeVsSamson/140191987-a14d788c-1665-4394-851f-ca373b11f1a2.png">
 
-Keep in mind the lead art director has already had a run in with stolen art.<br>
 [Re: Infringement of “CHRONO TRIGGER” trademarks and copyrights](https://web.archive.org/web/20080616071429/http://www.chillingeffects.org/derivative/notice.cgi?NoticeID=1416)<br>
 "We understand that you are developing “Chrono Trigger: Resurrection”, a 3D remake of our client’s “CHRONO TRIGGER” game which will recreate scenes from the original game. Your conduct in this regard constitutes copyright infringement and, inter alia, violates our client’s exclusive right to prepare derivative works based on its copyrighted work. Your use of the words “CHRONO TRIGGER” in connection with your “remake” and on your web site “opcoder.com”, and your use of logos, scenes, characters and other images associated with our client’s games, constitutes trademark and copyright infringement and false designation of origin.<br>
 
