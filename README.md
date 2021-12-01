@@ -48,19 +48,25 @@ The [Paprium Press Release](http://www.paprium.com/press/?language=en) from 03/1
 
 The goal of this project is to empower Paprium cart owners to ensure that their investment is protected well into the future. Design flaws such as BGA voiding in the cartridge manufacturing process make it succeptible to failure. It is literally a ticking timebomb, and it will likely fail eventually.<br>
 
-Since Project Little Man has been released, [Paprium now has a new KickStarter](https://www.kickstarter.com/projects/573261866/paprium-the-16-bit-beat-them-all-coming-to-the-next-gen/faqs), seemingly selling old assets that the company refused to give to existing customers for various reasons.<<br>
+Since Project Little Man has been released, [Paprium now has a new KickStarter](https://www.kickstarter.com/projects/573261866/paprium-the-16-bit-beat-them-all-coming-to-the-next-gen/faqs), seemingly selling old assets that the company refused to give to existing customers for various reasons.<br>
 
 ## Current Progress
-Update: 10/25/21<br>
-- Intel 10M02 (10M04 dev board acquired, waiting on USB Blaster programmer)<br>
-- STM32F4 (custom SWD breakout PCB back from fab, requires repair of small bugs)<br>
+Update: 11/30/21<br>
+- Intel 10M02 (10M04 dev board & USB Blaster arrived, not used yet)<br>
+- STM32F4 (custom SWD breakout PCB version 2 back from fab with bug fixes)<br>
 - 24C64WP EEprom (dumped)<br>
 - Spansion GL064N Series Flash (dumped)<br>
+- Game Strings have been extracted<br>
 - Game Audio has been extracted<br>
 - Game 4Bpp & Palate images have been extracted<br>
-- Game Strings have been extracted<br>
-- Sprite Sheets! <br>
+- Sprite Sheets!<br>
 - Sprite animation sequences extracted<br>
+- Confirmed character "inspiration", in some cases egrigious<br>
+- Confirmed reused game assets from 3rd parties are present<br>
+- STM32F4 basic operation emulated in MAME<br>
+- Game boots & plays in MAME (no sound due to STM32)<br>
+- DMCA threats from Watermelon Games (achievement unlocked)
+- Hoes mad! 
 
 ### Paprium CSI
 As a result of our reverse engineering work there is now plenty of visual data that can be academically examined determine if there is any truth in the original plagiarism claims. 
