@@ -48,8 +48,7 @@ The [Paprium Press Release](http://www.paprium.com/press/?language=en) from 03/1
 
 The goal of this project is to empower Paprium cart owners to ensure that their investment is protected well into the future. Design flaws such as BGA voiding in the cartridge manufacturing process make it succeptible to failure. It is literally a ticking timebomb, and it will likely fail eventually.<br>
 
-Since Project Little Man has been released, Paprium now has a new KickStarter, seemingly selling old assets that the company refused to give to existing customers for various reasons.<br>
-https://www.kickstarter.com/projects/573261866/paprium-the-16-bit-beat-them-all-coming-to-the-next-gen/faqs<br>
+Since Project Little Man has been released, [Paprium now has a new KickStarter](https://www.kickstarter.com/projects/573261866/paprium-the-16-bit-beat-them-all-coming-to-the-next-gen/faqs), seemingly selling old assets that the company refused to give to existing customers for various reasons.<<br>
 
 ## Current Progress
 Update: 10/25/21<br>

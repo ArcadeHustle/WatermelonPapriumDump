@@ -3,6 +3,9 @@
 * [Exemptions in DMCA](#exemptions-in-dmca)
 * [Biden Executive Order](#biden-executive-order)
 * [Nintendo effect](#nintendo-effect)
+* [Controlled Digital Lending](#controlled-digital-lending)
+   * [Console Classix](#console-classix)
+* [First Sale Doctrine](#first-sale-doctrine)
 
 # Pseudo-Legal opinion
 
@@ -122,4 +125,7 @@ Pursuant to 17 U.S.C. § 512(d)(3), Nintendo notifies Consoleclassix that its ac
 
 We would also like to address the concern that we are publishing our images on the internet. This is simply untrue. We offer a client software that does connect to our server through an internet backbone. However the images are not simply available for download. When a client requests a game image, the server places this image into the client random access memory (RAM). This image is also produced in accordance with section 117 of the US Copyright Law. Our server side application tracks the images that are currently in use. This application also ensures that no more copies of a software package are in use than are in our possession. This is to ensure legal rights of our users to the game in question. Should communication between the client and the server fail, the server frees the image and the client clears the memory allocated for the game, thereby destroying the client's copy of said game. We are also granted the right to lease copies of a software in our possession, provided we also ensure the customers' rights to the original software."<br>
 
+# First Sale Doctrine
+[1854. Copyright Infringement -- First Sale Doctrine](https://www.justice.gov/archives/jm/criminal-resource-manual-1854-copyright-infringement-first-sale-doctrine)
+"The first sale doctrine, codified at 17 U.S.C. § 109, provides that an individual who knowingly purchases a copy of a copyrighted work from the copyright holder receives the right to sell, display or otherwise dispose of that particular copy, notwithstanding the interests of the copyright owner. "<br>
 
