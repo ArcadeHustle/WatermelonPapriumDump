@@ -97,34 +97,34 @@ The current legal refrence is always Nintendo, and their deep pockets of influen
 [A White Paper on Controlled Digital Lending of Library Books](https://controlleddigitallending.org/whitepaper)<br>
 "CDL enables a library to circulate a digitized title in place of a physical one in a controlled manner. Under this approach, a library may only loan simultaneously the number of copies that it has legitimately acquired, usually through purchase or donation. For example, if a library owns three copies of a title and digitizes one copy, it may use CDL to circulate one digital copy and two print, or three digital copies, or two digital copies and one print; in all cases, it could only circulate the same number of copies that it owned before digitization"<br>
 
-[Would You Like to Save Your Game?: Establishing a Legal Framework for Long-Term Digital Game Preservation](https://kb.osu.edu/bitstream/handle/1811/91852/1/OSLJ_V81N3_0567.pdf)
+[Would You Like to Save Your Game?: Establishing a Legal Framework for Long-Term Digital Game Preservation](https://kb.osu.edu/bitstream/handle/1811/91852/1/OSLJ_V81N3_0567.pdf)<br>
 "There is also the reality that much of this preservation is driven by individuals with nostalgic and personal attachments to the games they are preserving through these methods,154 and it is impossible to say whether future generations will pick up the torch of private, illegal preservation or if all those ROMs will simply fade into obscurity."<br>
 
-[Why authors are so angry about the Internet Archive’s Emergency Library](https://www.vox.com/culture/2020/4/2/21201193/emergency-library-internet-archive-controversy-coronavirus-pandemic)
+[Why authors are so angry about the Internet Archive’s Emergency Library](https://www.vox.com/culture/2020/4/2/21201193/emergency-library-internet-archive-controversy-coronavirus-pandemic)<br>
 "The Internet Archive is arguing that with the Emergency Library, it’s doing exactly what all public libraries are doing, legitimately and legally, only it’s eliminated the waiting list."<br>
 
-[Internet Archive’s Open Library and Copyright Law: Second Addendum](https://www.lutzker.com/internet-archives-open-library-and-copyright-law-second-addendum/)
+[Internet Archive’s Open Library and Copyright Law: Second Addendum](https://www.lutzker.com/internet-archives-open-library-and-copyright-law-second-addendum/)<br>
 "Whether or not this litigation determines that Controlled Digital Lending (CDL) constitutes copyright infringement, this battle between new technology and existing channels of distribution will undoubtedly be a disruptive force in book publishing"
 
-[My Library: Copyright and the Role of Institutions in a Peer-to-Peer World](https://scholarship.law.georgetown.edu/cgi/viewcontent.cgi?article=1267&context=facpub)
+[My Library: Copyright and the Role of Institutions in a Peer-to-Peer World](https://scholarship.law.georgetown.edu/cgi/viewcontent.cgi?article=1267&context=facpub)<br>
 "Today's technology turns every computer-every hard drive-into a library. Every household can maintain and organize a stunningly large collection of media, from music to movies to texts. But if each hard drive is a kind of library, should we give the institutions traditionally known as libraries any special consideration in copyright as we historically have done? Can we distinguish the activities of institutional libraries (whether open to the public or attached to schools or universities) from those of individuals or of bookstores?'"<br>
 
 ## Console Classix
 
-[Console Classix Legal FAQ](https://web.archive.org/web/20070210000356/http://www.consoleclassix.com:80/legal.php)
+[Console Classix Legal FAQ](https://web.archive.org/web/20070210000356/http://www.consoleclassix.com:80/legal.php)<br>
 "Yes. We have taken great pains to fulfill every letter of the law. Our images were made by our own personnel. The data was copied directly off the cartridges we own and the image was transferred using a generic EPROM reader. All of these steps were taken in accordance with the law."<br>
 
-[Letter from NOA to Console Classix](https://web.archive.org/web/20070129105536/http://www.consoleclassix.com/letter_from_noa.php)
+[Letter from NOA to Console Classix](https://web.archive.org/web/20070129105536/http://www.consoleclassix.com/letter_from_noa.php)<br>
 "There is a good deal of misinformation on the Internet regarding the backup/archival copy exception. It is not a "second copy" rule and is often mistakenly cited for the proposition that if you have one lawful copy of a copyrighted work, you are entitled to have a second copy of the copyrighted work even if that second copy is an infringing copy. The backup/archival copy exception is a very narrow limitation relating to a copy being made by the rightful owner of an authentic game to ensure he or she has one in the event of damage or destruction of the authentic game, not for the purpose of acquiring financial gain. Moreover, It is well established by judicial decisions in the United States that this limited exception does not apply to game data contained in ROM semiconductor chips in video game cartridges. Therefore, whether you have already an authentic game or not, or whether you have possession of a Nintendo ROM for a limited amount of time, i.e. 24 hours, it is illegal to download and play a Nintendo ROM from the Internet.<br>
 
 Pursuant to 17 U.S.C. § 512(d)(3), Nintendo notifies Consoleclassix that its actions are illegal and may be subject to criminal prosecution and civil liability. We will be monitoring your website to see if you are in compliance with the law and reserve the right to take all steps necessary to protect Nintendo's rights. "<br>
 
-[Response to the letter from NOA](https://web.archive.org/web/20070129104734/http://www.consoleclassix.com/letter_response.php)
+[Response to the letter from NOA](https://web.archive.org/web/20070129104734/http://www.consoleclassix.com/letter_response.php)<br>
 "We would first like to address the matter of our ROM images. Our images were created by our own personnel with a generic eprom reader. This is in obedience to section 117 of the US copyright law. This exception does, in fact, apply to data contained in ROM semiconductor chips. It was the decision of the court in the case of SONY vs. CONNECTIX that copying of software in the Playstation's ROM bios was legal. This software is contained in ROM semiconductor chips, just as the game data in Nintendo cartridges.<br>
 
 We would also like to address the concern that we are publishing our images on the internet. This is simply untrue. We offer a client software that does connect to our server through an internet backbone. However the images are not simply available for download. When a client requests a game image, the server places this image into the client random access memory (RAM). This image is also produced in accordance with section 117 of the US Copyright Law. Our server side application tracks the images that are currently in use. This application also ensures that no more copies of a software package are in use than are in our possession. This is to ensure legal rights of our users to the game in question. Should communication between the client and the server fail, the server frees the image and the client clears the memory allocated for the game, thereby destroying the client's copy of said game. We are also granted the right to lease copies of a software in our possession, provided we also ensure the customers' rights to the original software."<br>
 
 # First Sale Doctrine
-[1854. Copyright Infringement -- First Sale Doctrine](https://www.justice.gov/archives/jm/criminal-resource-manual-1854-copyright-infringement-first-sale-doctrine)
+[1854. Copyright Infringement -- First Sale Doctrine](https://www.justice.gov/archives/jm/criminal-resource-manual-1854-copyright-infringement-first-sale-doctrine)<br>
 "The first sale doctrine, codified at 17 U.S.C. § 109, provides that an individual who knowingly purchases a copy of a copyrighted work from the copyright holder receives the right to sell, display or otherwise dispose of that particular copy, notwithstanding the interests of the copyright owner. "<br>
 
