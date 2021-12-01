@@ -84,7 +84,7 @@ Accordingly, demand is hereby made that you immediately cease and desist from fu
 [Chrono Resurrection](https://en.wikipedia.org/wiki/Chrono_Resurrection)<br>
 "Artist(s)	Luis Martins"
 
-[Video Games and Intellectual Property: Chrono Trigger Fan Remakes and Copyright Protection](http://mttlr.org/2012/09/video-games-and-intellectual-property-chrono-trigger-fan-remakes-and-copyright-protection/)
+[Video Games and Intellectual Property: Chrono Trigger Fan Remakes and Copyright Protection](http://mttlr.org/2012/09/video-games-and-intellectual-property-chrono-trigger-fan-remakes-and-copyright-protection/)<br>
 "These first two were notable in that Square Enix, owner of the copyrights and trademarks related to Chrono Trigger, sent cease-and-desist letters to the developers of these games claiming trademark and copyright infringement."
 
 ### Paprium Codes!
