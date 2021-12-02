@@ -153,9 +153,7 @@ Any Paprium ROM archival efforts would have to revolve around exploiting weaknes
 The actual technology in the ficticious "DT128M16VA1LT" from the Paprium cart is made up of known ICs that are succeptable to known weaknesses, and potential attacks. Being beneath black goop does not at all make the chips impervious to attack. It should in practice be trivial to interface with each of the major componets. The primary hurdle, and barrier to entry is physical access to each component, or it's pin/ballout. Due to the black epoxy these components must be carefully excavated.  
 
 #### Intel® MAX 10 FPGA
-Altera 10M02SCU169C8G FPGA (UBGA169)<br>
-https://www.mouser.com/datasheet/2/612/m10_overview-2401081.pdf<br>
-https://www.intel.com/content/dam/www/programmable/us/en/pdfs/literature/an/an556.pdf
+[Altera](https://www.intel.com/content/dam/www/programmable/us/en/pdfs/literature/an/an556.pdf) [10M02SCU169C8G](https://www.mouser.com/datasheet/2/612/m10_overview-2401081.pdf) FPGA (UBGA169)<br>
 
 The Intel "10M02" FPGA on the Paprium cart ["may allow an authenticated user to potentially enable escalation of privilege and information disclosure via physical access"](https://www.intel.com/content/www/us/en/security-center/advisory/intel-sa-00349.html). The vulnerability has been assigned [CVE-2020-0574](https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2020-0574). Dr. Sergei Skorobogatov of the Dept of Computer Science and Technology, University of Cambridge, Cambridge, UK, has been credited with reporting this issue. His papers and persentations on the subject are linked below:<br> 
 https://arxiv.org/abs/1910.05086<br>
@@ -178,9 +176,8 @@ Sergei's research outlines several weaknesses that can aid in archival of Papriu
 All of these vulnerabilities can in theory be used to dump the FPGA that is present on the Paprium cartridge. Although the bitstream can not be easily reverse engineered, it could absolutly be used in a remanufactured cart, assuming it plays some role in security, or audio and GFX rendering<br>
 
 #### STM32F4
-ST STM32F446ZEJ6 MCU (UFBGA144)<br>
-https://www.st.com/resource/en/datasheet/stm32f446re.pdf<br>
-https://www.st.com/resource/en/application_note/dm00493651-introduction-to-stm32-microcontrollers-security-stmicroelectronics.pdf<br>
+[ST](https://www.st.com/resource/en/application_note/dm00493651-introduction-to-stm32-microcontrollers-security-stmicroelectronics.pdf) [STM32F446ZEJ6](https://www.st.com/resource/en/datasheet/stm32f446re.pdf) MCU (UFBGA144)<br>
+
 
 Assuming that the STM32 is making use of RDP based protection it will require some special conditions in order to dump the firmware. If it is on the otherhand not protected, a physical connection to the SWD pins will be all that is needed. Once freed from the black epoxy, the chip is more succeptable to examination, and attack.<br> 
 
@@ -203,8 +200,8 @@ Commerical RE company [BreakIC](http://www.break-ic.com) aka Mikatech will dump 
 Alternatively practicing on [STM32F4 dev boards](https://www.st.com/en/evaluation-tools/nucleo-f446re.html) using a standard ChipWhisperer setup should set the stage for dumping the Paprium STM32F4 using standard community accessible tools. Similarly starting with the standard [STM43F4 "UFO" target board](https://store.newae.com/stm32f4-target-for-cw308-arm-cortex-m4-1mb-flash-192kb-sram) is a great way to practice before moving on attempting to attack the Paprium cart. Again, assuming there is RDP protection enabled at all!<br>
 
 ### MirrorBit Flash
-Spansion GL064N Series Flash (BGA48)<br>
-https://www.cypress.com/file/202426/download<br>
+[Spansion GL064N Series Flash (BGA48)](https://www.cypress.com/file/202426/download)<br>
+
 
 Reading the Spansion flash is confirmed to be possible with a standard Universal Programmer, and the appropriate adapter. Your adapter must also support the proper flash algorithm, or your reads will be garbage. We had to purchase an [RT809H](https://www.aliexpress.com/item/32978614065.html) and a [BGA48 adapter](https://www.aliexpress.com/item/32820731419.html) for example, because our Top3000 did not properly support reading the chip. <br>
 
@@ -212,8 +209,7 @@ You can see from the chip routing that the Flash data access for the running car
 <img src="https://arcadehustle.github.io/WatermelonPapriumDump/images/flashdatalines.jpg">
 
 ### i2c EEPROM
-24C64WP EEprom (SO8)<br>
-https://www.st.com/resource/en/datasheet/m24c64-f.pdf<br>
+[24C64WP EEprom (SO8)](https://www.st.com/resource/en/datasheet/m24c64-f.pdf)<br>
 
 Similarly reading the i2c EEPROM is confirmed possible with standard EEPROM readers, or even an [Arduino](https://learn.sparkfun.com/tutorials/reading-and-writing-serial-eeproms/all). It is sitting outside the black epoxy, making it easy to examine. 
 <img src="https://arcadehustle.github.io/WatermelonPapriumDump/images/exposedi2cflash.jpg">
