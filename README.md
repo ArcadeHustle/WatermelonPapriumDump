@@ -14,11 +14,11 @@ Big thanks to Fonzie for allowing this to be published.
       * [Paprium Codes!](#paprium-codes)
    * [Further exposure of the fake Datenmeister DT128M16VA1LT](#further-exposure-of-the-fake-datenmeister-dt128m16va1lt)
       * [DT128M16VA1LT parts related to data storage, and game logic.](#dt128m16va1lt-parts-related-to-data-storage-and-game-logic)
-         * [Intel® MAX 10 FPGAs](#intel-max-10-fpgas)
+         * [Intel® MAX 10 FPGA](#intel-max-10-fpga)
          * [STM32F4](#stm32f4)
       * [MirrorBit Flash](#mirrorbit-flash)
       * [i2c EEPROM](#i2c-eeprom)
-   * [Useful tools](#useful-tools)
+   * [Useful information &amp; tools](#useful-information--tools)
       * [Cart Specific detail](#cart-specific-detail)
          * [Megawire 4.0 (MW4.0)](#megawire-40-mw40)
          * [Exposed vias on rear of cart](#exposed-vias-on-rear-of-cart)
@@ -217,12 +217,10 @@ Similarly reading the i2c EEPROM is confirmed possible with standard EEPROM read
 You can read the chip in place on the cart without removing it by using a pogo reader. 
 https://www.ebay.com/itm/324696874863
 
-## Useful tools
+## Useful information & tools
 The standard tool for voltage glitching is the [Chip Whisperer](https://store.newae.com/side-channel-glitching-starter-pack-level-1/), STM32 is a default target in the ["level 1" kit](https://www.mouser.com/new/newae-technology/newae-chipwhisperer-lite-l1-kit), so this seems like a natural fit for anyone wanting to play along:<br>
 
-Before the ChipWisperer came along you often saw [FeelTech FY3200S](https://www.ebay.com/itm/402781810775) used in academic papers about voltage glitching STM32 MCUs. This device contains a USB API that can be used to script voltage changes. A [Python API](https://github.com/atx/python-feeltech) makes scripting easy.<br>
-
-Keeping in mind of course that these tools may only be necessary if RDP protection is enabled on the STM32F4.<br>
+Before the ChipWisperer came along you often saw [FeelTech FY3200S](https://www.ebay.com/itm/402781810775) used in academic papers about voltage glitching STM32 MCUs. This device contains a USB API that can be used to script voltage changes. A [Python API](https://github.com/atx/python-feeltech) makes scripting easy. Keeping in mind of course that these tools may only be necessary if RDP protection is enabled on the STM32F4.<br>
 
 ### Cart Specific detail
 The Paprium cart is a special unicorn. If you don't pay attention, you may perhaps miss some notable "features".<br>
