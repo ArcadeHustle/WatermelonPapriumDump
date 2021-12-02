@@ -213,9 +213,6 @@ You can see from the chip routing that the Flash data access for the running car
 
 Similarly reading the i2c EEPROM is confirmed possible with standard EEPROM readers, or even an [Arduino](https://learn.sparkfun.com/tutorials/reading-and-writing-serial-eeproms/all). It is sitting outside the black epoxy, making it easy to examine. 
 <img src="https://arcadehustle.github.io/WatermelonPapriumDump/images/exposedi2cflash.jpg">
-Example dumps can be found here:<br>
-https://github.com/ArcadeHustle/WatermelonPapriumDump/blob/main/ChipDumps/RT809H/24_64_1.8V_20210924_215810_goodcart.BIN
-https://github.com/ArcadeHustle/WatermelonPapriumDump/blob/main/ChipDumps/RT809H/24_64_1.8V_20210924_220101_badcart.BIN
 
 You can read the chip in place on the cart without removing it by using a pogo reader. 
 https://www.ebay.com/itm/324696874863
