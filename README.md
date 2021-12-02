@@ -218,9 +218,7 @@ You can read the chip in place on the cart without removing it by using a pogo r
 https://www.ebay.com/itm/324696874863
 
 ## Useful tools
-The standard tool for voltage glitching is the Chip Whisperer, STM32 is a default target in the "level 1" kit, so this seems like a natural fit for anyone wanting to play along:<br>
-https://store.newae.com/side-channel-glitching-starter-pack-level-1/<br>
-https://www.mouser.com/new/newae-technology/newae-chipwhisperer-lite-l1-kit/<br>
+The standard tool for voltage glitching is the [Chip Whisperer](https://store.newae.com/side-channel-glitching-starter-pack-level-1/), STM32 is a default target in the ["level 1" kit](https://www.mouser.com/new/newae-technology/newae-chipwhisperer-lite-l1-kit), so this seems like a natural fit for anyone wanting to play along:<br>
 
 Before the ChipWisperer came along you often saw [FeelTech FY3200S](https://www.ebay.com/itm/402781810775) used in academic papers about voltage glitching STM32 MCUs. This device contains a USB API that can be used to script voltage changes. A [Python API](https://github.com/atx/python-feeltech) makes scripting easy.<br>
 
