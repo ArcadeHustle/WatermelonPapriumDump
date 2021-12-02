@@ -4,7 +4,7 @@ https://github.com/ArcadeHustle/WatermelonPapriumDump/fork
 Big thanks to Fonzie for allowing this to be published.
 - written by hostile, with supporting information from the community at large!
 <p align="center">
-<img src="https://arcadehustle.github.io/WatermelonPapriumDump/images/FonzieWMProjectLittleMan.jpg">
+<img src="https://arcadehustle.github.io/WatermelonPapriumDump/images/FonzieWMProjectLittleMan.jpg" width="512" height="512">
 </p>
 
 * [Pseudo-Legal opinion](#pseudo-legal-opinion)
@@ -74,18 +74,25 @@ Update: 11/30/21<br>
 ### Paprium CSI
 As a result of our reverse engineering work there is now plenty of visual data that can be academically examined determine if there is any truth in the original plagiarism claims. Kenshiro vs Stalone is often cited by Paprium art director Luis Martins as a landmark example of inspiration vs plagiarism. Dive into [CSI Paprium](https://github.com/ArcadeHustle/CSI-Paprium) to learn more, while keeping in mind that the lead art director has already had a run in with stolen art.<br>
 
-<img src="https://github.com/ArcadeHustle/CSI-Paprium/raw/main/Evidence/ShowtimeVsSamson/140191987-a14d788c-1665-4394-851f-ca373b11f1a2.png">
+<center><img src="https://github.com/ArcadeHustle/CSI-Paprium/raw/main/Evidence/ShowtimeVsSamson/140191987-a14d788c-1665-4394-851f-ca373b11f1a2.png" width="512" height="256"></center>
+
+[Chrono Resurrection](https://en.wikipedia.org/wiki/Chrono_Resurrection)<br>
+"Artist(s)	Luis Martins"
 
 [Re: Infringement of “CHRONO TRIGGER” trademarks and copyrights](https://web.archive.org/web/20080616071429/http://www.chillingeffects.org/derivative/notice.cgi?NoticeID=1416)<br>
 "We understand that you are developing “Chrono Trigger: Resurrection”, a 3D remake of our client’s “CHRONO TRIGGER” game which will recreate scenes from the original game. Your conduct in this regard constitutes copyright infringement and, inter alia, violates our client’s exclusive right to prepare derivative works based on its copyrighted work. Your use of the words “CHRONO TRIGGER” in connection with your “remake” and on your web site “opcoder.com”, and your use of logos, scenes, characters and other images associated with our client’s games, constitutes trademark and copyright infringement and false designation of origin.<br>
 
 Accordingly, demand is hereby made that you immediately cease and desist from further development, promotion, sale or distribution of any product which is based on or derived from our client’s “CHRONO TRIGGER” games, and that you cease and desist from all use of the “CHRONO TRIGGER” trademark and logo, and all use of images or artwork from “CHRONO TRIGGER” games."<br>
 
-[Chrono Resurrection](https://en.wikipedia.org/wiki/Chrono_Resurrection)<br>
-"Artist(s)	Luis Martins"
-
 [Video Games and Intellectual Property: Chrono Trigger Fan Remakes and Copyright Protection](http://mttlr.org/2012/09/video-games-and-intellectual-property-chrono-trigger-fan-remakes-and-copyright-protection/)<br>
 "These first two were notable in that Square Enix, owner of the copyrights and trademarks related to Chrono Trigger, sent cease-and-desist letters to the developers of these games claiming trademark and copyright infringement."
+
+At the very least there is confirmed stolen IP for [Atari Golden Axe](https://github.com/ArcadeHustle/CSI-Paprium#golden-axe-tribute), and [Sega Streets of Rage](https://github.com/ArcadeHustle/CSI-Paprium#streets-of-rage-inner-city-tribute). These stolen assets in essence make Paprium a "mash-up".
+
+<p align="center">
+<img src="https://github.com/ArcadeHustle/CSI-Paprium/raw/main/Evidence/SORInnerCityTribute/innercity1.jpg" width="240" height="180">
+<img src="https://github.com/ArcadeHustle/CSI-Paprium/raw/main/Evidence/GoldenAxeTribute/deadframe2.jpg" width="240" height="180">
+</p>
 
 ### Paprium Codes!
 An additional benefit of the reverse engineering work is the exposure of codes used in the game to influence behavior of the running cartridge. Our codes were in fact released before they were shared on Kickstarter. The entire list of known codes is shown below.<br>
