@@ -141,19 +141,16 @@ A B A B A B
 ```
 
 ## Further exposure of the fake Datenmeister DT128M16VA1LT
-The DT128M16VA1LT is supposedly a "custom" chip made by [Daten Semiconductor](https://web.archive.org/web/20190706065046/http://datensemi.com/), that is really just a bunch of commodity parts covered in black [epoxy glob top encapsulant](https://www.youtube.com/watch?v=dRsl4c6NM8U). Never mind that it has been proven that ["Datenmeister DT128M16VA1LT chipset is fake"](https://papriumfiasco.wordpress.com/tag/datenmeister/), or that the website of the company that "makes" it, was originally registered to Fonzie.<br>
+In an amazing feat of false advertising, Gwneal Godde completely manufactured from thin air, the concept that he'd created a new SoC. The DT128M16VA1LT is supposedly a "custom" chip made by [Daten Semiconductor](https://web.archive.org/web/20190706065046/http://datensemi.com/), that is really just a bunch of commodity parts covered in black [epoxy glob top encapsulant](https://www.youtube.com/watch?v=dRsl4c6NM8U). Never mind that it has been proven that ["Datenmeister DT128M16VA1LT chipset is fake"](https://papriumfiasco.wordpress.com/tag/datenmeister/), or that the website of the company that "makes" it, was originally registered to Fonzie.<br>
 <img src="https://github.com/ArcadeHustle/WatermelonPapriumDump/blob/main/datenwhois.png">
 <br>
 
-The Datenmeister serves as the central piece of technology driving the Paprium cart. The only problem is, that it does not exist, at all. In reality, it is just handful of common components.<br>
-https://twitter.com/MyLifeInGaming/status/1341092115250630656
+The Datenmeister serves as the central piece of technology driving the Paprium cart. The only problem is, [that it does not exist](https://twitter.com/MyLifeInGaming/status/1341092115250630656), at all. In reality, it is just handful of common components.<br>
 
 Any Paprium ROM archival efforts would have to revolve around exploiting weaknesses in the "DT128M16VA1LT" components.
 
 ### DT128M16VA1LT parts related to data storage, and game logic. 
-The actual technology in the ficticious "DT128M16VA1LT" from the Paprium cart is made up of known ICs that are succeptable to known weaknesses, and potential attacks. Being beneath black goop does not at all make the chips impervious to attack.<br>
-
-It should in practice be trivial to interface with each of the major componets. The major hurdle right now is physical access to each component, or it's pinout due to the black epoxy.  
+The actual technology in the ficticious "DT128M16VA1LT" from the Paprium cart is made up of known ICs that are succeptable to known weaknesses, and potential attacks. Being beneath black goop does not at all make the chips impervious to attack. It should in practice be trivial to interface with each of the major componets. The primary hurdle, and barrier to entry is physical access to each component, or it's pin/ballout. Due to the black epoxy these components must be carefully excavated.  
 
 #### Intel® MAX 10 FPGAs
 Altera 10M02SCU169C8G FPGA (UBGA169)<br>
