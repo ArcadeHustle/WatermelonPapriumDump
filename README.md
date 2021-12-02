@@ -152,7 +152,7 @@ Any Paprium ROM archival efforts would have to revolve around exploiting weaknes
 ### DT128M16VA1LT parts related to data storage, and game logic. 
 The actual technology in the ficticious "DT128M16VA1LT" from the Paprium cart is made up of known ICs that are succeptable to known weaknesses, and potential attacks. Being beneath black goop does not at all make the chips impervious to attack. It should in practice be trivial to interface with each of the major componets. The primary hurdle, and barrier to entry is physical access to each component, or it's pin/ballout. Due to the black epoxy these components must be carefully excavated.  
 
-#### Intel® MAX 10 FPGAs
+#### Intel® MAX 10 FPGA
 Altera 10M02SCU169C8G FPGA (UBGA169)<br>
 https://www.mouser.com/datasheet/2/612/m10_overview-2401081.pdf<br>
 https://www.intel.com/content/dam/www/programmable/us/en/pdfs/literature/an/an556.pdf
@@ -200,17 +200,13 @@ Commerical RE company [BreakIC](http://www.break-ic.com) aka Mikatech will dump 
 
 <img src="https://arcadehustle.github.io/WatermelonPapriumDump/images/breakIC.jpg">
 
-Alternatively practicing on [STM32F4 dev boards](https://www.st.com/en/evaluation-tools/nucleo-f446re.html) using a standard ChipWhisperer setup should set the stage for dumping the Paprium STM32F4 using standard community accessible tools. Again, assuming there is RDP protection enabled at all!<br>
-
-Similarly starting with the standard [STM43F4 "UFO" target board](https://store.newae.com/stm32f4-target-for-cw308-arm-cortex-m4-1mb-flash-192kb-sram) is a great way to practice before moving on attempting to attack the Paprium cart.<br>
+Alternatively practicing on [STM32F4 dev boards](https://www.st.com/en/evaluation-tools/nucleo-f446re.html) using a standard ChipWhisperer setup should set the stage for dumping the Paprium STM32F4 using standard community accessible tools. Similarly starting with the standard [STM43F4 "UFO" target board](https://store.newae.com/stm32f4-target-for-cw308-arm-cortex-m4-1mb-flash-192kb-sram) is a great way to practice before moving on attempting to attack the Paprium cart. Again, assuming there is RDP protection enabled at all!<br>
 
 ### MirrorBit Flash
 Spansion GL064N Series Flash (BGA48)<br>
 https://www.cypress.com/file/202426/download<br>
 
-Reading the Spansion flash is confirmed to be possible with a standard Universal Programmer, and the appropriate adapter. Your adapter must also support the flash algorithm. We had to purchase an RT809H for example, because our Top3000 did not properly support reading the chip. 
-https://www.aliexpress.com/item/32820731419.html<br>
-https://www.aliexpress.com/item/32978614065.html<br>
+Reading the Spansion flash is confirmed to be possible with a standard Universal Programmer, and the appropriate adapter. Your adapter must also support the proper flash algorithm, or your reads will be garbage. We had to purchase an [RT809H](https://www.aliexpress.com/item/32978614065.html) and a [BGA48 adapter](https://www.aliexpress.com/item/32820731419.html) for example, because our Top3000 did not properly support reading the chip. <br>
 
 You can see from the chip routing that the Flash data access for the running cart is gatekept by the FPGA.<br>
 <img src="https://arcadehustle.github.io/WatermelonPapriumDump/images/flashdatalines.jpg">
