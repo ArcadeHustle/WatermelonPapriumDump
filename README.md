@@ -57,7 +57,7 @@ Update: 11/30/21<br>
 - Intel 10M02 (10M04 dev board & USB Blaster arrived, not used yet)<br>
 - STM32F4 (custom SWD breakout PCB version 2 back from fab with bug fixes)<br>
 - 24C64WP EEprom (dumped)<br>
-- Spansion GL064N Series Flash (dumped)<br>
+- Spansion GL064N Series Flash ([dumped](https://archive.org/details/s-29-gl-064-n-90-bfi-03-bga-48-20210924-142237-paprium-us))<br>
 - Game Strings have been extracted<br>
 - Game Audio has been extracted<br>
 - Game 4Bpp & Palate images have been extracted<br>
