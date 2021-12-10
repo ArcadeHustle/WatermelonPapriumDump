@@ -46,9 +46,9 @@ The [Paprium Press Release](http://www.paprium.com/press/?language=en) from 03/1
 
 [![Paprium launch](http://img.youtube.com/vi/f3CTqTzkgZQ/0.jpg)](https://www.youtube.com/watch?v=f3CTqTzkgZQ)<br>
 
-The goal of this project is to empower Paprium cart owners to ensure that their investment is protected well into the future. Design flaws such as BGA voiding in the cartridge manufacturing process make it succeptible to failure. It is literally a ticking timebomb, and it will likely fail eventually.<br>
+The goal of this project is to empower Paprium cart owners to ensure that their investment is protected well into the future. Design flaws such as BGA voiding in the cartridge manufacturing process make it susceptible to failure. It is literally a ticking timebomb, and it will likely fail eventually.<br>
 
-Since Project Little Man has been released, [Paprium now has a new KickStarter](https://www.kickstarter.com/projects/573261866/paprium-the-16-bit-beat-them-all-coming-to-the-next-gen/faqs), seemingly selling old assets that the company refused to give to existing customers for various reasons.<br>
+Since Project Little Man has been released, [Paprium now has a new KickStarter](https://www.kickstarter.com/projects/573261866/paprium-the-16-bit-beat-them-all-coming-to-the-next-gen/faqs), seemingly selling old assets that the company refused to provide to existing customers for various reasons.<br>
 
 ## Current Progress
 [![Paprium in Mame](http://img.youtube.com/vi/gcilDVdup9k/3.jpg)](https://mega.nz/file/kIQBTSYI#6NoAHrU2w-mD2k625aEUcIbI9tSj4nU7j5uOYTUavYo)<br>Click the thumbnail to see Paprium running in MAME.<br>
@@ -63,7 +63,7 @@ Update: 11/30/21<br>
 - Game 4Bpp & Palate images have been extracted<br>
 - Sprite Sheets have been extracted<br>
 - Sprite animation sequences extracted<br>
-- Confirmed character "inspiration", in some cases egrigious<br>
+- Confirmed character "inspiration", in some cases egregious<br>
 - Confirmed reused game assets from 3rd parties are present<br>
 - STM32F4 basic operation emulated in MAME<br>
 - Game boots & plays in MAME (no sound due to STM32)<br>
@@ -72,7 +72,7 @@ Update: 11/30/21<br>
 
 
 ### Paprium CSI
-As a result of our reverse engineering work there is now plenty of visual data that can be academically examined determine if there is any truth in the original plagiarism claims. Kenshiro vs Stalone is often cited by Paprium art director Luis Martins as a landmark example of inspiration vs plagiarism. Dive into [CSI Paprium](https://github.com/ArcadeHustle/CSI-Paprium) to learn more, while keeping in mind that the lead art director has already had a run in with stolen art.<br>
+As a result of our reverse engineering work there is now plenty of visual data that can be academically examined in order to determine whether there is any truth in the original plagiarism claims. Kenshiro vs Stalone is often cited by Paprium art director Luis Martins as a landmark example of inspiration vs plagiarism. Dive into [CSI Paprium](https://github.com/ArcadeHustle/CSI-Paprium) to learn more, while keeping in mind that the lead art director has already had a run in with stolen art.<br>
 
 <center><img src="https://github.com/ArcadeHustle/CSI-Paprium/raw/main/Evidence/ShowtimeVsSamson/140191987-a14d788c-1665-4394-851f-ca373b11f1a2.png" width="512" height="256"></center>
 
@@ -141,7 +141,7 @@ A B A B A B
 ```
 
 ## Further exposure of the fake Datenmeister DT128M16VA1LT
-In an amazing feat of false advertising, Gwneal Godde completely manufactured from thin air, the concept that he'd created a new SoC. The DT128M16VA1LT is supposedly a "custom" chip made by [Daten Semiconductor](https://web.archive.org/web/20190706065046/http://datensemi.com/), that is really just a bunch of commodity parts covered in black [epoxy glob top encapsulant](https://www.youtube.com/watch?v=dRsl4c6NM8U). Never mind that it has been proven that ["Datenmeister DT128M16VA1LT chipset is fake"](https://papriumfiasco.wordpress.com/tag/datenmeister/), or that the website of the company that "makes" it, was originally registered to Fonzie.<br>
+In an amazing feat of false advertising, Gwénaël Godde completely manufactured from thin air, the concept that he'd created a new SoC. The DT128M16VA1LT is supposedly a "custom" chip made by [Daten Semiconductor](https://web.archive.org/web/20190706065046/http://datensemi.com/), that is really just a bunch of commodity parts covered in black [epoxy glob top encapsulant](https://www.youtube.com/watch?v=dRsl4c6NM8U). Never mind that it has been proven that ["Datenmeister DT128M16VA1LT chipset is fake"](https://papriumfiasco.wordpress.com/tag/datenmeister/), or that the website of the company that "makes" it, was originally registered to Fonzie.<br>
 <img src="https://github.com/ArcadeHustle/WatermelonPapriumDump/blob/main/datenwhois.png">
 <br>
 
@@ -179,7 +179,7 @@ All of these vulnerabilities can in theory be used to dump the FPGA that is pres
 [ST](https://www.st.com/resource/en/application_note/dm00493651-introduction-to-stm32-microcontrollers-security-stmicroelectronics.pdf) [STM32F446ZEJ6](https://www.st.com/resource/en/datasheet/stm32f446re.pdf) MCU (UFBGA144)<br>
 
 
-Assuming that the STM32 is making use of RDP based protection it will require some special conditions in order to dump the firmware. If it is on the otherhand not protected, a physical connection to the SWD pins will be all that is needed. Once freed from the black epoxy, the chip is more succeptable to examination, and attack.<br> 
+Assuming that the STM32 is making use of RDP based protection it will require some special conditions in order to dump the firmware. If it is on the other hand not protected, a physical connection to the SWD pins will be all that is needed. Once freed from the black epoxy, the chip is more susceptible to examination, and attack.<br> 
 
 Similar to the Intel FPGA, the STM32F4 inside the Paprium cart is known to be vulnerable to voltage glitching attacks that should aid in archival of Paprium's data. The attacks have moved from theory, and manual one off demonstrations to now being available in ready made productized form with tools like [ChipWhisperer](https://www.newae.com/chipwhisperer). Various exploitation demonstrations have occured outside common lab constraints, and SDK kit based testing.<br>
 
@@ -193,7 +193,7 @@ https://blog.kraken.com/post/3662/kraken-identifies-critical-flaw-in-trezor-hard
 https://twitter.com/The_Hpman/status/1383191393393389570<br>
 https://twitter.com/The_Hpman/status/1383191380743356416<br>
 
-Commerical RE company [BreakIC](http://www.break-ic.com) aka Mikatech will dump the STM32 for a fee of $6500 USD, claiming that "The tools needed to read it costs USD2million". We have reliably used Mikatech in the past for less costly extractions, and originally found them because their marketing claims that they are "World first mcu cloning company". Worst case scenario, we could in theory pay to have the Paprium STM32 chip dumped via their expensive machine.<br>
+Commercial RE company [BreakIC](http://www.break-ic.com) aka Mikatech will dump the STM32 for a fee of $6500 USD, claiming that "The tools needed to read it costs USD2million". We have reliably used Mikatech in the past for less costly extractions, and originally found them because their marketing claims that they are "World first mcu cloning company". Worst case scenario, we could in theory pay to have the Paprium STM32 chip dumped via their expensive machine.<br>
 
 <img src="https://arcadehustle.github.io/WatermelonPapriumDump/images/breakIC.jpg">
 
@@ -389,7 +389,7 @@ Fonzie: "The final state of testing we modified something on the game, but we co
 </a>
 
 ### Support situation
-Per the [press release](https://www.paprium.com/press/) "Anyone pissed about lack of support, well, we cut out all our cost so the game can ever release. And the game is there, that's all matters."<br>
+Per the [press release](https://www.paprium.com/press/) "Anyone pissed about lack of support, well, we cut out all our cost so the game can ever release. And the game is there, that's all [that] matters."<br>
 
 https://twitter.com/Scene_World interview with https://twitter.com/watermelongames<br>
 https://twitter.com/Scene_World/status/1445178396988874754<br>
