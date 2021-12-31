@@ -42,7 +42,7 @@ The video game style is Beat Them All (brawler) in post-apocalyptic setup and wi
 
 The game began shipping in December 2020 to original crowdfund backers. Per the [press release](https://www.paprium.com/press/): ```December 16th, 2020, 00:00 GMT - PAPRIUM IS RELEASED!```<br> 
 
-On ```2020-12-22``` Copyright registration ```PA0002318843``` was completed with a "Date of Creation" listed as ```2020```, "Date of Publication" listed as ```2020-12-16```, and "Nation of First Publication" listed as ```United States```.
+On ```2020-12-22``` [Copyright registration](https://cocatalog.loc.gov/cgi-bin/Pwebrecon.cgi?Search_Arg=paprium&Search_Code=TALL&PID=M1CkjW1AXaydND3Vd8EOA164z8EwL&SEQ=20211023102605&CNT=25&HIST=1) ```PA0002318843``` was completed with a "Date of Creation" listed as ```2020```, "Date of Publication" listed as ```2020-12-16```, and "Nation of First Publication" listed as ```United States```.
 
 The "Copyright Claimant" is now: 
 ```
