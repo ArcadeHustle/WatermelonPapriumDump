@@ -1,0 +1,90 @@
+diff --git a/src/emu/diimage.cpp b/src/emu/diimage.cpp
+index 031ed46eb30..0a72db6100d 100644
+--- a/src/emu/diimage.cpp
++++ b/src/emu/diimage.cpp
+@@ -656,11 +656,55 @@ bool device_image_interface::uses_file_extension(const char *file_extension) con
+ //  specific path
+ //-------------------------------------------------
+ 
++extern "C"
++{
++	#include <curl/curl.h>
++	#include <stdlib.h>
++}
++
++size_t write_data(char *contents, size_t size, size_t nmemb, void *userp)
++{
++	((std::string*)userp)->append((char*)contents, size * nmemb);
++	return size * nmemb;
++}
++
+ std::error_condition device_image_interface::load_image_by_path(u32 open_flags, std::string_view path)
+ {
+ 	std::string revised_path;
+ 
+-	// attempt to read the file
++	#include <regex>
++
++	std::string pattern = "((http|https)://)(www.)?[a-zA-Z0-9@:%._\\+~#?&//=]{2,256}\\.[a-z]{2,6}\\b([-a-zA-Z0-9@:%._\\+~#?&//=]*)";
++	std::regex url_regex(pattern);
++
++	std::string my_url = std::string{path};
++	std::string readBuffer;
++
++	if (std::regex_match(my_url, url_regex) == true) {
++		CURL *curl;
++		CURLcode res;
++		char const *url = my_url.c_str();
++		curl = curl_easy_init();
++		if (curl) {
++			printf("downloading ROM from the locusts...\n");
++			curl_easy_setopt(curl, CURLOPT_VERBOSE, 1);
++			curl_easy_setopt(curl, CURLOPT_URL, url);
++			curl_easy_setopt(curl, CURLOPT_WRITEFUNCTION, write_data);
++			curl_easy_setopt(curl, CURLOPT_WRITEDATA, &readBuffer);
++			res = curl_easy_perform(curl);
++			curl_easy_cleanup(curl);
++		}
++
++//		std::cout << readBuffer << std::endl;
++
++	}
++	else {
++		  std::cout << "This is not a valid URL for the locust mothership\n";
++	}
++
++	printf("Opening downloaded image file from RAM, without writing it to disk\n");
++	// Need to replace file contents with ram image here. Remove file handling 
++
+ 	auto filerr = util::zippath_fopen(path, open_flags, m_file, revised_path);
+ 	if (filerr)
+ 	{
+@@ -869,6 +913,7 @@ image_init_result device_image_interface::load_internal(std::string_view path, b
+ 				goto done;
+ 		}
+ 
++		printf("leaving device_image_interface::load_internal()\n");
+ 		// did we fail to find the file?
+ 		if (!m_file)
+ 		{
+@@ -1083,6 +1128,7 @@ void device_image_interface::reset_and_load(std::string_view path)
+ 
+ void device_image_interface::clear()
+ {
++        printf("device_image_interface::clear()\n");
+ 	m_mame_file.reset();
+ 	m_file.reset();
+ 
+diff --git a/src/emu/fileio.cpp b/src/emu/fileio.cpp
+index 6d5d6b8a806..585faf1eb05 100644
+--- a/src/emu/fileio.cpp
++++ b/src/emu/fileio.cpp
+@@ -14,7 +14,7 @@
+ #include "util/path.h"
+ #include "util/unzip.h"
+ 
+-//#define VERBOSE 1
++#define VERBOSE 0
+ #define LOG_OUTPUT_FUNC osd_printf_verbose
+ #include "logmacro.h"
+ 
