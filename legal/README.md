@@ -115,13 +115,13 @@ We would also like to address the concern that we are publishing our images on t
 [Why authors are so angry about the Internet Archive’s Emergency Library](https://www.vox.com/culture/2020/4/2/21201193/emergency-library-internet-archive-controversy-coronavirus-pandemic)<br>
 "The Internet Archive is arguing that with the Emergency Library, it’s doing exactly what all public libraries are doing, legitimately and legally, only it’s eliminated the waiting list."<br>
 
-[Temporary National Emergency Library to close 2 weeks early, returning to traditional controlled digital lending](https://blog.archive.org/2020/06/10/temporary-national-emergency-library-to-close-2-weeks-early-returning-to-traditional-controlled-digital-lending/)
+[Temporary National Emergency Library to close 2 weeks early, returning to traditional controlled digital lending](https://blog.archive.org/2020/06/10/temporary-national-emergency-library-to-close-2-weeks-early-returning-to-traditional-controlled-digital-lending/)<br>
 "Controlled digital lending is how many libraries have been providing access to digitized books for nine years.  Controlled digital lending is a legal framework, developed by copyright experts, where one reader at a time can read a digitized copy of a legally owned library book. The digitized book is protected by the same digital protections that publishers use for the digital offerings on their own sites. Many libraries, including the Internet Archive, have adopted this system since 2011 to leverage their investments in older print books in an increasingly digital world."<br>
 
 [Internet Archive’s Open Library and Copyright Law: Second Addendum](https://www.lutzker.com/internet-archives-open-library-and-copyright-law-second-addendum/)<br>
 "Whether or not this litigation determines that Controlled Digital Lending (CDL) constitutes copyright infringement, this battle between new technology and existing channels of distribution will undoubtedly be a disruptive force in book publishing"
 
-[Hachette v. Internet Archive](https://www.eff.org/cases/hachette-v-internet-archive)
+[Hachette v. Internet Archive](https://www.eff.org/cases/hachette-v-internet-archive)<br>
 "The Internet Archive is a nonprofit digital library, preserving and providing access to cultural artifacts of all kinds in electronic form. CDL allows people to check out digital copies of books for two weeks or less, and only permits patrons to check out as many copies as the Archive and its partner libraries physically own. That means that if the Archive and its partner libraries have only one copy of a book, then only one patron can borrow it at a time, just like any other library."<br>
 
 [My Library: Copyright and the Role of Institutions in a Peer-to-Peer World](https://scholarship.law.georgetown.edu/cgi/viewcontent.cgi?article=1267&context=facpub)<br>
